@@ -1,0 +1,41 @@
+@use "../../../tools/vars" as var;
+.footer {
+	width: 100%;
+	height: fit-content;
+	background-color: var.$black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 0 40px 0;
+	margin-bottom: 109px;
+	&__links {
+		margin-top: 54px;
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+		justify-content: flex-end;
+		width: 100%;
+		margin-right: 65px;
+	}
+	&__link {
+		color: var.$projectBgi;
+		font-size: 15px;
+	}
+	&__linkMail {
+		font-size: 17px;
+		margin-left: 230px;
+	}
+	&__linkMail::before {
+		content: url("../images/mailIcon.svg"); /* Путь к изображению */
+		display: inline-block;
+		margin-right: 14px; /* Расстояние между картинкой и текстом */
+	}
+}
+
+.footer > .menu__body > .menu__item > a {
+	color: var.$projectBgi;
+}
+.footer > .menu__body > .menu__item > a:hover {
+	color: var.$projectOrange;
+}

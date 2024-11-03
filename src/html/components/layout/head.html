@@ -1,0 +1,39 @@
+<h>
+	<meta charset="UTF-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta http-equiv="msthemecompatible" content="no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta
+		name="format-detection"
+		content="telephone=no, email=no, address=no, date=no" />
+	<meta name="description" content="@@description" />
+	@@include("favicons.html", {}) @@if (multistyles == true) {
+	<script>
+		if (matchMedia("(prefers-color-scheme: dark)").media == "not all") {
+			document.documentElement.style.display = "none";
+			document.head.insertAdjacentHTML(
+				"beforeend",
+				'<link rel="stylesheet" type="text/css" href="css/darkscheme.min.css" onload="document.documentElement.style.display=\'\'">'
+			);
+		}
+	</script>
+	}
+	<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+	@@if (multistyles == true) {
+	<link
+		rel="stylesheet"
+		type="text/css"
+		href="css/lightscheme.min.css"
+		media="(prefers-color-scheme: light)" />
+	<link
+		rel="stylesheet"
+		type="text/css"
+		href="css/darkscheme.min.css"
+		media="(prefers-color-scheme: dark)" />
+	}
+	<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<title>@@title</title>
+</head>

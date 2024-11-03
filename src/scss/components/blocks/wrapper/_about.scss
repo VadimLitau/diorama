@@ -1,0 +1,192 @@
+@use "../../../tools/vars" as var;
+
+.about {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	&__title {
+		background-image: url("../../images/aboutText.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 335px;
+		height: 97px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		top: 121px;
+		right: 49px;
+		& > h3 {
+			display: block;
+			font-size: 55px;
+			color: var.$projectBgi;
+			text-transform: uppercase;
+		}
+	}
+
+	&__text {
+		padding-top: 301px;
+		padding-left: 215px;
+		background-image: url("../../images/about.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 1185px;
+		height: 953px;
+		display: flex;
+		flex-direction: row;
+
+		&__left {
+			&__first,
+			&__second {
+				width: 352px;
+				border-radius: 40px;
+				padding: 29px 13px 17px 25px;
+				&__title {
+					font-size: 25px;
+					line-height: 27px;
+					width: 135px;
+					text-transform: uppercase;
+					padding-bottom: 10px;
+				}
+				&__text {
+					font-size: 20px;
+					line-height: 1.2;
+					margin-bottom: 10px;
+				}
+			}
+			&__first {
+				background-color: #212020;
+				color: #beb5a8;
+				margin-bottom: 6px;
+			}
+			&__second {
+				padding-top: 22px;
+				background-color: #beb5a8;
+				&__text {
+					margin-bottom: 22px;
+				}
+			}
+		}
+		&__third {
+			background-color: var.$projectOrange;
+			width: 434px;
+			height: 617px;
+			border-radius: 40px;
+			padding: 40px 20px 17px 30px;
+			margin-left: 5px;
+			&__title {
+				width: 222px;
+				text-transform: uppercase;
+				line-height: 1.1;
+				font-size: 40px;
+				margin-bottom: 11px;
+			}
+			&__text {
+				color: var.$projectBlack;
+				opacity: 0.5;
+				font-size: 22px;
+				margin-bottom: 47px;
+				width: 371px;
+				line-height: 1.19;
+			}
+		}
+	}
+}
+
+.btn__first {
+	width: 194px;
+	height: 40px;
+	position: relative;
+	overflow: hidden;
+
+	&__hoverImage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../images/btnbig.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		transition: opacity 0.5s ease;
+		opacity: 1;
+	}
+
+	&:hover &__hoverImage {
+		opacity: 0;
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../images/btnbigactive.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		transition: opacity 0.5s ease;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	&:hover::after {
+		opacity: 1;
+	}
+
+	&__button {
+		width: 194px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: transparent;
+		border: transparent;
+		color: var.$projectBgi;
+		text-transform: uppercase;
+		font-family: var.$pixy;
+		font-size: 22px;
+		transition: opacity 0.5s ease;
+		transition: transform 0.3s ease;
+		position: relative;
+		z-index: 1;
+		cursor: pointer;
+	}
+	&__button:hover {
+		color: var.$projectOrange;
+		transform: scale(1.07);
+	}
+}
+
+.second__color {
+	color: var.$projectBlack;
+}
+
+.second__hoverImage {
+	background-image: url("../images/btnbigsecond.svg");
+}
+.third {
+	width: 235px;
+	height: 48px;
+	&__button {
+		width: 235px;
+		height: 48px;
+		color: var.$projectBlack;
+	}
+
+	&__hoverImage {
+		background-image: url("../images/btnbigthird.svg");
+	}
+	&__button:hover {
+		color: var.$projectBgi;
+	}
+	&::after {
+		background-image: url("../images/btnbigactivethird.svg");
+	}
+}

@@ -1,0 +1,13 @@
+@use "sass:meta";
+@use "tools/extends";
+@use "components";
+@use "./plugins/menu";
+@use "./components/blocks/navigation/navigation";
+@use "./components/blocks/wrapper/diorama";
+
+* {
+	@extend %taphighlight;
+}
+
+// * Подключение стилей для IE
+@include meta.load-css("modules/iestyles.scss");

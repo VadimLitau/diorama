@@ -1,0 +1,8 @@
+@use '../../tools/vars' as vars;
+
+:root {
+   --default-text-color: #{vars.$defaultTextColor};
+   // --burger-color: #{vars.$burgerColor};
+   // --menu-text-color: #{vars.$menuText};
+   // --burger-menu-bg: #{vars.$burgerMenuBg};
+}

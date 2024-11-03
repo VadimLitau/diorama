@@ -1,0 +1,37 @@
+[
+	{
+		"title": "Battle city",
+		"src": "../../images/T_001.webp",
+		"link": "#",
+		"href": "#",
+		"id": "dattle"
+	},
+	{
+		"title": "Darkwing Duck",
+		"src": "../../images/DD_001.webp",
+		"link": "#",
+		"href": "#",
+		"id": "darkwing"
+	},
+	{
+		"title": "Duck Hunt",
+		"src": "../../images/DH_001.webp",
+		"link": "#",
+		"href": "#",
+		"id": "duck"
+	},
+	{
+		"title": "Super Mario Bros",
+		"src": "../../images/M_001.webp",
+		"link": "#",
+		"href": "#",
+		"id": "mario"
+	},
+	{
+		"title": "Teenage Mutant Ninja <br/> Turtles Tournament Fighters",
+		"src": "../../images/TNMT_001.webp",
+		"link": "#",
+		"href": "#",
+		"id": "teenage"
+	}
+]

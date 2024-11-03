@@ -1,0 +1,49 @@
+# Игнорировать файлы и каталоги сборки и зависимостей
+dist/
+build/
+node_modules/
+bower_components/
+package-lock.json
+version.json
+
+# Игнорировать файлы, созданные ОС
+ehthumbs.db
+*.DS_Store
+Thumbs.db
+
+# Игнорировать файлы настроек редакторов
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# Игнорировать файлы карт
+*.css.map
+*.js.map
+
+# Игнорировать файлы кэша
+.sass-cache
+
+# Игнорировать логи
+logs/
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Игнорировать архивы
+**/*.rar
+**/*.zip
+
+# Игнорировать папку с архивом файлов
+.DS_Store
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

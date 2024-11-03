@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include("html/components/layout/head.html", { title: "Диорама пазл 3D",
+	multistyles: false, description: "© Binarion" })
+
+	<body>
+		<div class="wrapper">
+			@@include("html/components/blocks/wrapper/header.html", {})
+			<main class="main">
+				@@include("html/components/blocks/wrapper/diorama.html", {})
+				@@include("html/components/blocks/wrapper/video.html", {})
+				@@include("html/components/blocks/wrapper/list.html",
+				{"idList":"catalog8","footer":"8",
+				"align":"right","data":"@@webRoot/html/modules/settings/diorama/listitem8.json"})
+				@@include("html/components/blocks/wrapper/list.html",
+				{"idList":"catalog16","footer":"16", "align":"left",
+				"data":"@@webRoot/html/modules/settings/diorama/listitem16.json"})
+				@@include("html/components/blocks/wrapper/about.html",{})
+				@@include("html/components/blocks/wrapper/constructor.html",{})
+				@@include("html/components/blocks/wrapper/comments.html",{})
+			</main>
+			@@include("html/components/blocks/wrapper/footer.html", {})
+		</div>
+		@@include("html/components/layout/js.html", {filename: "script.min"})
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				slidesPerView: 1,
+				spaceBetween: 30,
+				loop: true,
+				pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: ".swiper-button-sliderNext",
+					prevEl: ".swiper-button-sliderPrev",
+				},
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,71 @@
+<style>
+	.slider__wrap {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		margin-top: -15px;
+	}
+	.swiper {
+		/* position: absolute; */
+		/* top: 0; */
+		/* left: 100px; */
+		width: 343px;
+		height: 439px;
+	}
+
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		/* background: #fff; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+	}
+
+	.swiper-slide img {
+		display: block;
+		width: 343px;
+		height: 439px;
+		object-fit: contain;
+		border-radius: 10px;
+	}
+
+	.mySwiper {
+		margin: 0 12px;
+	}
+	.mySwiper-pagination {
+		transform: translate3d(-55px, 38px, 0);
+	}
+	.swiper-pagination-bullet {
+		background: #2e2f38;
+		width: 14px;
+		height: 14px;
+	}
+</style>
+<div class="slider__wrap">
+	<div class="swiper-button-sliderPrev">
+		<img src="../images/sliderPrev.png" alt="sliderPrev" />
+	</div>
+	<div class="swiper mySwiper">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="../images/DD_002.webp" alt="sliderImage1" />
+			</div>
+			<div class="swiper-slide">
+				<img src="../images/DH_002.webp" alt="sliderImage2" />
+			</div>
+			<div class="swiper-slide">
+				<img src="../images/M_002.webp" alt="sliderImage3" />
+			</div>
+			<div class="swiper-slide">
+				<img src="../images/T_002.webp" alt="sliderImage4" />
+			</div>
+		</div>
+	</div>
+	<div class="swiper-button-sliderNext">
+		<img src="../images/sliderNext.png" alt="sliderNext" />
+	</div>
+	<div class="swiper-pagination mySwiper-pagination"></div>
+</div>

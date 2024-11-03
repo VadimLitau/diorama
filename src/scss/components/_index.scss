@@ -1,0 +1,33 @@
+// ? Подключение переменных css
+// @forward "layout/rootvars";
+
+// ? Подключение шрифтов
+@forward "layout/fonts";
+
+// ? Подключение кастомного обнуления
+@forward "../tools/zeroing/nullstyle";
+
+// ? Подключение стилей body
+@forward "layout/body";
+
+// ? Подключение стилей шапки
+@forward "blocks/wrapper/header";
+
+// ? Подключение стилей main
+@forward "blocks/wrapper/main";
+
+// ? Подключение стилей подвала
+@forward "blocks/wrapper/footer";
+
+@forward "elements/dioramaitem";
+@forward "elements/btn";
+@forward "elements/listitem";
+@forward "elements/commentsItem";
+
+@forward "blocks/wrapper/video";
+@forward "blocks/wrapper/list";
+@forward "blocks/wrapper/about";
+@forward "blocks/wrapper/constructor";
+@forward "blocks/wrapper/comments";
+
+@forward "blocks/slider/slider";

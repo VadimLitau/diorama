@@ -1,0 +1,23 @@
+<div class="diorama">
+	<p class="diorama__title">привнесите “бит” настольгии в свою жизнь</p>
+	<div class="diorama__wrap">
+		<h1 class="diorama__wrap__name">ДИОРАМА ПАЗЛ 3D</h1>
+		<p class="diorama__wrap__text">
+			Визуально объемная картина по мотивам любимых игр. Собирается как
+			конструктор.
+		</p>
+		<div class="diorama__wrap__items">
+			@@loop("../../elements/dioramaitem.html",
+			"@@webRoot/html/modules/settings/diorama/dioramaitems.json")
+		</div>
+		<div class="diorama__wrap__buttons">
+			@@include("../../elements/btn.html", {"id":"catalog", "btnText":"КАТАЛОГ",
+			"href":"#catalog8"}) @@include("../../elements/btn.html",
+			{"id":"instructions", "btnText":"инструкция", "href":"#instruction"})
+		</div>
+	</div>
+
+	<div class="diorama__footer">
+		<p class="diorama__footer__text">ВОЗВРАЩАЙТЕСЬ В МИР 90-Х</p>
+	</div>
+</div>

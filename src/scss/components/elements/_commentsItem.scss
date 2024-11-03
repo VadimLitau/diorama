@@ -1,0 +1,31 @@
+@use "../../tools/vars" as var;
+
+.commentsItem {
+	width: 286px;
+	height: 218px;
+	max-height: 218px;
+	border-radius: 19px;
+	padding: 16px 22px 19px 22px;
+	background-color: var.$projectBlack;
+	&__header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		&__name {
+			font-size: 15px;
+			color: var.$projectBgi;
+		}
+	}
+	&__comment {
+		font-size: 18px;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 7; /* Показывает только 3 строки */
+		line-clamp: 7;
+		overflow: hidden;
+		height: auto; /* Удалите фиксированную высоту */
+		margin-top: 40px;
+		color: var.$projectBgi;
+	}
+}

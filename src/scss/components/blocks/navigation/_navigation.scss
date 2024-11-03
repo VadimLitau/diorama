@@ -1,0 +1,30 @@
+@use "../../../tools/mixins/index" as mix;
+@use "../../../tools/vars" as var;
+
+.menu {
+	margin: 30px 0 38px 0;
+	&__body {
+		height: 100%;
+		@include mix.flex(null, null, row);
+		gap: 25px;
+
+		@include mix.smalltablet {
+			flex-direction: column;
+		}
+	}
+	&__item {
+		font-size: 15px;
+		cursor: pointer;
+		transition: transform 0.3s ease;
+	}
+	&__item:hover {
+		transform: scale(1.1);
+	}
+	&__item > a {
+		color: var.$projectBlack;
+		transition: color 0.3s ease;
+	}
+	&__item > a:hover {
+		color: var.$projectOrange;
+	}
+}

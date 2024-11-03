@@ -1,0 +1,66 @@
+@use "../../tools/vars" as var;
+
+.btn {
+	width: 272px;
+	height: 52px;
+	position: relative;
+	overflow: hidden;
+	&__hoverImage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../images/btnbig.svg");
+		background-size: cover;
+		background-position: center;
+		transition: opacity 0.5s ease;
+		opacity: 1;
+	}
+
+	&:hover &__hoverImage {
+		opacity: 0;
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../images/btnbigactive.svg");
+		background-size: cover;
+		background-position: center;
+		transition: opacity 0.5s ease;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	&:hover::after {
+		opacity: 1;
+	}
+
+	&__button {
+		width: 272px;
+		height: 52px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: transparent;
+		border: transparent;
+		color: var.$projectBgi;
+		text-transform: uppercase;
+		font-family: var.$pixy;
+		font-size: 35px;
+		transition: opacity 0.5s ease;
+		transition: transform 0.3s ease;
+		position: relative;
+		z-index: 1;
+		cursor: pointer;
+	}
+	&__button:hover {
+		color: var.$projectOrange;
+		transform: scale(1.1);
+	}
+}

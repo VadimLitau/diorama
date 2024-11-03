@@ -1,0 +1,75 @@
+@use "../../../tools/vars" as var;
+
+.video {
+	margin-top: 180px;
+	width: 100%;
+	text-align: center;
+	&__footer {
+		background-color: var.$projectBlack;
+		font-size: 50px;
+		color: var.$projectBgi;
+		&__text {
+			padding: 16px 0px 8px 140px;
+		}
+	}
+
+	&__wrap {
+		display: flex;
+		flex-direction: row;
+		padding: 78px 30px 65px 33px;
+
+		&__text {
+			margin-right: 44px;
+			&__wrap {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-image: url("../images/videotitle.svg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				max-width: 534px;
+				min-height: 59px;
+				&__title {
+					background-color: var.$projectBlack;
+					font-size: 34px;
+					color: var.$projectBgi;
+					padding: 7px 6px;
+				}
+			}
+			&__subtitle1,
+			&__subtitle2 {
+				font-size: 25px;
+				color: var.$black;
+				// max-width: 655px;
+				text-align: left;
+				line-height: 113%;
+			}
+			&__subtitle1 {
+				width: 598px;
+				margin: 9px 0 36px 0;
+			}
+			&__subtitle2 {
+				width: 655px;
+			}
+		}
+		&__video {
+			margin-top: 3px;
+			&__info {
+				width: 517px;
+				height: 201px;
+				border: 1px solid black;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-bottom: 18px;
+				& > p {
+					font-size: 25px;
+					color: var.$black;
+				}
+			}
+			&__content {
+				border-radius: 15px;
+			}
+		}
+	}
+}

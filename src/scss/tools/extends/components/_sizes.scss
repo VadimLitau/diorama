@@ -1,0 +1,14 @@
+@use "../../mixins" as mix;
+
+// Размеры
+%fullwh {
+	@include mix.fullwh;
+}
+
+%mfullwh {
+	@include mix.mfullwh;
+}
+
+%fullwhp {
+	@include mix.fullwhp;
+}

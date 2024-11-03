@@ -1,0 +1,9 @@
+@use "../tools/mixins" as mix;
+
+// IE9+
+@include mix.iestyles {
+	body {
+		@include mix.fullwh();
+		overflow: hidden;
+	}
+}

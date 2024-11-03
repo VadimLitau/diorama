@@ -1,0 +1,9 @@
+<label for="@@id" data-radio>
+   @@if (arguments === undefined || arguments.length === 0) {
+   <input id="@@id" type="radio" value="@@value" name="@@name">
+   }
+   @@if (arguments.length > 0) {
+   <input id="@@id" type="radio" value="@@value" name="@@name" @@arguments>
+   }
+   <span>@@text</span>
+</label>

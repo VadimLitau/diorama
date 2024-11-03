@@ -1,0 +1,27 @@
+@use "../../tools/mixins" as mix;
+@use "../../tools/extends";
+
+.msmessage {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	padding: 0.357em 0.714em;
+	margin: 0 auto;
+	text-align: center;
+	display: none;
+
+	&__body {
+		font-variant: small-caps;
+		text-align: center;
+		padding: 0.357em 0.714em;
+	}
+
+	@include mix.iestyles {
+		display: inline-block !important;
+		display: -ms-flexbox !important;
+		justify-content: center !important;
+		align-items: center !important;
+	}
+}

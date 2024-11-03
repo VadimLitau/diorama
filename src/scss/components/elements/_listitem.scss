@@ -1,0 +1,116 @@
+@use "../../tools/vars" as var;
+
+.item {
+	width: 287px;
+	color: var.$projectBgi;
+	border: 1px solid var.$projectBgi;
+	border-radius: 17px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 27px;
+	-webkit-box-shadow: -9px -5px 40px -5px rgba(206, 193, 173, 0.6);
+	-moz-box-shadow: -9px -5px 40px -5px rgba(206, 193, 173, 0.6);
+	box-shadow: -9px -5px 40px -5px rgba(206, 193, 173, 0.6);
+	transition: box-shadow 0.3s ease;
+	&__title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		border-bottom: 1px solid var.$projectBgi;
+		width: 100%;
+		padding: 0 10px;
+		height: 45px;
+		&_text {
+			font-size: 15px;
+			width: 100%;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+	}
+	&__imgWrap {
+		width: 100%;
+		height: 224px;
+		background-color: var.$projectBgi;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 70px 0 55px 0;
+		&__image {
+			width: 247px;
+			height: 256px;
+		}
+	}
+	&:hover {
+		-webkit-box-shadow: -9px -5px 40px -5px rgba(206, 193, 173, 0.8);
+		-moz-box-shadow: -9px -5px 40px -5px rgba(206, 193, 173, 0.8);
+		box-shadow: -9px -5px 40px -5px rgba(206, 193, 173, 0.8);
+	}
+}
+.btn__item {
+	width: 194px;
+	height: 40px;
+	position: relative;
+	overflow: hidden;
+	&__hoverImage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../images/listitemBtn.svg");
+		background-size: cover;
+		background-position: center;
+		transition: opacity 0.5s ease;
+		opacity: 1;
+	}
+
+	&:hover &__hoverImage {
+		opacity: 0;
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../images/listitemBtnActive.svg");
+		background-size: cover;
+		background-position: center;
+		transition: opacity 0.5s ease;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	&:hover::after {
+		opacity: 1;
+	}
+
+	&__button {
+		width: 194px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: transparent;
+		border: transparent;
+		color: var.$projectBgi;
+		text-transform: uppercase;
+		font-family: var.$pixy;
+		font-size: 22px;
+		transition: opacity 0.5s ease;
+		transition: transform 0.3s ease;
+		position: relative;
+		z-index: 1;
+		cursor: pointer;
+	}
+	&__button:hover {
+		color: var.$projectOrange;
+		transform: scale(1.1);
+	}
+}

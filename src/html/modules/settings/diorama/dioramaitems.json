@@ -1,0 +1,9 @@
+[
+	{
+		"svg": "./images/userscrown.svg",
+		"title": "8+ ВОЗРАСТ",
+		"alt": "Users Crown Icon"
+	},
+	{"svg": "./images/cog.svg", "title": "43-73 ДЕТАЛЕЙ", "alt": "Cog Icon"},
+	{"svg": "./images/clock.svg", "title": "30 МИНУТ СБОРКИ", "alt": "Clock Icon"}
+]

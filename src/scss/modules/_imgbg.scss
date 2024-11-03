@@ -1,0 +1,17 @@
+@use "../tools/mixins" as mix;
+
+.imgbg {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	& img {
+		position: absolute;
+		width: 0 !important;
+		height: 0 !important;
+		top: 0;
+		left: 0;
+		@include mix.opvis(0, hidden);
+	}
+}
