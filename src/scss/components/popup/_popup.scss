@@ -1,0 +1,148 @@
+@use "../../tools/vars" as var;
+
+.popup-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.75);
+	z-index: 5;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.active {
+	display: flex;
+}
+.popup {
+	width: 1089px;
+	height: 700px;
+	background-color: var.$projectBgi;
+	color: var.$projectBlack;
+	z-index: 6;
+	opacity: 1;
+	padding: 16px 18px;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+
+	&__button {
+		align-self: flex-end;
+		background-color: transparent;
+	}
+
+	&__slider {
+		margin-top: 36px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		&__oldPrice {
+			margin-top: 60px;
+			font-size: 30px;
+			text-decoration: line-through;
+		}
+
+		&__newPrice {
+			margin-top: 3px;
+			font-size: 35px;
+			border-radius: 6px;
+			background: var.$projectOrange;
+			padding: 5px 40px;
+		}
+	}
+	&__content {
+		display: flex;
+		flex-direction: row;
+		&__wrap {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-left: 44px;
+		}
+
+		&__text {
+			margin-top: 29px;
+			max-width: 519px;
+			font-size: 20px;
+			line-height: 1.1;
+		}
+		&__logo {
+			width: 263px;
+			height: 123px;
+		}
+	}
+}
+
+.btn__popup {
+	width: 272px;
+	height: 52px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 60px;
+
+	&__hoverImage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../images/popupBtn.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		transition: opacity 0.5s ease;
+		opacity: 1;
+		z-index: 6;
+	}
+
+	&:hover &__hoverImage {
+		opacity: 0;
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../images/btnbigactive.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		transition: opacity 0.5s ease;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	&:hover::after {
+		opacity: 1;
+	}
+
+	&__button {
+		margin: 5px 0 0 5px;
+		width: 262px;
+		height: 42px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: var.$projectOrange;
+		border: transparent;
+		color: var.$projectBlack;
+		text-transform: uppercase;
+		font-family: var.$pixy;
+		font-size: 35px;
+		transition: opacity 0.5s ease;
+		transition: transform 0.3s ease;
+		position: relative;
+		z-index: 1;
+		cursor: pointer;
+	}
+	&__button:hover {
+		color: var.$projectOrange;
+		transform: scale(1.07);
+	}
+}

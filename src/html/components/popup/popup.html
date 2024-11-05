@@ -1,0 +1,122 @@
+<style>
+	.slider__wrapPopup {
+		display: flex;
+		flex-direction: column;
+		margin: 0 12px;
+		width: 400px;
+		height: 423px;
+	}
+
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		border-radius: 10px;
+	}
+
+	.swiper-slidePopup img {
+		display: block;
+		width: 302px;
+		height: 423px;
+		object-fit: contain;
+		border-radius: 10px;
+	}
+
+	.mySwiper-paginationPopup {
+		/* transform: translate3d(157px, 13px, 0); */
+		transform: translate3d(0, 13px, 0);
+	}
+	.swiper-pagination-bullet {
+		background: #2e2f38;
+		width: 14px;
+		height: 14px;
+	}
+	.swiper-button-sliderPrevPopup > img,
+	.swiper-button-sliderNextPopup > img {
+		width: 34px;
+		height: 34px;
+	}
+	.wrapPopup {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.mySwiper-paginationPopup > .swiper-pagination-bullet {
+		background: #2e2f38;
+		width: 13px;
+		height: 13px;
+	}
+</style>
+
+<section class="popup-overlay" id="popup-overlay">
+	<div class="popup">
+		<button type="button" class="popup__button" id="close-popup-btn">
+			<img src="../images/closeButton.png" alt="Close" />
+		</button>
+		<div class="popup__content">
+			<div class="popup__slider">
+				<div class="slider__wrapPopup">
+					<div class="wrapPopup">
+						<div class="swiper-button-sliderPrevPopup sliderPrevPopup">
+							<img src="../images/sliderPrev.png" alt="sliderPrev" />
+						</div>
+						<div class="swiper mySwiperPopup">
+							<div class="swiper-wrapper swiper-wrapperPopup">
+								<div class="swiper-slide swiper-slidePopup">
+									<img
+										src=""
+										alt="sliderImage1"
+										class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img
+										src=""
+										alt="sliderImage1"
+										class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img
+										src=""
+										alt="sliderImage2"
+										class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img
+										src=""
+										alt="sliderImage3"
+										class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img
+										src=""
+										alt="sliderImage4"
+										class="swiper-slidePopup__img" />
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-sliderNextPopup">
+							<img src="../images/sliderNext.png" alt="sliderNext" />
+						</div>
+					</div>
+					<div class="swiper-paginationPopup mySwiper-paginationPopup"></div>
+				</div>
+				<p class="popup__slider__oldPrice"></p>
+				<p class="popup__slider__newPrice"></p>
+			</div>
+			<div class="popup__content__wrap">
+				<div class="popup__content__logo">
+					<img src="" alt="" class="popup__content__logo__img" />
+				</div>
+				<p class="popup__content__text"></p>
+				<div class="btn__popup">
+					<div class="btn__popup__hoverImage"></div>
+
+					<div class="btn__popup__content">
+						<a class="btn__popup__button" id="btnPopup" href="" target="_blank"
+							>Купить</a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

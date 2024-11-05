@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 	@@include("html/components/layout/head.html", { title: "Диорама пазл 3D",
-	multistyles: false, description: "© Binarion" })
+	multistyles: false})
 
 	<body>
 		<div class="wrapper">
@@ -21,6 +21,7 @@
 			</main>
 			@@include("html/components/blocks/wrapper/footer.html", {})
 		</div>
+		@@include("html/components/popup/popup.html",{})
 		@@include("html/components/layout/js.html", {filename: "script.min"})
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<script>
@@ -35,6 +36,19 @@
 				navigation: {
 					nextEl: ".swiper-button-sliderNext",
 					prevEl: ".swiper-button-sliderPrev",
+				},
+			});
+			var swiper = new Swiper(".mySwiperPopup", {
+				slidesPerView: 1,
+				spaceBetween: 30,
+				loop: true,
+				pagination: {
+					el: ".swiper-paginationPopup",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: ".swiper-button-sliderNextPopup",
+					prevEl: ".swiper-button-sliderPrevPopup",
 				},
 			});
 		</script>

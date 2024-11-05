@@ -1,7 +1,11 @@
 [
-	{"title": "[ИНСТРУКЦИЯ]", "url": "#instruction"},
-	{"title": "[КАТАЛОГ]", "url": "#catalog8"},
-	{"title": "[СМИ О НАС]", "url": "#about"},
-	{"title": "[ИНСТРУКЦИЯ ПО СБОРКЕ]", "url": "#"},
-	{"title": "[СОТРУДНИЧЕСТВО]", "url": "#"}
+	{"title": "[ВИДЕО]", "url": "/#video", "target": ""},
+	{"title": "[КАТАЛОГ]", "url": "/#catalog8", "target": ""},
+	{"title": "[СМИ О НАС]", "url": "/#about", "target": ""},
+	{
+		"title": "[ИНСТРУКЦИЯ ПО СБОРКЕ]",
+		"url": "instructions.html",
+		"target": "target='_blank'"
+	},
+	{"title": "[СОТРУДНИЧЕСТВО]", "url": "/#", "target": ""}
 ]

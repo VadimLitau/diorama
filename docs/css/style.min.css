@@ -225,7 +225,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 30px 0 40px 0;
+  padding: 30px 0 45px 0;
   margin-bottom: 109px;
 }
 .footer__links {
@@ -244,7 +244,7 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   width: 100%;
-  margin-right: 65px;
+  margin-right: 100px;
 }
 .footer__link {
   color: #cec1ad;
@@ -252,10 +252,15 @@ body {
 }
 .footer__linkMail {
   font-size: 17px;
-  margin-left: 230px;
+  margin-left: 250px;
+  font-family: "Inter";
+  margin-top: -5px;
 }
 .footer__linkMail::before {
   content: url("../images/mailIcon.svg"); /* Путь к изображению */
+  position: relative;
+  top: 5px;
+  left: -4px;
   display: inline-block;
   margin-right: 14px; /* Расстояние между картинкой и текстом */
 }
@@ -959,6 +964,406 @@ body {
   padding: 32px;
   border-bottom: 1px solid #000000;
   margin-bottom: 30px;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 5;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.popup {
+  width: 1089px;
+  height: 700px;
+  background-color: #cec1ad;
+  color: #181818;
+  z-index: 6;
+  opacity: 1;
+  padding: 16px 18px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.popup__button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: transparent;
+}
+.popup__slider {
+  margin-top: 36px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.popup__slider__oldPrice {
+  margin-top: 60px;
+  font-size: 30px;
+  text-decoration: line-through;
+}
+.popup__slider__newPrice {
+  margin-top: 3px;
+  font-size: 35px;
+  border-radius: 6px;
+  background: #cc5e45;
+  padding: 5px 40px;
+}
+.popup__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.popup__content__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 44px;
+}
+.popup__content__text {
+  margin-top: 29px;
+  max-width: 519px;
+  font-size: 20px;
+  line-height: 1.1;
+}
+.popup__content__logo {
+  width: 263px;
+  height: 123px;
+}
+
+.btn__popup {
+  width: 272px;
+  height: 52px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 60px;
+}
+.btn__popup__hoverImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/popupBtn.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+  z-index: 6;
+}
+.btn__popup:hover .btn__popup__hoverImage {
+  opacity: 0;
+}
+.btn__popup::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/btnbigactive.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  z-index: 0;
+}
+.btn__popup:hover::after {
+  opacity: 1;
+}
+.btn__popup__button {
+  margin: 5px 0 0 5px;
+  width: 262px;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #cc5e45;
+  border: transparent;
+  color: #181818;
+  text-transform: uppercase;
+  font-family: "PIXY";
+  font-size: 35px;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.btn__popup__button:hover {
+  color: #cc5e45;
+  -webkit-transform: scale(1.07);
+      -ms-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
+.instructions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -4px;
+  position: relative;
+  width: 100%;
+}
+.instructions__input {
+  font-size: 13px;
+  background-color: transparent;
+  width: 500px;
+}
+.instructions__input__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 608px;
+  border: 1px solid #181818;
+  background-color: #cec1ad;
+  border-radius: 12px 12px 0 0;
+  padding: 8px 13px 8px 17px;
+}
+.instructions__input__wrap > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.instructions__input__icon {
+  margin-right: 10px;
+}
+.instructions__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+}
+.instructions__card__category {
+  background-color: #cc5e45;
+  font-family: "Pixy";
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 3px 0 4px 32px;
+}
+.instructions__card__cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 63px;
+  -webkit-column-gap: 80px;
+     -moz-column-gap: 80px;
+          column-gap: 80px;
+  margin: 30px 0 110px 0;
+}
+.instructions__card__cardItem {
+  padding: 15px;
+  width: 343px;
+  height: 249px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../images/cardSmallBorder.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.instructions__card__cardItem > p {
+  font-size: 30px;
+  padding: 35px 0 30px 0;
+}
+.instructions__card__instructionBtn, .instructions__card__videoInstructionBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 232px;
+  height: 40px;
+  color: #181818;
+  font-family: "PIXY";
+  font-size: 22px;
+  background-image: url("../images/cardBtnBorder.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  -webkit-transition: background-image 0.3 ease;
+  transition: background-image 0.3 ease;
+  -webkit-transition: scale 0.3 ease;
+  transition: scale 0.3 ease;
+  margin-bottom: 12px;
+}
+.instructions__card__instructionBtn:hover, .instructions__card__videoInstructionBtn:hover {
+  color: #cc5e45;
+  background-image: url("../images/cardBtnBorderActive.svg");
+}
+.instructions__card__instructionBtn > span:hover, .instructions__card__videoInstructionBtn > span:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.instructions__card__videoInstructionBtn > span:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#card4.instructions__card__cardItem,
+#card5.instructions__card__cardItem,
+#card9.instructions__card__cardItem,
+#card10.instructions__card__cardItem {
+  text-align: center;
+  width: 525px;
+  background-image: url("../images/cardBigBorder.svg");
+}
+
+#card4.instructions__card__cardItem,
+#card9.instructions__card__cardItem {
+  margin-right: 60px;
+}
+
+#card5.instructions__card__cardItem > p {
+  padding: 17px 0;
+}
+
+#cardsContainer16 {
+  margin: 65px 0 50px 0;
+}
+
+.dropdown {
+  border: 1px solid #181818;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  display: none;
+  background-color: #cec1ad;
+  position: absolute;
+  top: 38px;
+  width: 608px;
+  max-height: 256px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.dropdown-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #cc5e45;
+}
+
+.none {
+  height: 249px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 525px;
+  background-image: url("../images/cardBigBorder.svg");
+  font-family: "PIXY";
+  text-transform: uppercase;
+  font-size: 40px;
 }
 
 [data-burger] {

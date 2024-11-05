@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta http-equiv="msthemecompatible" content="no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="format-detection"
+			content="telephone=no, email=no, address=no, date=no" />
+		<meta name="description" content="" />
+		@@include("html/components/layout/favicons.html", {})
+		<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<title>Диорама пазл 3D</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			@@include("html/components/blocks/wrapper/header.html", {})
+			<main class="main">
+				<section class="instructions">
+					<div class="instructions__input__wrap">
+						<div>
+							<svg
+								width="19"
+								height="20"
+								viewBox="0 0 19 20"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								class="instructions__input__icon">
+								<g clip-path="url(#clip0_56_4181)">
+									<path
+										d="M17.4165 16.373V15.5634H16.6248V14.7538H15.8332V13.9442H15.0415V13.1346H13.4582V12.325H14.2498V10.7058H15.0415V5.84827H14.2498V4.22909H13.4582V3.4195H12.6665V2.60991H11.8748V1.80031H10.2915V0.990723H5.5415V1.80031H3.95817V2.60991H3.1665V3.4195H2.37484V4.22909H1.58317V5.84827H0.791504V10.7058H1.58317V12.325H2.37484V13.1346H3.1665V13.9442H3.95817V14.7538H5.5415V15.5634H10.2915V14.7538H11.8748V13.9442H12.6665V15.5634H13.4582V16.373H14.2498V17.1825H15.0415V17.9921H15.8332V18.8017H17.4165V17.9921H18.2082V16.373H17.4165ZM9.49984 12.325V13.1346H6.33317V12.325H4.74984V11.5154H3.95817V9.89623H3.1665V6.65786H3.95817V5.03868H4.74984V4.22909H6.33317V3.4195H9.49984V4.22909H11.0832V5.03868H11.8748V6.65786H12.6665V9.89623H11.8748V11.5154H11.0832V12.325H9.49984Z"
+										fill="black" />
+								</g>
+								<defs>
+									<clipPath id="clip0_56_4181">
+										<rect
+											width="19"
+											height="19.4302"
+											fill="white"
+											transform="translate(0 0.181152)" />
+									</clipPath>
+								</defs>
+							</svg>
+							<input
+								type="text"
+								id="searchInput"
+								placeholder="Название диорамы..."
+								class="instructions__input" />
+						</div>
+						<svg
+							width="14"
+							height="10"
+							viewBox="0 0 14 10"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							class="instructions__input__iconDropdown">
+							<path
+								d="M12.2131 0.959961L6.9598 6.21329L1.70647 0.959961L0.293131 2.37329L6.9598 9.03996L13.6265 2.37329L12.2131 0.959961Z"
+								fill="black" />
+						</svg>
+					</div>
+					<div id="dropdown" class="dropdown"></div>
+					<div class="instructions__card">
+						<p class="instructions__card__category">8 битные диорамы</p>
+						<div
+							id="cardsContainer8"
+							class="instructions__card__cards-container"></div>
+						<p class="instructions__card__category" id="cat16">
+							16 битные диорамы
+						</p>
+						<div
+							id="cardsContainer16"
+							class="instructions__card__cards-container"></div>
+					</div>
+				</section>
+			</main>
+			@@include("html/components/blocks/wrapper/footer.html", {})
+		</div>
+		@@include("html/components/popup/popup.html",{})
+		<script src="./js/instructions.min.js"></script>
+	</body>
+</html>

@@ -16,7 +16,6 @@ body {
 
 .wrapper {
 	width: 1280px;
-	// height: 100%;
 	@include mix.flex(null, center, column);
 	overflow-x: clip;
 	position: relative;

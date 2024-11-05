@@ -1,0 +1,158 @@
+@use "../../tools/vars" as var;
+
+.instructions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: -4px;
+	position: relative;
+	width: 100%;
+
+	&__input {
+		font-size: 13px;
+		background-color: transparent;
+		width: 500px;
+		&__wrap {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			width: 608px;
+			border: 1px solid var.$projectBlack;
+			background-color: var.$projectBgi;
+			border-radius: 12px 12px 0 0;
+			padding: 8px 13px 8px 17px;
+			& > div {
+				display: flex;
+				flex-direction: row;
+			}
+		}
+		&__icon {
+			margin-right: 10px;
+		}
+		&__iconDropdown {
+			// justify-self: end;
+		}
+	}
+	&__card {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 30px;
+		&__category {
+			background-color: var.$projectOrange;
+			font-family: "Pixy";
+			font-size: 40px;
+			text-transform: uppercase;
+			padding: 3px 0 4px 32px;
+		}
+		&__cards-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			flex-wrap: wrap;
+			row-gap: 63px;
+			column-gap: 80px;
+			margin: 30px 0 110px 0;
+		}
+		&__cardItem {
+			padding: 15px;
+			width: 343px;
+			height: 249px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-image: url("../images/cardSmallBorder.svg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			& > p {
+				font-size: 30px;
+				padding: 35px 0 30px 0;
+			}
+		}
+		&__instructionBtn,
+		&__videoInstructionBtn {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 232px;
+			height: 40px;
+			color: var.$projectBlack;
+			font-family: var.$pixy;
+			font-size: 22px;
+			background-image: url("../images/cardBtnBorder.svg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			transition: color 0.3s ease;
+			transition: background-image 0.3 ease;
+			transition: scale 0.3 ease;
+			margin-bottom: 12px;
+			&:hover {
+				color: var.$projectOrange;
+				background-image: url("../images/cardBtnBorderActive.svg");
+			}
+			& > span:hover {
+				transform: scale(1.1);
+			}
+		}
+		&__videoInstructionBtn {
+			& > span:hover {
+				transform: scale(1.05);
+			}
+		}
+	}
+}
+
+#card4.instructions__card__cardItem,
+#card5.instructions__card__cardItem,
+#card9.instructions__card__cardItem,
+#card10.instructions__card__cardItem {
+	text-align: center;
+	width: 525px;
+	background-image: url("../images/cardBigBorder.svg");
+}
+
+#card4.instructions__card__cardItem,
+#card9.instructions__card__cardItem {
+	margin-right: 60px;
+}
+#card5.instructions__card__cardItem > p {
+	padding: 17px 0;
+}
+#cardsContainer16 {
+	margin: 65px 0 50px 0;
+}
+.dropdown {
+	border: 1px solid var.$projectBlack;
+	border-top: none;
+	border-radius: 0 0 12px 12px;
+	display: none;
+	background-color: var.$projectBgi;
+	position: absolute;
+	top: 38px;
+	width: 608px;
+	max-height: 256px;
+	overflow-y: auto;
+	z-index: 10;
+}
+
+.dropdown-item {
+	padding: 8px;
+	cursor: pointer;
+}
+
+.dropdown-item:hover {
+	background-color: var.$projectOrange;
+}
+
+.none {
+	height: 249px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 525px;
+	background-image: url("../images/cardBigBorder.svg");
+	font-family: var.$pixy;
+	text-transform: uppercase;
+	font-size: 40px;
+}

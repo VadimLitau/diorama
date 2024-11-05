@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<h>
+	<head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="imagetoolbar" content="no" />
 	<meta http-equiv="msthemecompatible" content="no" />
@@ -9,18 +9,19 @@
 	<meta
 		name="format-detection"
 		content="telephone=no, email=no, address=no, date=no" />
-	<meta name="description" content="© Binarion" />
+	<meta name="description" content="@@description" />
 	<!-- Для современных браузеров -->
-<link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+<link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
 <!-- Для Apple Touch и iOS-->
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
 <!-- Для Android -->
-<link rel="manifest" href="manifest.json"> 
+<link rel="manifest" href="manifest.json" />
+ 
 	<link rel="stylesheet" type="text/css" href="./css/style.min.css" />
 	
 	<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<title>Диорама пазл 3D</title>
 </head>
 
@@ -30,11 +31,11 @@
 			<header class="header"><div data-burger><span></span></div>
 <nav class="menu" data-menu>
    <ul class="menu__body" data-menu-list>
-      <li class="menu__item" data-menu-item><a href="#instruction">[ИНСТРУКЦИЯ]</a></li>
-<li class="menu__item" data-menu-item><a href="#catalog8">[КАТАЛОГ]</a></li>
-<li class="menu__item" data-menu-item><a href="#about">[СМИ О НАС]</a></li>
-<li class="menu__item" data-menu-item><a href="#">[ИНСТРУКЦИЯ ПО СБОРКЕ]</a></li>
-<li class="menu__item" data-menu-item><a href="#">[СОТРУДНИЧЕСТВО]</a></li>
+      <li class="menu__item" data-menu-item><a href="/#video" >[ВИДЕО]</a></li>
+<li class="menu__item" data-menu-item><a href="/#catalog8" >[КАТАЛОГ]</a></li>
+<li class="menu__item" data-menu-item><a href="/#about" >[СМИ О НАС]</a></li>
+<li class="menu__item" data-menu-item><a href="instructions.html" target='_blank'>[ИНСТРУКЦИЯ ПО СБОРКЕ]</a></li>
+<li class="menu__item" data-menu-item><a href="/#" >[СОТРУДНИЧЕСТВО]</a></li>
 
    </ul>
 </nav></header>
@@ -73,7 +74,7 @@
  <div class="btn">
 	<div class="btn__hoverImage"></div>
 	<div class="btn__content">
-		<a class="btn__button" id="instructions" href="#instruction">инструкция</a>
+		<a class="btn__button" id="videos" href="#video">видео</a>
 	</div>
 </div>
 
@@ -85,7 +86,7 @@
 	</div>
 </div>
 
-				<section class="video" id="instruction">
+				<section class="video" id="video">
 	<div class="video__footer">
 		<p class="video__footer__text">С УНИКАЛЬНОЙ ДИОРАМОЙ ИЗ ДЕРЕВА!</p>
 	</div>
@@ -132,7 +133,7 @@
 	<div class="list__footer list__footer__right">
 		<h3>8 битные диорамы</h3>
 	</div>
-	<div class="list__wrap"><div class="item">
+	<div class="list__wrap"><div class="item" data-id="battle">
 	<div class="item__title">
 		<p class="item__title_text">Battle city</p>
 	</div>
@@ -142,11 +143,11 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<a class="btn__item__button" id="dattle" href="#">Купить</a>
+			<button type="button" class="btn__item__button">Купить</button>
 		</div>
 	</div>
 </div>
-<div class="item">
+<div class="item" data-id="darkwing">
 	<div class="item__title">
 		<p class="item__title_text">Darkwing Duck</p>
 	</div>
@@ -156,11 +157,11 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<a class="btn__item__button" id="darkwing" href="#">Купить</a>
+			<button type="button" class="btn__item__button">Купить</button>
 		</div>
 	</div>
 </div>
-<div class="item">
+<div class="item" data-id="duck">
 	<div class="item__title">
 		<p class="item__title_text">Duck Hunt</p>
 	</div>
@@ -170,11 +171,11 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<a class="btn__item__button" id="duck" href="#">Купить</a>
+			<button type="button" class="btn__item__button">Купить</button>
 		</div>
 	</div>
 </div>
-<div class="item">
+<div class="item" data-id="mario">
 	<div class="item__title">
 		<p class="item__title_text">Super Mario Bros</p>
 	</div>
@@ -184,11 +185,11 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<a class="btn__item__button" id="mario" href="#">Купить</a>
+			<button type="button" class="btn__item__button">Купить</button>
 		</div>
 	</div>
 </div>
-<div class="item">
+<div class="item" data-id="teenage">
 	<div class="item__title">
 		<p class="item__title_text">Teenage Mutant Ninja <br/> Turtles Tournament Fighters</p>
 	</div>
@@ -198,7 +199,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<a class="btn__item__button" id="teenage" href="#">Купить</a>
+			<button type="button" class="btn__item__button">Купить</button>
 		</div>
 	</div>
 </div>
@@ -209,7 +210,7 @@
 	<div class="list__footer list__footer__left">
 		<h3>16 битные диорамы</h3>
 	</div>
-	<div class="list__wrap"><div class="item">
+	<div class="list__wrap"><div class="item" data-id="aladdin">
 	<div class="item__title">
 		<p class="item__title_text">Aladdin</p>
 	</div>
@@ -219,11 +220,11 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<a class="btn__item__button" id="aladdin" href="#">Купить</a>
+			<button type="button" class="btn__item__button">Купить</button>
 		</div>
 	</div>
 </div>
-<div class="item">
+<div class="item" data-id="comix">
 	<div class="item__title">
 		<p class="item__title_text">Comix Zone</p>
 	</div>
@@ -233,11 +234,11 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<a class="btn__item__button" id="comix" href="#">Купить</a>
+			<button type="button" class="btn__item__button">Купить</button>
 		</div>
 	</div>
 </div>
-<div class="item">
+<div class="item" data-id="earthworm">
 	<div class="item__title">
 		<p class="item__title_text">Earthworm Jim II</p>
 	</div>
@@ -247,11 +248,11 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<a class="btn__item__button" id="earthworm" href="#">Купить</a>
+			<button type="button" class="btn__item__button">Купить</button>
 		</div>
 	</div>
 </div>
-<div class="item">
+<div class="item" data-id="sonic">
 	<div class="item__title">
 		<p class="item__title_text">Sonic the Hedgehog 2</p>
 	</div>
@@ -261,11 +262,11 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<a class="btn__item__button" id="sonic" href="#">Купить</a>
+			<button type="button" class="btn__item__button">Купить</button>
 		</div>
 	</div>
 </div>
-<div class="item">
+<div class="item" data-id="mortal">
 	<div class="item__title">
 		<p class="item__title_text">Ultimate Mortal Kombat 3</p>
 	</div>
@@ -275,7 +276,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<a class="btn__item__button" id="mortal" href="#">Купить</a>
+			<button type="button" class="btn__item__button">Купить</button>
 		</div>
 	</div>
 </div>
@@ -399,6 +400,7 @@
 	}
 	.mySwiper-pagination {
 		transform: translate3d(-55px, 38px, 0);
+		z-index: 2;
 	}
 	.swiper-pagination-bullet {
 		background: #2e2f38;
@@ -413,16 +415,16 @@
 	<div class="swiper mySwiper">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
-				<img src="./images/DD_002.webp" alt="sliderImage1" />
+				<img src="./images/mario1.webp" alt="Mario" />
 			</div>
 			<div class="swiper-slide">
-				<img src="./images/DH_002.webp" alt="sliderImage2" />
+				<img src="./images/tnmt1.webp" alt="TNMT" />
 			</div>
 			<div class="swiper-slide">
-				<img src="./images/M_002.webp" alt="sliderImage3" />
+				<img src="./images/sonic1.webp" alt="Sonic" />
 			</div>
 			<div class="swiper-slide">
-				<img src="./images/T_002.webp" alt="sliderImage4" />
+				<img src="./images/darkwing1.webp" alt="Darkwing" />
 			</div>
 		</div>
 	</div>
@@ -533,7 +535,7 @@
 				width="11"
 				height="11"
 				viewBox="0 0 11 11"
-				fill="4e4e4e"
+				fill="#cc5e45"
 				xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M10.5416 3.66659V4.58325H10.0833V5.04159H9.62492V5.49992H9.16659V5.95825H8.70825V6.41659H8.24992V8.70825H8.70825V10.5416H7.79159V10.0833H6.87492V9.62492H5.95825V9.16659H5.04159V9.62492H4.12492V10.0833H3.20825V10.5416H2.29159V8.70825H2.74992V6.41659H2.29159V5.95825H1.83325V5.49992H1.37492V5.04159H0.916585V4.58325H0.458252V3.66659H3.66659V2.74992H4.12492V1.83325H4.58325V0.916585H5.04159V0.458252H5.95825V0.916585H6.41659V1.83325H6.87492V2.74992H7.33325V3.66659H10.5416Z" />
@@ -577,7 +579,7 @@
 				width="11"
 				height="11"
 				viewBox="0 0 11 11"
-				fill="4e4e4e"
+				fill="#cc5e45"
 				xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M10.5416 3.66659V4.58325H10.0833V5.04159H9.62492V5.49992H9.16659V5.95825H8.70825V6.41659H8.24992V8.70825H8.70825V10.5416H7.79159V10.0833H6.87492V9.62492H5.95825V9.16659H5.04159V9.62492H4.12492V10.0833H3.20825V10.5416H2.29159V8.70825H2.74992V6.41659H2.29159V5.95825H1.83325V5.49992H1.37492V5.04159H0.916585V4.58325H0.458252V3.66659H3.66659V2.74992H4.12492V1.83325H4.58325V0.916585H5.04159V0.458252H5.95825V0.916585H6.41659V1.83325H6.87492V2.74992H7.33325V3.66659H10.5416Z" />
@@ -586,14 +588,14 @@
 				width="11"
 				height="11"
 				viewBox="0 0 11 11"
-				fill="4e4e4e"
+				fill="#cc5e45"
 				xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M10.5416 3.66659V4.58325H10.0833V5.04159H9.62492V5.49992H9.16659V5.95825H8.70825V6.41659H8.24992V8.70825H8.70825V10.5416H7.79159V10.0833H6.87492V9.62492H5.95825V9.16659H5.04159V9.62492H4.12492V10.0833H3.20825V10.5416H2.29159V8.70825H2.74992V6.41659H2.29159V5.95825H1.83325V5.49992H1.37492V5.04159H0.916585V4.58325H0.458252V3.66659H3.66659V2.74992H4.12492V1.83325H4.58325V0.916585H5.04159V0.458252H5.95825V0.916585H6.41659V1.83325H6.87492V2.74992H7.33325V3.66659H10.5416Z" />
 			</svg>
 		</div>
 	</div>
-	<p class="commentsItem__comment">Эта штука и правда удивляет и создает “Вау” эффект. Друг доволен!)Эта штука и правда удивляет и создает “Вау” эффект. Друг доволен!)Эта штука и правда удивляет и создает “Вау” эффект. Друг доволен!)Эта штука и правда удивляет и создает “Вау” эффект. Друг доволен!)Эта штука и правда удивляет и создает “Вау” эффект. Друг доволен!)Эта штука и правда удивляет и создает “Вау” эффект. Друг доволен!)Эта штука и правда удивляет и создает “Вау” эффект. Друг доволен!)Эта штука и правда удивляет и создает “Вау” эффект. Друг доволен!)</p>
+	<p class="commentsItem__comment">Эта штука и правда удивляет и создает “Вау” эффект. Друг доволен!)</p>
 </div>
 <div class="commentsItem">
 	<div class="commentsItem__header">
@@ -621,7 +623,7 @@
 				width="11"
 				height="11"
 				viewBox="0 0 11 11"
-				fill="4e4e4e"
+				fill="#cc5e45"
 				xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M10.5416 3.66659V4.58325H10.0833V5.04159H9.62492V5.49992H9.16659V5.95825H8.70825V6.41659H8.24992V8.70825H8.70825V10.5416H7.79159V10.0833H6.87492V9.62492H5.95825V9.16659H5.04159V9.62492H4.12492V10.0833H3.20825V10.5416H2.29159V8.70825H2.74992V6.41659H2.29159V5.95825H1.83325V5.49992H1.37492V5.04159H0.916585V4.58325H0.458252V3.66659H3.66659V2.74992H4.12492V1.83325H4.58325V0.916585H5.04159V0.458252H5.95825V0.916585H6.41659V1.83325H6.87492V2.74992H7.33325V3.66659H10.5416Z" />
@@ -630,7 +632,7 @@
 				width="11"
 				height="11"
 				viewBox="0 0 11 11"
-				fill="4e4e4e"
+				fill="#cc5e45"
 				xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M10.5416 3.66659V4.58325H10.0833V5.04159H9.62492V5.49992H9.16659V5.95825H8.70825V6.41659H8.24992V8.70825H8.70825V10.5416H7.79159V10.0833H6.87492V9.62492H5.95825V9.16659H5.04159V9.62492H4.12492V10.0833H3.20825V10.5416H2.29159V8.70825H2.74992V6.41659H2.29159V5.95825H1.83325V5.49992H1.37492V5.04159H0.916585V4.58325H0.458252V3.66659H3.66659V2.74992H4.12492V1.83325H4.58325V0.916585H5.04159V0.458252H5.95825V0.916585H6.41659V1.83325H6.87492V2.74992H7.33325V3.66659H10.5416Z" />
@@ -639,7 +641,7 @@
 				width="11"
 				height="11"
 				viewBox="0 0 11 11"
-				fill="4e4e4e"
+				fill="#cc5e45"
 				xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M10.5416 3.66659V4.58325H10.0833V5.04159H9.62492V5.49992H9.16659V5.95825H8.70825V6.41659H8.24992V8.70825H8.70825V10.5416H7.79159V10.0833H6.87492V9.62492H5.95825V9.16659H5.04159V9.62492H4.12492V10.0833H3.20825V10.5416H2.29159V8.70825H2.74992V6.41659H2.29159V5.95825H1.83325V5.49992H1.37492V5.04159H0.916585V4.58325H0.458252V3.66659H3.66659V2.74992H4.12492V1.83325H4.58325V0.916585H5.04159V0.458252H5.95825V0.916585H6.41659V1.83325H6.87492V2.74992H7.33325V3.66659H10.5416Z" />
@@ -654,20 +656,128 @@
 			</main>
 			<footer class="footer">
 	<ul class="menu__body" data-menu-list>
-		<li class="menu__item" data-menu-item><a href="#instruction">[ИНСТРУКЦИЯ]</a></li>
-<li class="menu__item" data-menu-item><a href="#catalog8">[КАТАЛОГ]</a></li>
-<li class="menu__item" data-menu-item><a href="#about">[СМИ О НАС]</a></li>
-<li class="menu__item" data-menu-item><a href="#">[ИНСТРУКЦИЯ ПО СБОРКЕ]</a></li>
-<li class="menu__item" data-menu-item><a href="#">[СОТРУДНИЧЕСТВО]</a></li>
+		<li class="menu__item" data-menu-item><a href="/#video" >[ВИДЕО]</a></li>
+<li class="menu__item" data-menu-item><a href="/#catalog8" >[КАТАЛОГ]</a></li>
+<li class="menu__item" data-menu-item><a href="/#about" >[СМИ О НАС]</a></li>
+<li class="menu__item" data-menu-item><a href="instructions.html" target='_blank'>[ИНСТРУКЦИЯ ПО СБОРКЕ]</a></li>
+<li class="menu__item" data-menu-item><a href="/#" >[СОТРУДНИЧЕСТВО]</a></li>
 
 	</ul>
 	<div class="footer__links">
 		<a href="#" class="footer__link">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
-		<a href="#" class="footer__link footer__linkMail">info@retro-frames.com</a>
+		<a href="#" class="footer__link footer__linkMail">info@retro-frames.ru</a>
 	</div>
 </footer>
 
 		</div>
+		<style>
+	.slider__wrapPopup {
+		display: flex;
+		flex-direction: column;
+		margin: 0 12px;
+		width: 400px;
+		height: 423px;
+	}
+
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		border-radius: 10px;
+	}
+
+	.swiper-slidePopup img {
+		display: block;
+		width: 302px;
+		height: 423px;
+		object-fit: contain;
+		border-radius: 10px;
+	}
+
+	.mySwiper-paginationPopup {
+		/* transform: translate3d(157px, 13px, 0); */
+		transform: translate3d(0, 13px, 0);
+	}
+	.swiper-pagination-bullet {
+		background: #2e2f38;
+		width: 14px;
+		height: 14px;
+	}
+	.swiper-button-sliderPrevPopup > img,
+	.swiper-button-sliderNextPopup > img {
+		width: 34px;
+		height: 34px;
+	}
+	.wrapPopup {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.mySwiper-paginationPopup > .swiper-pagination-bullet {
+		background: #2e2f38;
+		width: 13px;
+		height: 13px;
+	}
+</style>
+
+<section class="popup-overlay" id="popup-overlay">
+	<div class="popup">
+		<button type="button" class="popup__button" id="close-popup-btn">
+			<img src="./images/closeButton.png" alt="Close" />
+		</button>
+		<div class="popup__content">
+			<div class="popup__slider">
+				<div class="slider__wrapPopup">
+					<div class="wrapPopup">
+						<div class="swiper-button-sliderPrevPopup sliderPrevPopup">
+							<img src="./images/sliderPrev.png" alt="sliderPrev" />
+						</div>
+						<div class="swiper mySwiperPopup">
+							<div class="swiper-wrapper swiper-wrapperPopup">
+								<div class="swiper-slide swiper-slidePopup">
+									<img	src=""	alt="sliderImage1"	class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img	src=""	alt="sliderImage1"	class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img	src=""	alt="sliderImage2"	class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img	src=""	alt="sliderImage3"	class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img	src=""	alt="sliderImage4"	class="swiper-slidePopup__img" />
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-sliderNextPopup">
+							<img src="./images/sliderNext.png" alt="sliderNext" />
+						</div>
+					</div>
+					<div class="swiper-paginationPopup mySwiper-paginationPopup"></div>
+				</div>
+				<p class="popup__slider__oldPrice"></p>
+				<p class="popup__slider__newPrice"></p>
+			</div>
+			<div class="popup__content__wrap">
+				<div class="popup__content__logo">
+					<img src="" alt="" class="popup__content__logo__img" />
+				</div>
+				<p class="popup__content__text"></p>
+				<div class="btn__popup">
+					<div class="btn__popup__hoverImage"></div>
+
+					<div class="btn__popup__content">
+						<a class="btn__popup__button" id="btnPopup" href="" target="_blank"
+							>Купить</a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<script src="./js/script.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<script>
@@ -682,6 +792,19 @@
 				navigation: {
 					nextEl: ".swiper-button-sliderNext",
 					prevEl: ".swiper-button-sliderPrev",
+				},
+			});
+			var swiper = new Swiper(".mySwiperPopup", {
+				slidesPerView: 1,
+				spaceBetween: 30,
+				loop: true,
+				pagination: {
+					el: ".swiper-paginationPopup",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: ".swiper-button-sliderNextPopup",
+					prevEl: ".swiper-button-sliderPrevPopup",
 				},
 			});
 		</script>

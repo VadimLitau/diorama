@@ -9,6 +9,8 @@ import * as $model from "./model";
 //*----------------------------------------Подключение компонентов скрипта----------------------------------------------|
 import * as $components from "./view";
 //*--------------------------------------------------Основной скрипт----------------------------------------------------|
+import popup from "./popup";
+// import instructions from "./instructions";
 
 $plugins.colorSchemes.auto();
 $plugins.mobileCheck();
