@@ -42,7 +42,19 @@ document
 	});
 function closePopup() {
 	document.body.style.overflow = "auto";
-	document.getElementById("popup-overlay").style.display = "none";
+	const popup = document.getElementById("popup-overlay");
+
+	// Очистка данных попапа
+	popup.querySelector(".popup__content__logo__img").src = "";
+	popup.querySelectorAll(".swiper-slidePopup__img").forEach((img) => {
+		img.src = "";
+	});
+	popup.querySelector(".popup__slider__oldPrice").textContent = "";
+	popup.querySelector(".popup__slider__newPrice").textContent = "";
+	popup.querySelector(".popup__content__text").innerHTML = "";
+	popup.querySelector(".btn__popup__button").href = "#";
+
+	popup.style.display = "none";
 }
 
 document.addEventListener("keydown", function (event) {
