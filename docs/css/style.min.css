@@ -974,7 +974,9 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.75);
   z-index: 5;
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -982,6 +984,15 @@ body {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#popup-overlay.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 .active {
