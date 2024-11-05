@@ -24,7 +24,7 @@ const popupData = [
 					Augue vitae volutpat nunc nisi fermentum in&nbsp;convallis orci.
 					Condimentum mattis eu&nbsp;pharetra sem quam facilisis&nbsp;id.`,
 
-		link: "https://ww.ozon.ru",
+		link: "https://www.ozon.ru",
 	},
 	{
 		id: "battle",
@@ -51,7 +51,7 @@ const popupData = [
 					Augue vitae volutpat nunc nisi fermentum in&nbsp;convallis orci.
 					Condimentum mattis eu&nbsp;pharetra sem quam facilisis&nbsp;id.`,
 
-		link: "https://ww.ozon.ru",
+		link: "https://www.ozon.ru",
 	},
 	{
 		id: "darkwing",
@@ -78,7 +78,7 @@ const popupData = [
 					Augue vitae volutpat nunc nisi fermentum in&nbsp;convallis orci.
 					Condimentum mattis eu&nbsp;pharetra sem quam facilisis&nbsp;id.`,
 
-		link: "https://ww.ozon.ru",
+		link: "https://www.ozon.ru",
 	},
 	{
 		id: "duck",
@@ -105,7 +105,7 @@ const popupData = [
 					Augue vitae volutpat nunc nisi fermentum in&nbsp;convallis orci.
 					Condimentum mattis eu&nbsp;pharetra sem quam facilisis&nbsp;id.`,
 
-		link: "https://ww.ozon.ru",
+		link: "https://www.ozon.ru",
 	},
 	{
 		id: "teenage",
@@ -132,7 +132,7 @@ const popupData = [
 					Augue vitae volutpat nunc nisi fermentum in&nbsp;convallis orci.
 					Condimentum mattis eu&nbsp;pharetra sem quam facilisis&nbsp;id.`,
 
-		link: "https://ww.ozon.ru",
+		link: "https://www.ozon.ru",
 	},
 	{
 		id: "aladdin",
@@ -159,7 +159,7 @@ const popupData = [
 					Augue vitae volutpat nunc nisi fermentum in&nbsp;convallis orci.
 					Condimentum mattis eu&nbsp;pharetra sem quam facilisis&nbsp;id.`,
 
-		link: "https://ww.ozon.ru",
+		link: "https://www.ozon.ru",
 	},
 	{
 		id: "comix",
@@ -186,7 +186,7 @@ const popupData = [
 					Augue vitae volutpat nunc nisi fermentum in&nbsp;convallis orci.
 					Condimentum mattis eu&nbsp;pharetra sem quam facilisis&nbsp;id.`,
 
-		link: "https://ww.ozon.ru",
+		link: "https://www.ozon.ru",
 	},
 	{
 		id: "earthworm",
@@ -213,7 +213,7 @@ const popupData = [
 					Augue vitae volutpat nunc nisi fermentum in&nbsp;convallis orci.
 					Condimentum mattis eu&nbsp;pharetra sem quam facilisis&nbsp;id.`,
 
-		link: "https://ww.ozon.ru",
+		link: "https://www.ozon.ru",
 	},
 	{
 		id: "sonic",
@@ -240,7 +240,7 @@ const popupData = [
 					Augue vitae volutpat nunc nisi fermentum in&nbsp;convallis orci.
 					Condimentum mattis eu&nbsp;pharetra sem quam facilisis&nbsp;id.`,
 
-		link: "https://ww.ozon.ru",
+		link: "https://www.ozon.ru",
 	},
 	{
 		id: "mortal",
@@ -267,7 +267,7 @@ const popupData = [
 					Augue vitae volutpat nunc nisi fermentum in&nbsp;convallis orci.
 					Condimentum mattis eu&nbsp;pharetra sem quam facilisis&nbsp;id.`,
 
-		link: "https://ww.ozon.ru",
+		link: "https://www.ozon.ru",
 	},
 ];
 export {popupData};

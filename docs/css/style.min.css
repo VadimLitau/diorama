@@ -1152,11 +1152,10 @@ body {
   transition: transform 0.3s ease;
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   position: relative;
-  z-index: 1;
+  z-index: 9;
   cursor: pointer;
 }
 .btn__popup__button:hover {
-  color: #cc5e45;
   -webkit-transform: scale(1.07);
       -ms-transform: scale(1.07);
           transform: scale(1.07);
