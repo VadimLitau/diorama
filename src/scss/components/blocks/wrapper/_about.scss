@@ -42,12 +42,16 @@
 			&__first,
 			&__second {
 				width: 352px;
+				height: 306px;
 				border-radius: 40px;
 				padding: 29px 13px 17px 25px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
 				&__title {
 					font-size: 25px;
 					line-height: 27px;
-					width: 135px;
+					width: 305px;
 					text-transform: uppercase;
 					padding-bottom: 10px;
 				}

@@ -246,9 +246,13 @@ body {
   width: 100%;
   margin-right: 100px;
 }
-.footer__link {
+.footer__link, .footer__btn {
   color: #cec1ad;
   font-size: 15px;
+}
+.footer__btn {
+  border: none;
+  background-color: transparent;
 }
 .footer__linkMail {
   font-size: 17px;
@@ -561,6 +565,102 @@ body {
   color: #cec1ad;
 }
 
+.cooperation__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#cooperationPopup.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cooperation__popup {
+  width: 1089px;
+  height: 90vh;
+  background-color: #cec1ad;
+  color: #181818;
+  z-index: 6;
+  opacity: 1;
+  padding: 26px 18px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cooperation__popup__text {
+  font-size: 16px;
+  overflow: scroll;
+  font-size: 16px;
+  width: 90%;
+  overflow-y: auto; /* Только вертикальный скролл */
+  scrollbar-width: thin; /* Для Firefox */
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent; /* Цвет для Firefox */
+}
+.cooperation__popup__text::-webkit-scrollbar {
+  width: 6px; /* Толщина скроллбара */
+}
+.cooperation__popup__text::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Цвет ползунка */
+  border-radius: 3px;
+}
+.cooperation__popup__text::-webkit-scrollbar-track {
+  background-color: transparent; /* Прозрачный фон трека */
+}
+.cooperation__popup__text > h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.cooperation__popup__text > h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.cooperation__popup__text > p {
+  margin: 5px 0;
+}
+.cooperation__popup span {
+  font-weight: 700;
+}
+.cooperation__popup li,
+.cooperation__popup p {
+  margin: 8px 0;
+}
+.cooperation__popup th {
+  padding: 10px 0;
+  text-align: left;
+}
+.cooperation__popup td {
+  vertical-align: middle;
+}
+
 .video {
   margin-top: 180px;
   width: 100%;
@@ -639,6 +739,10 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 18px;
+}
+.video__wrap__video__info > img {
+  width: 355px;
+  height: 201px;
 }
 .video__wrap__video__info > p {
   font-size: 25px;
@@ -750,13 +854,24 @@ body {
 }
 .about__text__left__first, .about__text__left__second {
   width: 352px;
+  height: 306px;
   border-radius: 40px;
   padding: 29px 13px 17px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .about__text__left__first__title, .about__text__left__second__title {
   font-size: 25px;
   line-height: 27px;
-  width: 135px;
+  width: 305px;
   text-transform: uppercase;
   padding-bottom: 10px;
 }
@@ -964,6 +1079,85 @@ body {
   padding: 32px;
   border-bottom: 1px solid #000000;
   margin-bottom: 30px;
+}
+
+.feedbackForm {
+  background-image: url("../images/feedbackBgi.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 150px 0;
+  width: 487px;
+  height: 352px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.feedbackForm__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 273px;
+  height: 169px;
+  color: #8e8e8e;
+}
+.feedbackForm__form__inputContainer {
+  border-bottom: 1px solid #8e8e8e;
+  padding-bottom: 4px;
+}
+.feedbackForm__form__inputContainer > span {
+  margin-right: 5px;
+  color: #cc5e45;
+}
+.feedbackForm__form__inputContainer > input {
+  background-color: transparent;
+  color: #8e8e8e;
+}
+.feedbackForm__form__inputContainer > input::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #8e8e8e;
+}
+.feedbackForm__form__inputContainer > input::-moz-placeholder {
+  font-size: 16px;
+  color: #8e8e8e;
+}
+.feedbackForm__form__inputContainer > input:-ms-input-placeholder {
+  font-size: 16px;
+  color: #8e8e8e;
+}
+.feedbackForm__form__inputContainer > input::-ms-input-placeholder {
+  font-size: 16px;
+  color: #8e8e8e;
+}
+.feedbackForm__form__inputContainer > input::placeholder {
+  font-size: 16px;
+  color: #8e8e8e;
+}
+.feedbackForm__form > button {
+  color: #cec1ad;
+  width: 194px;
+  height: 40px;
+  font-size: 22px;
+  font-family: "PIXY";
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/listItemBtn.svg");
+  background-repeat: no-repeat;
 }
 
 .popup-overlay {

@@ -18,9 +18,14 @@
 		width: 100%;
 		margin-right: 100px;
 	}
-	&__link {
+	&__link,
+	&__btn {
 		color: var.$projectBgi;
 		font-size: 15px;
+	}
+	&__btn {
+		border: none;
+		background-color: transparent;
 	}
 	&__linkMail {
 		font-size: 17px;

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta http-equiv="msthemecompatible" content="no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="format-detection"
+			content="telephone=no, email=no, address=no, date=no" />
+		<meta name="description" content="" />
+		@@include("html/components/layout/favicons.html", {})
+		<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+		<title>Диорама пазл 3D</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			@@include("html/components/blocks/wrapper/header.html", {})
+			<main class="main">
+				@@include("html/components/blocks/wrapper/feedbackForm.html",{"action":"#"})
+			</main>
+			@@include("html/components/blocks/wrapper/footer.html", {})
+		</div>
+		@@include("html/components/popup/popup.html",{})
+	</body>
+</html>

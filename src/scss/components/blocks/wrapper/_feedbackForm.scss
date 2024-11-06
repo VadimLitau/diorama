@@ -1,0 +1,51 @@
+@use "../../../tools/vars" as var;
+
+.feedbackForm {
+	background-image: url("../images/feedbackBgi.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 150px 0;
+	width: 487px;
+	height: 352px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&__form {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 273px;
+		height: 169px;
+		color: #8e8e8e;
+		&__inputContainer {
+			border-bottom: 1px solid #8e8e8e;
+			padding-bottom: 4px;
+			& > span {
+				margin-right: 5px;
+				color: var.$projectOrange;
+			}
+
+			& > input {
+				background-color: transparent;
+				color: #8e8e8e;
+
+				&::placeholder {
+					font-size: 16px;
+					color: #8e8e8e;
+				}
+			}
+		}
+		& > button {
+			color: var.$projectBgi;
+			width: 194px;
+			height: 40px;
+			font-size: 22px;
+			font-family: var.$pixy;
+			align-self: center;
+			border: none;
+			background-color: transparent;
+			background-image: url("../images/listItemBtn.svg");
+			background-repeat: no-repeat;
+		}
+	}
+}

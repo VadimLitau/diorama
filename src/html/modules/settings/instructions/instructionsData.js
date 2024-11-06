@@ -1,12 +1,32 @@
 const data8 = [
-	{id: "card1", name: "Battle city", pdfLink: "#", videoLink: "#"},
-	{id: "card2", name: "Darkwing Duck", pdfLink: "#", videoLink: "#"},
-	{id: "card3", name: "Duck Hunt", pdfLink: "#", videoLink: "#"},
-	{id: "card4", name: "Super Mario Bros", pdfLink: "#", videoLink: "#"},
+	{
+		id: "card1",
+		name: "Battle city",
+		pdfLink: "./files/instructions8bit/Battle_city_инструкция-печать.pdf",
+		videoLink: "#",
+	},
+	{
+		id: "card2",
+		name: "Darkwing Duck",
+		pdfLink: "./files/instructions8bit/darkwing_duck_инструкция_print.pdf",
+		videoLink: "#",
+	},
+	{
+		id: "card3",
+		name: "Duck Hunt",
+		pdfLink: "./files/instructions8bit/duck_hunt_инструкция_print.pdf",
+		videoLink: "#",
+	},
+	{
+		id: "card4",
+		name: "Super Mario Bros",
+		pdfLink: "./files/instructions8bit/Mario_инструкция_print.pdf",
+		videoLink: "#",
+	},
 	{
 		id: "card5",
 		name: "Teenage Mutant Ninja Turtles Tournament Fighters ",
-		pdfLink: "#",
+		pdfLink: "./files/instructions8bit/TMNT_инструкция_print.pdf",
 		videoLink: "#",
 	},
 ];
