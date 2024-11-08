@@ -23,7 +23,6 @@
 	margin: 16px 40px 17px 0;
 }
 
-/* Меню */
 .menuBurger {
 	padding-top: 65px;
 	position: fixed;
@@ -45,7 +44,6 @@
 	}
 }
 
-/* Кнопка закрытия */
 .close-button {
 	position: absolute;
 	top: 20px;
@@ -57,7 +55,6 @@
 	cursor: pointer;
 }
 
-/* Пункты меню */
 .menuBurger-items {
 	list-style: none;
 	padding: 0;
@@ -81,7 +78,6 @@
 	font-size: 20px;
 }
 
-/* Кнопки меню */
 .menuBurger-buttons {
 	display: flex;
 	flex-direction: column;
@@ -105,7 +101,6 @@
 	text-align: center;
 }
 
-/* Для маленьких экранов */
 @media (max-width: 1279px) {
 	.burger-button {
 		display: block;

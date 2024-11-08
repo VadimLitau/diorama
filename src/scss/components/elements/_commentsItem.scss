@@ -44,10 +44,10 @@
 		font-size: 18px;
 		display: -webkit-box;
 		-webkit-box-orient: vertical;
-		-webkit-line-clamp: 7; /* Показывает только 3 строки */
+		-webkit-line-clamp: 7;
 		line-clamp: 7;
 		overflow: hidden;
-		height: auto; /* Удалите фиксированную высоту */
+		height: auto;
 		margin-top: 40px;
 		color: var.$projectBgi;
 		@media (max-width: 1279px) {

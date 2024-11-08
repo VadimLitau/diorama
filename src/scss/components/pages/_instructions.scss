@@ -43,7 +43,6 @@
 		}
 		&__iconDropdown {
 			margin-top: 5px;
-			// justify-self: end;
 		}
 	}
 	&__card {
@@ -143,9 +142,7 @@
 	}
 }
 
-#card5.instructions__card__cardItem
-// #card9.instructions__card__cardItem,#card10.instructions__card__cardItem
-{
+#card5.instructions__card__cardItem {
 	@media (max-width: 1279px) {
 		height: 290px;
 		background-size: contain;

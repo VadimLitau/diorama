@@ -12,9 +12,6 @@ body {
 	background-color: vars.$projectBgi;
 	font-family: vars.$firamono;
 	@include mix.flex(null, center, column);
-	@media (max-width: 1279px) {
-		// margin-left: -2px;
-	}
 }
 
 .wrapper {
@@ -22,7 +19,6 @@ body {
 	@include mix.flex(null, center, column);
 	overflow-x: clip;
 	position: relative;
-	// overflow: hidden;
 
 	// Фикс для слайдеров
 	@media (max-width: 1279px) {
