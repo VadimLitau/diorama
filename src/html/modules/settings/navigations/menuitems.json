@@ -7,5 +7,9 @@
 		"url": "instructions.html",
 		"target": "target='_blank'"
 	},
-	{"title": "[СОТРУДНИЧЕСТВО]", "url": "feedback.html", "target": "_blank"}
+	{
+		"title": "[СОТРУДНИЧЕСТВО]",
+		"url": "feedback.html",
+		"target": "target='_blank'"
+	}
 ]

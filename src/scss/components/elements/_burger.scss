@@ -1,0 +1,113 @@
+@use "../../tools/vars" as var;
+
+@media (max-width: 1279px) {
+	.header {
+		width: 100%;
+	}
+}
+.burger_wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	width: 420px;
+	margin: 0 auto;
+}
+.burger-button {
+	display: none;
+	flex-direction: row;
+	justify-self: end;
+	background: none;
+	border: none;
+	cursor: pointer;
+	z-index: 10;
+	margin: 16px 40px 17px 0;
+}
+
+/* Меню */
+.menuBurger {
+	padding-top: 65px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: var.$projectBgi url("../images/burgerMenuBgi.png") no-repeat
+		center center / cover;
+	color: #fff;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	z-index: 5;
+
+	.close-button img {
+		width: 25px;
+		height: 25px;
+	}
+}
+
+/* Кнопка закрытия */
+.close-button {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 24px;
+	background: none;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+/* Пункты меню */
+.menuBurger-items {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	& > .menu__item {
+		margin: 24px 0;
+	}
+	& > li > a {
+		font-size: 15px;
+	}
+}
+
+.menuBurger-items li {
+	margin: 15px 0;
+}
+
+.menuBurger-items a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/* Кнопки меню */
+.menuBurger-buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 15px;
+}
+
+.menuBurger-buttons a {
+	padding-top: 4px;
+	width: 154px;
+	height: 32px;
+	font-size: 20px;
+	font-family: var.$pixy;
+	color: var.$projectBlack;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	background: var.$projectBgi url("../images/menuBurgerBtn.svg") no-repeat
+		center center / cover;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* Для маленьких экранов */
+@media (max-width: 1279px) {
+	.burger-button {
+		display: block;
+	}
+}

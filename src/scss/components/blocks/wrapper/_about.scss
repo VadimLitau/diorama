@@ -7,6 +7,10 @@
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	@media (max-width: 1279px) {
+		// margin-left: 13px;
+		padding-top: 45px;
+	}
 	&__title {
 		background-image: url("../../images/aboutText.svg");
 		background-repeat: no-repeat;
@@ -19,11 +23,23 @@
 		position: absolute;
 		top: 121px;
 		right: 49px;
+
+		@media (max-width: 1279px) {
+			top: 85px;
+			right: 0px;
+			width: 168px;
+			height: 47px;
+			background-size: cover;
+		}
 		& > h3 {
 			display: block;
 			font-size: 55px;
 			color: var.$projectBgi;
 			text-transform: uppercase;
+			@media (max-width: 1279px) {
+				font-size: 25px;
+				padding-right: 7px;
+			}
 		}
 	}
 
@@ -37,8 +53,22 @@
 		height: 953px;
 		display: flex;
 		flex-direction: row;
-
+		@media (max-width: 1279px) {
+			flex-direction: column;
+			margin-top: 72px;
+			padding-top: 260px;
+			padding-left: 6px;
+			background-image: url("../../images/mobileAboutBgi.png");
+			width: 361px;
+			height: 942px;
+		}
 		&__left {
+			@media (max-width: 1279px) {
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+				padding-left: 7px;
+			}
 			&__first,
 			&__second {
 				width: 352px;
@@ -48,23 +78,43 @@
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
+				@media (max-width: 1279px) {
+					width: 169px;
+					height: 258px;
+					border-radius: 21px;
+					padding: 0;
+					padding-left: 17px;
+					// justify-content: start;
+				}
 				&__title {
 					font-size: 25px;
 					line-height: 27px;
 					width: 305px;
 					text-transform: uppercase;
 					padding-bottom: 10px;
+					@media (max-width: 1279px) {
+						font-size: 14px;
+						width: 143px;
+						line-height: 15px;
+					}
 				}
 				&__text {
 					font-size: 20px;
 					line-height: 1.2;
 					margin-bottom: 10px;
+					@media (max-width: 1279px) {
+						font-size: 12px;
+						width: 143px;
+					}
 				}
 			}
 			&__first {
 				background-color: #212020;
 				color: #beb5a8;
 				margin-bottom: 6px;
+				@media (max-width: 1279px) {
+					margin-right: 2px;
+				}
 			}
 			&__second {
 				padding-top: 22px;
@@ -81,12 +131,23 @@
 			border-radius: 40px;
 			padding: 40px 20px 17px 30px;
 			margin-left: 5px;
+			@media (max-width: 1279px) {
+				width: 341px;
+				height: 260px;
+				padding: 0;
+				border-radius: 21px;
+				padding: 10px 0 0 10px;
+			}
 			&__title {
 				width: 222px;
 				text-transform: uppercase;
 				line-height: 1.1;
 				font-size: 40px;
 				margin-bottom: 11px;
+				@media (max-width: 1279px) {
+					font-size: 25px;
+					width: 244px;
+				}
 			}
 			&__text {
 				color: var.$projectBlack;
@@ -95,6 +156,11 @@
 				margin-bottom: 47px;
 				width: 371px;
 				line-height: 1.19;
+				@media (max-width: 1279px) {
+					font-size: 14px;
+					width: 310px;
+					margin-bottom: 15px;
+				}
 			}
 		}
 	}
@@ -105,7 +171,11 @@
 	height: 40px;
 	position: relative;
 	overflow: hidden;
-
+	@media (max-width: 1279px) {
+		width: 141px;
+		height: 26px;
+		padding: 0 5px;
+	}
 	&__hoverImage {
 		position: absolute;
 		top: 0;
@@ -118,6 +188,10 @@
 		background-position: center;
 		transition: opacity 0.5s ease;
 		opacity: 1;
+		@media (max-width: 1279px) {
+			width: 141px;
+			height: 26px;
+		}
 	}
 
 	&:hover &__hoverImage {
@@ -138,6 +212,10 @@
 		transition: opacity 0.5s ease;
 		opacity: 0;
 		z-index: 0;
+		@media (max-width: 1279px) {
+			width: 141px;
+			height: 26px;
+		}
 	}
 
 	&:hover::after {
@@ -161,10 +239,18 @@
 		position: relative;
 		z-index: 1;
 		cursor: pointer;
+		@media (max-width: 1279px) {
+			width: 131px;
+			height: 24px;
+			font-size: 16px;
+		}
 	}
 	&__button:hover {
 		color: var.$projectOrange;
 		transform: scale(1.07);
+		@media (max-width: 1279px) {
+			transform: scale(1);
+		}
 	}
 }
 
@@ -178,10 +264,18 @@
 .third {
 	width: 235px;
 	height: 48px;
+	@media (max-width: 1279px) {
+		width: 136px;
+		height: 26px;
+	}
 	&__button {
 		width: 235px;
 		height: 48px;
 		color: var.$projectBlack;
+		@media (max-width: 1279px) {
+			width: 131px;
+			height: 24px;
+		}
 	}
 
 	&__hoverImage {

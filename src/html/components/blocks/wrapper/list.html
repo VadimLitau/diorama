@@ -3,4 +3,9 @@
 		<h3>@@footer битные диорамы</h3>
 	</div>
 	<div class="list__wrap">@@loop("../../elements/listitem.html", "@@data")</div>
+	<div class="constructor__sliderWrap">
+		@@include("../slider/mobileSlider.html",{"data":"@@data",
+		"footer":"@@footer","mySwiper":"@@mySwiper","swiper-button-sliderNext":"@@swiper-button-sliderNext","swiper-button-sliderPrev":"@@swiper-button-sliderPrev",
+		"nameWrap":'mobileWrap'})
+	</div>
 </section>

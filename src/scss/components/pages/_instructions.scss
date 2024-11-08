@@ -12,25 +12,37 @@
 		font-size: 13px;
 		background-color: transparent;
 		width: 500px;
+		@media (max-width: 1279px) {
+			width: 361px;
+		}
+
 		&__wrap {
 			display: flex;
 			flex-direction: row;
-			align-items: center;
 			justify-content: space-between;
 			width: 608px;
 			border: 1px solid var.$projectBlack;
 			background-color: var.$projectBgi;
 			border-radius: 12px 12px 0 0;
 			padding: 8px 13px 8px 17px;
+			@media (max-width: 1279px) {
+				margin-top: 8px;
+				width: 361px;
+				border-radius: 12px;
+			}
 			& > div {
 				display: flex;
 				flex-direction: row;
+				@media (max-width: 1279px) {
+					width: 300px;
+				}
 			}
 		}
 		&__icon {
 			margin-right: 10px;
 		}
 		&__iconDropdown {
+			margin-top: 5px;
 			// justify-self: end;
 		}
 	}
@@ -39,12 +51,20 @@
 		flex-direction: column;
 		width: 100%;
 		margin-top: 30px;
+		@media (max-width: 1279px) {
+			margin-top: 31px;
+		}
+
 		&__category {
 			background-color: var.$projectOrange;
 			font-family: "Pixy";
 			font-size: 40px;
 			text-transform: uppercase;
 			padding: 3px 0 4px 32px;
+			@media (max-width: 1279px) {
+				font-size: 25px;
+				padding: 10px 0 10px 16px;
+			}
 		}
 		&__cards-container {
 			display: flex;
@@ -54,6 +74,10 @@
 			row-gap: 63px;
 			column-gap: 80px;
 			margin: 30px 0 110px 0;
+			@media (max-width: 1279px) {
+				margin: 45px 0 59px 0;
+				row-gap: 45px;
+			}
 		}
 		&__cardItem {
 			padding: 15px;
@@ -68,6 +92,9 @@
 			& > p {
 				font-size: 30px;
 				padding: 35px 0 30px 0;
+				@media (max-width: 1279px) {
+					font-size: 27px;
+				}
 			}
 		}
 		&__instructionBtn,
@@ -110,17 +137,50 @@
 	text-align: center;
 	width: 525px;
 	background-image: url("../images/cardBigborder.svg");
+	@media (max-width: 1279px) {
+		width: 343px;
+		background-image: url("../images/cardSmallBorder.svg");
+	}
 }
 
+#card5.instructions__card__cardItem
+// #card9.instructions__card__cardItem,#card10.instructions__card__cardItem
+{
+	@media (max-width: 1279px) {
+		height: 290px;
+		background-size: contain;
+		background-image: url("../images/mobileInstructionsBigBorder.svg");
+	}
+}
+#card9.instructions__card__cardItem > p {
+	@media (max-width: 1279px) {
+		max-width: 288px;
+	}
+}
 #card4.instructions__card__cardItem,
 #card9.instructions__card__cardItem {
 	margin-right: 60px;
+	@media (max-width: 1279px) {
+		margin-right: 0;
+	}
 }
 #card5.instructions__card__cardItem > p {
 	padding: 17px 0;
+	@media (max-width: 1279px) {
+		padding: 17px 0 34px 0;
+	}
 }
 #cardsContainer16 {
 	margin: 65px 0 50px 0;
+}
+#card9.instructions__card__cardItem > p,
+#card10.instructions__card__cardItem > p {
+	@media (max-width: 1279px) {
+		padding: 15px 0 20px 0;
+	}
+}
+#cardsContainer8 {
+	margin: 45px 0 67px 0;
 }
 .dropdown {
 	border: 1px solid var.$projectBlack;
@@ -134,6 +194,10 @@
 	max-height: 256px;
 	overflow-y: auto;
 	z-index: 10;
+	@media (max-width: 1279px) {
+		width: 361px;
+		top: 36px;
+	}
 }
 
 .dropdown-item {
@@ -148,6 +212,7 @@
 .none {
 	height: 249px;
 	display: flex;
+	text-align: center;
 	align-items: center;
 	justify-content: center;
 	width: 525px;
@@ -155,4 +220,9 @@
 	font-family: var.$pixy;
 	text-transform: uppercase;
 	font-size: 40px;
+	@media (max-width: 1279px) {
+		width: 343px;
+		background-image: url("../images/cardSmallBorder.svg");
+		font-size: 27px;
+	}
 }

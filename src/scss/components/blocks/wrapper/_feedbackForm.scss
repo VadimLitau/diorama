@@ -10,6 +10,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	@media (max-width: 1279px) {
+		background-image: url("../images/mobileFeedbackBgi.png");
+		width: 346px;
+		height: 290px;
+	}
 	&__form {
 		display: flex;
 		flex-direction: column;
@@ -17,6 +22,10 @@
 		width: 273px;
 		height: 169px;
 		color: #8e8e8e;
+		@media (max-width: 1279px) {
+			width: 230px;
+			height: 150px;
+		}
 		&__inputContainer {
 			border-bottom: 1px solid #8e8e8e;
 			padding-bottom: 4px;
@@ -28,10 +37,16 @@
 			& > input {
 				background-color: transparent;
 				color: #8e8e8e;
+				@media (max-width: 1279px) {
+					font-size: 11px;
+				}
 
 				&::placeholder {
 					font-size: 16px;
 					color: #8e8e8e;
+					@media (max-width: 1279px) {
+						font-size: 11px;
+					}
 				}
 			}
 		}
@@ -46,6 +61,13 @@
 			background-color: transparent;
 			background-image: url("../images/listItemBtn.svg");
 			background-repeat: no-repeat;
+			@media (max-width: 1279px) {
+				width: 156px;
+				height: 31px;
+				font-size: 20px;
+				background-size: 156px 31px;
+				margin-bottom: 5px;
+			}
 		}
 	}
 }

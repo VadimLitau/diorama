@@ -1,8 +1,122 @@
+<style>
+	.slider__wrapConstructor {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		margin-top: -15px;
+		position: relative;
+		padding-right: 111px;
+	}
+
+	.swiper {
+		width: 343px;
+		height: 439px;
+	}
+
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		/* background: #fff; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+	}
+
+	.swiper-slide img {
+		display: block;
+		width: 343px;
+		height: 439px;
+		object-fit: contain;
+		border-radius: 10px;
+	}
+
+	.mySwiperConstructor {
+		margin: 0 12px;
+	}
+	.swiper-paginationConstructor {
+		transform: translate3d(-55px, 38px, 0);
+		z-index: 2;
+	}
+	.swiper-pagination-bullet {
+		background: #2e2f38;
+		width: 14px;
+		height: 14px;
+	}
+	@media (max-width: 1279px) {
+		.constructorWrap .swiper-slide img {
+			width: 214px;
+			height: 306px;
+			object-fit: cover;
+		}
+		.constructorWrap .slider__wrap {
+			padding-right: 0;
+		}
+		.constructorWrap .swiper {
+			width: 260px;
+			height: 306px;
+		}
+		.constructorWrap .swiper-paginationConstructor {
+			transform: translate3d(0px, -22px, 0);
+		}
+		.constructorWrap .swiper-pagination-bullet {
+			background: #2e2f38;
+			width: 10px;
+			height: 10px;
+		}
+		.slider__wrapConstructor {
+			margin-top: 0px;
+			padding-right: 0px;
+		}
+		.mySwiperConstructor {
+			margin: 30px 0 55px 0;
+		}
+		.swiper-button-sliderPrevConstructor img,
+		.swiper-button-sliderNextConstructor img {
+			position: relative;
+			width: 77%;
+			height: 77%;
+			top: -13px;
+		}
+		.swiper-button-sliderPrevConstructor img {
+			left: 17px;
+		}
+		.swiper-button-sliderNextConstructor img {
+			right: 5px;
+		}
+	}
+</style>
 <section class="constructor">
 	<div class="constructor__image">
 		<img src="../images/dioramaDetails.png" alt="dioramaDetails" />
 	</div>
-	<div class="constructor__sliderWrap">
-		@@include("../slider/slider.html",{})
+	<!-- <div class="constructor__sliderWrap"> -->
+	<!-- @@include("../slider/slider.html",{}) -->
+	<div class="slider__wrapConstructor constructorWrap">
+		<div class="swiper-button-sliderPrevConstructor">
+			<img src="../images/sliderPrev.png" alt="sliderPrev" />
+		</div>
+		<div class="swiper mySwiperConstructor">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="./images/mario1.webp" alt="Mario" />
+				</div>
+				<div class="swiper-slide">
+					<img src="../images/tnmt1.webp" alt="TNMT" />
+				</div>
+				<div class="swiper-slide">
+					<img src="../images/sonic1.webp" alt="Sonic" />
+				</div>
+				<div class="swiper-slide">
+					<img src="../images/darkwing1.webp" alt="Darkwing" />
+				</div>
+			</div>
+		</div>
+		<div class="swiper-button-sliderNextConstructor">
+			<img src="../images/sliderNext.png" alt="sliderNext" />
+		</div>
+		<div class="swiper-pagination swiper-paginationConstructor"></div>
 	</div>
+	<!-- </div> -->
 </section>

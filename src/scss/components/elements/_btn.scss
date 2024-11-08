@@ -5,6 +5,10 @@
 	height: 52px;
 	position: relative;
 	overflow: hidden;
+	@media (max-width: 1279px) {
+		width: 152px;
+		height: 32px;
+	}
 	&__hoverImage {
 		position: absolute;
 		top: 0;
@@ -16,6 +20,10 @@
 		background-position: center;
 		transition: opacity 0.5s ease;
 		opacity: 1;
+		@media (max-width: 1279px) {
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
 	}
 
 	&:hover &__hoverImage {
@@ -35,6 +43,11 @@
 		transition: opacity 0.5s ease;
 		opacity: 0;
 		z-index: 0;
+		@media (max-width: 1279px) {
+			width: 152px;
+			height: 32px;
+			background-size: contain;
+		}
 	}
 
 	&:hover::after {
@@ -58,9 +71,21 @@
 		position: relative;
 		z-index: 1;
 		cursor: pointer;
+		@media (max-width: 1279px) {
+			width: 152px;
+			height: 32px;
+			font-size: 20px;
+			transition: none;
+		}
 	}
 	&__button:hover {
 		color: var.$projectOrange;
 		transform: scale(1.1);
+		@media (max-width: 1279px) {
+			width: 152px;
+			height: 32px;
+			font-size: 20px;
+			transform: scale(1);
+		}
 	}
 }

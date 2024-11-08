@@ -10,4 +10,15 @@
 	padding: 32px;
 	border-bottom: 1px solid var.$black;
 	margin-bottom: 30px;
+
+	@media (max-width: 1279px) {
+		width: 420px;
+		justify-content: center;
+		// margin-left: 13px;
+		flex-wrap: wrap;
+		row-gap: 17px;
+		column-gap: 19px;
+		padding: 47px 0 54px 0px;
+		border-bottom: none;
+	}
 }

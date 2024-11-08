@@ -9,6 +9,12 @@
 	border-bottom: 1px solid var.$projectBlack;
 	width: 100%;
 	margin-top: 135px;
+	@media (max-width: 1279px) {
+		width: 420px;
+		flex-direction: column;
+		// margin-left: 17px;
+		margin-top: 77px;
+	}
 	&__image {
 		display: flex;
 		align-items: center;
@@ -17,11 +23,25 @@
 		padding: 45px 135px;
 		& > img {
 			margin-right: 15px;
+			@media (max-width: 1279px) {
+				width: 210px;
+				height: 290px;
+			}
+		}
+		@media (max-width: 1279px) {
+			border-right: none;
+			border-bottom: 1px solid var.$projectBlack;
+			width: 100%;
+			padding: 18px 0 22px 13px;
 		}
 	}
 	&__sliderWrap {
 		position: relative;
 		padding-right: 111px;
+		// background-color: transparent;
 		// padding: 20px 0;
+		@media (max-width: 1279px) {
+			padding-right: 0;
+		}
 	}
 }

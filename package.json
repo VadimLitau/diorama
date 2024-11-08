@@ -68,6 +68,7 @@
    },
    "dependencies": {
       "avif-webp-checker": "^1.0.0",
+      "dev-ip": "^1.0.1",
       "site-color-schemes": "^1.0.2"
    }
 }

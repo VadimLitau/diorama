@@ -7,7 +7,7 @@ export const isMobile = () =>
 export const isTablet = () =>
 	window.matchMedia
 		? window.matchMedia("(min-width: 769px) and (max-width: 1024px)").matches
-		: !!(window.innerWidth >= 769 && window.innerWidth <= 1024);
+		: !!(window.innerWidth >= 769 && window.innerWidth <= 1279);
 
 export const isDesktop = () =>
 	window.matchMedia

@@ -7,6 +7,14 @@
 	border-radius: 19px;
 	padding: 16px 22px 19px 22px;
 	background-color: var.$projectBlack;
+	@media (max-width: 1279px) {
+		width: 174px;
+		height: 125px;
+		max-height: 125px;
+		flex-wrap: wrap;
+		padding: 12px 8px 4px 10px;
+		border-radius: 13px;
+	}
 	&__header {
 		display: flex;
 		flex-direction: row;
@@ -15,6 +23,21 @@
 		&__name {
 			font-size: 15px;
 			color: var.$projectBgi;
+			@media (max-width: 1279px) {
+				font-size: 10px;
+			}
+		}
+		&__star {
+			@media (max-width: 1279px) {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				width: 56px;
+				& svg {
+					width: 7px;
+					height: 7px;
+				}
+			}
 		}
 	}
 	&__comment {
@@ -27,5 +50,9 @@
 		height: auto; /* Удалите фиксированную высоту */
 		margin-top: 40px;
 		color: var.$projectBgi;
+		@media (max-width: 1279px) {
+			font-size: 12px;
+			margin-top: 24px;
+		}
 	}
 }

@@ -1,1 +1,22 @@
-<!-- <div><span>asdcasd</span></div> -->
+<!-- Кнопка открытия меню -->
+<section class="burger_wrap">
+	<button id="burger-button" class="burger-button">
+		<img src="./images/burgerBtn.svg" alt="burger open" />
+	</button>
+
+	<!-- Меню -->
+	<div id="menuBurger" class="menuBurger">
+		<button id="close-button" class="close-button">
+			<img src="./images/closeButton.png" alt="burger closed" />
+		</button>
+		<ul class="menuBurger-items">
+			@@loop("../../modules/elements/menuitem.html",
+			"@@webRoot/html/modules/settings/navigations/menuitems.json")
+		</ul>
+		<div class="menuBurger-buttons">
+			<a href="/#catalog8" id="menuBurgerCatalog">КАТАЛОГ</a>
+			<a href="./instructions.html" target="_black">инструкция</a>
+		</div>
+	</div>
+</section>
+<script src="./js/burgerMenu.min.js"></script>

@@ -12,10 +12,14 @@ const data = [...data8, ...data16];
 function displayCards(cards, container) {
 	container.innerHTML = ""; // Очистить контейнер
 	if (cards.length === 0) {
-		const noResults = document.createElement("div");
-		noResults.classList.add("none");
-		noResults.textContent = "Нет результатов";
-		container.appendChild(noResults);
+		const noResultsDiv = document.createElement("div");
+		noResultsDiv.classList.add("none");
+
+		const noResultsText = document.createElement("p");
+		noResultsText.textContent = "Нет результатов";
+
+		noResultsDiv.appendChild(noResultsText);
+		container.appendChild(noResultsDiv);
 	} else {
 		cards.forEach((card) => {
 			// const cardElement = document.createElement("div");

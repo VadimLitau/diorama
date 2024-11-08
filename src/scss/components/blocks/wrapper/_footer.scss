@@ -9,6 +9,13 @@
 	justify-content: center;
 	padding: 30px 0 45px 0;
 	margin-bottom: 109px;
+	@media (max-width: 1279px) {
+		width: 420px;
+		padding: 16px 0 10px 30px;
+		align-items: start;
+		position: relative;
+	}
+
 	&__links {
 		margin-top: 54px;
 		display: flex;
@@ -17,21 +24,40 @@
 		justify-content: flex-end;
 		width: 100%;
 		margin-right: 100px;
+		@media (max-width: 1279px) {
+			margin-top: 0;
+			margin-right: 0;
+			justify-content: center;
+		}
 	}
 	&__link,
 	&__btn {
 		color: var.$projectBgi;
-		font-size: 15px;
 	}
 	&__btn {
+		font-size: 15px;
 		border: none;
 		background-color: transparent;
+		@media (max-width: 1279px) {
+			padding-top: 15px;
+			margin-right: 20px;
+			font-size: 10px;
+			text-align: center;
+		}
 	}
 	&__linkMail {
 		font-size: 17px;
 		margin-left: 250px;
 		font-family: "Inter";
 		margin-top: -5px;
+		@media (max-width: 1279px) {
+			margin-top: 0;
+			margin-left: 0;
+			font-size: 11px;
+			position: absolute;
+			bottom: 38px;
+			right: 41px;
+		}
 	}
 	&__linkMail::before {
 		content: url("../images/mailIcon.svg"); /* Путь к изображению */
@@ -40,12 +66,24 @@
 		left: -4px;
 		display: inline-block;
 		margin-right: 14px; /* Расстояние между картинкой и текстом */
+		@media (max-width: 1279px) {
+			content: url("../images/mobileMailIcon.svg");
+			margin-right: 5px;
+		}
 	}
 }
 
 .footer > .menu__body > .menu__item > a {
 	color: var.$projectBgi;
+	@media (max-width: 1279px) {
+		font-size: 11px;
+	}
 }
 .footer > .menu__body > .menu__item > a:hover {
 	color: var.$projectOrange;
+}
+.footer > .menu__body {
+	@media (max-width: 1279px) {
+		gap: 5px;
+	}
 }

@@ -12,13 +12,13 @@
 }
 
 @mixin tablet {
-	@media (max-width: (1024.5px)) {
+	@media (max-width: (1279px)) {
 		@content;
 	}
 }
 
 @mixin smalltablet {
-	@media (max-width: (768.5px)) {
+	@media (max-width: (1279px)) {
 		@content;
 	}
 }

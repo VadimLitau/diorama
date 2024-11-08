@@ -45,12 +45,63 @@
 		width: 13px;
 		height: 13px;
 	}
+	@media (max-width: 1279px) {
+		.swiper-slidePopup img {
+			width: 214px;
+			height: 279px;
+			object-fit: contain;
+			border-radius: 10px;
+		}
+		.slider__wrapPopup {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 0 12px;
+			width: 393px;
+			height: 299px;
+		}
+		.slider__wrapPopup .swiper {
+			margin-top: -15px;
+			height: 279px;
+		}
+		.swiper-button-sliderPrevPopup {
+			margin-top: -5px;
+			margin-right: -60px;
+			z-index: 11;
+		}
+
+		.swiper-button-sliderNextPopup {
+			margin-top: -5px;
+			margin-left: -60px;
+			z-index: 11;
+		}
+		.swiper-button-sliderPrevPopup > img,
+		.swiper-button-sliderNextPopup > img {
+			width: 60%;
+			height: 80%;
+		}
+		.mySwiper-paginationPopup > .swiper-pagination-bullet {
+			width: 10px;
+			height: 10px;
+			margin: 0 1px;
+		}
+		.swiper-paginationPopup > .mySwiper-paginationPopup > {
+			transform: translate3d(0, 25px, 0);
+		}
+	}
 </style>
 
 <section class="popup-overlay" id="popup-overlay">
 	<div class="popup">
 		<button type="button" class="popup__button" id="close-popup-btn">
-			<img src="../images/closeButton.png" alt="Close" />
+			<img
+				src="../images/closeButton.png"
+				alt="Close"
+				class="closeButtonDesc" />
+			<img
+				src="../images/mobileCloseBtn.png"
+				alt="Close"
+				class="closeButtonMobile" />
 		</button>
 		<div class="popup__content">
 			<div class="popup__slider">
@@ -93,7 +144,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-button-sliderNextPopup">
+						<div class="swiper-button-sliderNextPopup sliderNextPopup">
 							<img src="../images/sliderNext.png" alt="sliderNext" />
 						</div>
 					</div>

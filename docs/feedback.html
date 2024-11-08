@@ -22,7 +22,32 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<header class="header"><!-- <div><span>asdcasd</span></div> -->
+			<header class="header"><!-- Кнопка открытия меню -->
+<section class="burger_wrap">
+	<button id="burger-button" class="burger-button">
+		<img src="./images/burgerBtn.svg" alt="burger open" />
+	</button>
+
+	<!-- Меню -->
+	<div id="menuBurger" class="menuBurger">
+		<button id="close-button" class="close-button">
+			<img src="./images/closeButton.png" alt="burger closed" />
+		</button>
+		<ul class="menuBurger-items">
+			<li class="menu__item" data-menu-item><a href="/#video" >[ВИДЕО]</a></li>
+<li class="menu__item" data-menu-item><a href="/#catalog8" >[КАТАЛОГ]</a></li>
+<li class="menu__item" data-menu-item><a href="/#about" >[СМИ О НАС]</a></li>
+<li class="menu__item" data-menu-item><a href="instructions.html" target='_blank'>[ИНСТРУКЦИЯ ПО СБОРКЕ]</a></li>
+<li class="menu__item" data-menu-item><a href="feedback.html" target='_blank'>[СОТРУДНИЧЕСТВО]</a></li>
+
+		</ul>
+		<div class="menuBurger-buttons">
+			<a href="/#catalog8" id="menuBurgerCatalog">КАТАЛОГ</a>
+			<a href="./instructions.html" target="_black">инструкция</a>
+		</div>
+	</div>
+</section>
+<script src="./js/burgerMenu.min.js"></script>
 
 <nav class="menu" data-menu>
    <ul class="menu__body" data-menu-list>
@@ -30,7 +55,7 @@
 <li class="menu__item" data-menu-item><a href="/#catalog8" >[КАТАЛОГ]</a></li>
 <li class="menu__item" data-menu-item><a href="/#about" >[СМИ О НАС]</a></li>
 <li class="menu__item" data-menu-item><a href="instructions.html" target='_blank'>[ИНСТРУКЦИЯ ПО СБОРКЕ]</a></li>
-<li class="menu__item" data-menu-item><a href="feedback.html" _blank>[СОТРУДНИЧЕСТВО]</a></li>
+<li class="menu__item" data-menu-item><a href="feedback.html" target='_blank'>[СОТРУДНИЧЕСТВО]</a></li>
 
    </ul>
 </nav>
@@ -68,14 +93,14 @@
 <li class="menu__item" data-menu-item><a href="/#catalog8" >[КАТАЛОГ]</a></li>
 <li class="menu__item" data-menu-item><a href="/#about" >[СМИ О НАС]</a></li>
 <li class="menu__item" data-menu-item><a href="instructions.html" target='_blank'>[ИНСТРУКЦИЯ ПО СБОРКЕ]</a></li>
-<li class="menu__item" data-menu-item><a href="feedback.html" _blank>[СОТРУДНИЧЕСТВО]</a></li>
+<li class="menu__item" data-menu-item><a href="feedback.html" target='_blank'>[СОТРУДНИЧЕСТВО]</a></li>
 
 	</ul>
 	<div class="footer__links">
 		<button href="" class="footer__btn" id="politics">
 			ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ
 		</button>
-		<a href="#" class="footer__link footer__linkMail">info@retro-frames.ru</a>
+		<a href="" class="footer__link footer__linkMail">info@retro-frames.ru</a>
 	</div>
 </footer>
 <div class="cooperation__overlay" id="cooperationPopup">
@@ -614,12 +639,57 @@
 		width: 13px;
 		height: 13px;
 	}
+	@media (max-width: 1279px) {
+		.swiper-slidePopup img {
+			width: 214px;
+			height: 279px;
+			object-fit: contain;
+			border-radius: 10px;
+		}
+		.slider__wrapPopup {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 0 12px;
+			width: 393px;
+			height: 299px;
+		}
+		.slider__wrapPopup .swiper {
+			margin-top: -15px;
+			height: 279px;
+		}
+		.swiper-button-sliderPrevPopup {
+			margin-top: -5px;
+			margin-right: -60px;
+			z-index: 11;
+		}
+
+		.swiper-button-sliderNextPopup {
+			margin-top: -5px;
+			margin-left: -60px;
+			z-index: 11;
+		}
+		.swiper-button-sliderPrevPopup > img,
+		.swiper-button-sliderNextPopup > img {
+			width: 60%;
+			height: 80%;
+		}
+		.mySwiper-paginationPopup > .swiper-pagination-bullet {
+			width: 10px;
+			height: 10px;
+			margin: 0 1px;
+		}
+		.swiper-paginationPopup > .mySwiper-paginationPopup > {
+			transform: translate3d(0, 25px, 0);
+		}
+	}
 </style>
 
 <section class="popup-overlay" id="popup-overlay">
 	<div class="popup">
 		<button type="button" class="popup__button" id="close-popup-btn">
-			<img src="./images/closeButton.png" alt="Close" />
+			<img	src="./images/closeButton.png"	alt="Close"	class="closeButtonDesc" />
+			<img	src="./images/mobileCloseBtn.png"	alt="Close"	class="closeButtonMobile" />
 		</button>
 		<div class="popup__content">
 			<div class="popup__slider">
@@ -647,7 +717,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-button-sliderNextPopup">
+						<div class="swiper-button-sliderNextPopup sliderNextPopup">
 							<img src="./images/sliderNext.png" alt="sliderNext" />
 						</div>
 					</div>

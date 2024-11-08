@@ -1,0 +1,92 @@
+<style>
+	.slider__wrapMobile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-top: -15px;
+	}
+	.swiper {
+		width: 343px;
+		height: 439px;
+	}
+
+	.mobileWrap .swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+	}
+
+	.mobileWrap .swiper-slide img {
+		display: block;
+		width: 343px;
+		height: 439px;
+		object-fit: contain;
+		border-radius: 10px;
+	}
+
+	.mySwiper8bit,
+	.mySwiper16bit {
+		margin: 0px 12px;
+	}
+	.swiper-pagination8bit,
+	.swiper-pagination16bit {
+		transform: translate3d(-55px, 38px, 0);
+		z-index: 2;
+	}
+	.swiper-pagination-bullet {
+		background: #2e2f38;
+		width: 14px;
+		height: 14px;
+	}
+	.slider__controls {
+		display: flex;
+		flex-direction: row;
+	}
+	@media (max-width: 1280px) {
+		.slider__wrapMobile {
+			height: 650px;
+		}
+		.slider__controls__mobile {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			width: 100%;
+			gap: 10px;
+			margin-right: 50px;
+		}
+		.mobileWrap .swiper-slide img {
+			width: 247px;
+			height: 256px;
+		}
+
+		.mobileWrap .swiper {
+			width: 343px;
+			height: 520px;
+		}
+	}
+	@media (min-width: 1280px) {
+		.slider__wrapMobile {
+			display: none;
+		}
+	}
+</style>
+<div class="slider__wrapMobile @@nameWrap">
+	<div class="swiper @@mySwiper">
+		<div class="swiper-wrapper">
+			@@loop("../../elements/listItemSlider.html", "@@data")
+		</div>
+	</div>
+
+	<div class="slider__controls__mobile">
+		<div class="@@swiper-button-sliderPrev">
+			<img src="../images/sliderMobilePrevBtn.png" alt="sliderPrev" />
+		</div>
+		<div class="@@swiper-button-sliderNext">
+			<img src="../images/sliderMobileNextBtn.png" alt="sliderNext" />
+		</div>
+	</div>
+</div>

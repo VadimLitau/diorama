@@ -1,31 +1,54 @@
 @use "../../../tools/vars" as var;
 
+#catalog8 {
+	@media (max-width: 1279px) {
+		margin-top: 11px;
+		padding-top: 16px;
+	}
+}
+
 .list {
 	width: 100%;
+	background-color: var.$black;
+	@media (max-width: 1279px) {
+		// margin-left: 15px;
+		width: 420px;
+	}
 	&__footer {
 		background-color: var.$projectOrange;
 		font-family: var.$pixy;
 		font-size: 50px;
 		line-height: 88%;
-		padding: 13px 0 15px 0;
+		padding: 13px 0 28px 0;
+		@media (max-width: 1279px) {
+			font-size: 22px;
+			padding: 13px 0;
+		}
+
 		&__right {
 			text-align: right;
-			padding-right: 54px;
+			padding-right: 58px;
 		}
 		&__left {
 			text-align: left;
 			padding-left: 62px;
+			@media (max-width: 1279px) {
+				margin-top: 2px;
+				padding-left: 30px;
+			}
 		}
 	}
 	&__wrap {
 		padding: 70px 0 53px 0;
-		background-color: var.$black;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
 		flex-wrap: wrap;
-		column-gap: 155px; /* Отступ по вертикали */
-		row-gap: 48px; /* Отступ по горизонтали */
+		column-gap: 155px;
+		row-gap: 48px;
+		@media (max-width: 1279px) {
+			display: none;
+		}
 	}
 }
