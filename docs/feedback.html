@@ -100,7 +100,21 @@
 </header>
 
 			<main class="main">
-				<div class="feedbackForm">
+				<style>
+	#successPopup {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 20px;
+		background-color: #28a745;
+		color: white;
+		border-radius: 5px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	}
+</style>
+<div class="feedbackForm">
 	<form action="./mail.php" method="POST" class="feedbackForm__form">
 		<div class="feedbackForm__form__inputContainer">
 			<span style="opacity: 0">*</span
@@ -127,6 +141,41 @@
 		<button type="submit">Отправить</button>
 	</form>
 </div>
+
+<div id="successPopup">Письмо успешно отправлено</div>
+
+<script>
+	document
+		.getElementById("contactForm")
+		.addEventListener("submit", function (event) {
+			event.preventDefault(); // Останавливаем стандартное поведение формы
+
+			const formData = new FormData(this);
+			fetch("mail.php", {
+				method: "POST",
+				body: formData,
+			})
+				.then((response) => response.json())
+				.then((data) => {
+					if (data.status === "success") {
+						// Показать попап
+						const popup = document.getElementById("successPopup");
+						popup.style.display = "block";
+
+						// Через 3 секунды перенаправить на главную страницу
+						setTimeout(() => {
+							window.location.href = "/"; // Путь к вашей главной странице
+						}, 3000);
+					} else {
+						alert(data.message);
+					}
+				})
+				.catch((error) => {
+					console.error("Ошибка:", error);
+					alert("Произошла ошибка при отправке письма");
+				});
+		});
+</script>
 
 			</main>
 			<footer class="footer">
