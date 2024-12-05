@@ -1,21 +1,25 @@
 <div class="feedbackForm">
-	<form action="@@action" method="post" class="feedbackForm__form">
+	<form action="@@action" method="POST" class="feedbackForm__form">
 		<div class="feedbackForm__form__inputContainer">
 			<span style="opacity: 0">*</span
-			><input type="text" id="name" name="name" placeholder="Имя" />
+			><input type="text" id="name" name="user_name" placeholder="Имя" />
 		</div>
 		<div class="feedbackForm__form__inputContainer">
 			<span>*</span
 			><input
 				type="email"
 				id="email"
-				name="email"
+				name="user_email"
 				placeholder="Email"
 				required />
 		</div>
 		<div class="feedbackForm__form__inputContainer">
 			<span>*</span
-			><input id="message" name="message" placeholder="Сообщение..." required />
+			><input
+				id="message"
+				name="user_message"
+				placeholder="Сообщение..."
+				required />
 		</div>
 
 		<button type="submit">Отправить</button>

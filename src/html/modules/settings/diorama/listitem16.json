@@ -1,35 +1,35 @@
 [
 	{
 		"title": "Aladdin",
-		"src": "../../images/T_001.webp",
+		"src": "../../images/A_001.webp",
 		"link": "#",
 		"href": "#",
 		"id": "aladdin"
 	},
 	{
 		"title": "Comix Zone",
-		"src": "../../images/DD_001.webp",
+		"src": "../../images/CZ_001.webp",
 		"link": "#",
 		"href": "#",
 		"id": "comix"
 	},
 	{
 		"title": "Earthworm Jim II",
-		"src": "../../images/DH_001.webp",
+		"src": "../../images/EJ_001.webp",
 		"link": "#",
 		"href": "#",
 		"id": "earthworm"
 	},
 	{
 		"title": "Sonic the Hedgehog 2",
-		"src": "../../images/M_001.webp",
+		"src": "../../images/S_001.webp",
 		"link": "#",
 		"href": "#",
 		"id": "sonic"
 	},
 	{
 		"title": "Ultimate Mortal Kombat 3",
-		"src": "../../images/T_001.webp",
+		"src": "../../images/MK_001.webp",
 		"link": "#",
 		"href": "#",
 		"id": "mortal"

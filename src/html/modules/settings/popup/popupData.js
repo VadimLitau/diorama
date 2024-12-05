@@ -2,7 +2,7 @@ const popupData = [
 	{
 		id: "mario",
 		name: "Super Mario Bros",
-		logo: "./images/marioLogo.png",
+		logo: "./images/marioLogo.webp",
 		photos: [
 			"./images/M_001.webp",
 			"./images/M_002.webp",
@@ -33,7 +33,7 @@ const popupData = [
 	{
 		id: "battle",
 		name: "Battle city",
-		logo: "./images/battleCityLogo.png",
+		logo: "./images/battleCityLogo.webp",
 		photos: [
 			"./images/T_001.webp",
 			"./images/T_002.webp",
@@ -63,7 +63,7 @@ const popupData = [
 	{
 		id: "darkwing",
 		name: "Darkwing Duck",
-		logo: "./images/darkwingLogo.png",
+		logo: "./images/darkwingLogo.webp",
 		photos: [
 			"./images/DD_001.webp",
 			"./images/DD_002.webp",
@@ -94,7 +94,7 @@ const popupData = [
 	{
 		id: "duck",
 		name: "Duck Hunt",
-		logo: "./images/duckHuntLogo.png",
+		logo: "./images/duckHuntLogo.webp",
 		photos: [
 			"./images/DH_001.webp",
 			"./images/DH_002.webp",
@@ -125,7 +125,7 @@ const popupData = [
 	{
 		id: "teenage",
 		name: "Teenage Mutant Ninja <br/> Turtles Tournament Fighters",
-		logo: "./images/TMNTLogo.png",
+		logo: "./images/TMNTLogo.webp",
 		photos: [
 			"./images/TNMT_001.webp",
 			"./images/TNMT_002.webp",
@@ -156,13 +156,13 @@ const popupData = [
 	{
 		id: "aladdin",
 		name: "Aladdin",
-		logo: "./images/marioLogo.png",
+		logo: "./images/aladinLogo.webp",
 		photos: [
 			"./images/A_001.webp",
 			"./images/A_002.webp",
 			"./images/A_003.webp",
-			"./images/A_002.webp",
-			"./images/A_003.webp",
+			"./images/A_004.webp",
+			"./images/A_005.webp",
 			"./images/A_BANG001.webp",
 			"./images/A_BANG002.webp",
 		],
@@ -187,15 +187,15 @@ const popupData = [
 	{
 		id: "comix",
 		name: "Comix Zone",
-		logo: "./images/marioLogo.png",
+		logo: "./images/comixZoneLogo.webp",
 		photos: [
-			"./images/M_001.webp",
-			"./images/M_002.webp",
-			"./images/M_003.webp",
+			"./images/CZ_001.webp",
+			"./images/CZ_002.webp",
+			"./images/CZ_003.webp",
 			"./images/CZ_004.webp",
 			"./images/CZ_005.webp",
-			"./images/COLECTION_INTERIER.webp",
-			"./images/M_INTERIER.webp",
+			"./images/CZ_BANG001.webp",
+			"./images/CZ_BANG002.webp",
 		],
 		oldPrice: "3500 руб.",
 		newPrice: "1650 руб.",
@@ -218,15 +218,15 @@ const popupData = [
 	{
 		id: "earthworm",
 		name: "Earthworm Jim II",
-		logo: "./images/marioLogo.png",
+		logo: "./images/eartwormJim2.webp",
 		photos: [
-			"./images/M_001.webp",
-			"./images/M_002.webp",
-			"./images/M_003.webp",
+			"./images/EJ_001.webp",
+			"./images/EJ_002.webp",
+			"./images/EJ_003.webp",
 			"./images/EJ_004.webp",
 			"./images/EJ_005.webp",
-			"./images/COLECTION_INTERIER.webp",
-			"./images/M_INTERIER.webp",
+			"./images/EJ_BANG001.webp",
+			"./images/EJ_BANG001.webp",
 		],
 		oldPrice: "3500 руб.",
 		newPrice: "1650 руб.",
@@ -249,15 +249,15 @@ const popupData = [
 	{
 		id: "sonic",
 		name: "Sonic the Hedgehog 2",
-		logo: "./images/sonicLogo.png",
+		logo: "./images/sonicLogo.webp",
 		photos: [
-			"./images/M_001.webp",
-			"./images/M_002.webp",
-			"./images/M_003.webp",
+			"./images/S_001.webp",
+			"./images/S_002.webp",
+			"./images/S_003.webp",
 			"./images/S_004.webp",
 			"./images/S_005.webp",
-			"./images/COLECTION_INTERIER.webp",
-			"./images/M_INTERIER.webp",
+			"./images/S_BANG001.webp",
+			"./images/S_BANG002.webp",
 		],
 		oldPrice: "3500 руб.",
 		newPrice: "1650 руб.",
@@ -280,15 +280,15 @@ const popupData = [
 	{
 		id: "mortal",
 		name: "Ultimate Mortal Kombat 3",
-		logo: "./images/mortalLogo.png",
+		logo: "./images/mortalLogo.webp",
 		photos: [
-			"./images/M_001.webp",
-			"./images/M_002.webp",
-			"./images/M_003.webp",
+			"./images/MK_001.webp",
+			"./images/MK_002.webp",
+			"./images/MK_003.webp",
 			"./images/MK_004.webp",
 			"./images/MK_005.webp",
-			"./images/COLECTION_INTERIER.webp",
-			"./images/M_INTERIER.webp",
+			"./images/MK_BANG001.webp",
+			"./images/MK_BANG002.webp",
 		],
 		oldPrice: "3500 руб.",
 		newPrice: "1650 руб.",
