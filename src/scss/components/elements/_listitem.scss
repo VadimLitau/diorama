@@ -114,4 +114,27 @@
 		color: var.$projectOrange;
 		transform: scale(1.1);
 	}
+
+	&__button16 {
+		width: 194px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: transparent;
+		border: transparent;
+		color: var.$projectBgi;
+		text-transform: uppercase;
+		font-family: var.$pixy;
+		font-size: 22px;
+		transition: opacity 0.5s ease;
+		transition: transform 0.3s ease;
+		position: relative;
+		z-index: 1;
+		cursor: pointer;
+	}
+	&__button16:hover {
+		color: var.$projectOrange;
+		transform: scale(1.1);
+	}
 }

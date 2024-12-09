@@ -4,34 +4,39 @@
 		"src": "../../images/A_001.webp",
 		"link": "#",
 		"href": "#",
-		"id": "aladdin"
+		"id": "aladdin",
+		"btnclass": "btn__item__button16"
 	},
 	{
 		"title": "Comix Zone",
 		"src": "../../images/CZ_001.webp",
 		"link": "#",
 		"href": "#",
-		"id": "comix"
+		"id": "comix",
+		"btnclass": "btn__item__button16"
 	},
 	{
 		"title": "Earthworm Jim II",
 		"src": "../../images/EJ_001.webp",
 		"link": "#",
 		"href": "#",
-		"id": "earthworm"
+		"id": "earthworm",
+		"btnclass": "btn__item__button16"
 	},
 	{
 		"title": "Sonic the Hedgehog 2",
 		"src": "../../images/S_001.webp",
 		"link": "#",
 		"href": "#",
-		"id": "sonic"
+		"id": "sonic",
+		"btnclass": "btn__item__button16"
 	},
 	{
 		"title": "Ultimate Mortal Kombat 3",
 		"src": "../../images/MK_001.webp",
 		"link": "#",
 		"href": "#",
-		"id": "mortal"
+		"id": "mortal",
+		"btnclass": "btn__item__button16"
 	}
 ]

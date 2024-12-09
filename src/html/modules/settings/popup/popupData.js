@@ -28,7 +28,7 @@ const popupData = [
 		Уровень сложности : средний
 `,
 
-		link: "https://www.ozon.ru",
+		link: "https://www.ozon.ru/product/diorama-mario-1753280067",
 	},
 	{
 		id: "battle",
@@ -58,7 +58,7 @@ const popupData = [
 		<br />
 		Уровень сложности : средний`,
 
-		link: "https://www.ozon.ru",
+		link: "https://www.ozon.ru/product/diorama-battle-city-tanchiki-1753280164/",
 	},
 	{
 		id: "darkwing",
@@ -89,7 +89,7 @@ const popupData = [
 		Уровень сложности : начальный
 		`,
 
-		link: "https://www.ozon.ru",
+		link: "https://www.ozon.ru/product/diorama-darkwingduck-chernyy-plashch-1753280083/",
 	},
 	{
 		id: "duck",
@@ -120,7 +120,7 @@ const popupData = [
 		Уровень сложности : начальный
 `,
 
-		link: "https://www.ozon.ru",
+		link: "https://www.ozon.ru/product/diorama-duckhunt-ohota-na-utku-1753280068/",
 	},
 	{
 		id: "teenage",
@@ -151,7 +151,7 @@ const popupData = [
 		Уровень сложности : средний
 `,
 
-		link: "https://www.ozon.ru",
+		link: "https://www.ozon.ru/product/diorama-tmnt-cherepashki-nindzya-1753280071",
 	},
 	{
 		id: "aladdin",
@@ -164,7 +164,6 @@ const popupData = [
 			"./images/A_004.webp",
 			"./images/A_005.webp",
 			"./images/A_BANG001.webp",
-			"./images/A_BANG002.webp",
 		],
 		oldPrice: "3500 руб.",
 		newPrice: "1650 руб.",
@@ -195,7 +194,6 @@ const popupData = [
 			"./images/CZ_004.webp",
 			"./images/CZ_005.webp",
 			"./images/CZ_BANG001.webp",
-			"./images/CZ_BANG002.webp",
 		],
 		oldPrice: "3500 руб.",
 		newPrice: "1650 руб.",
@@ -225,7 +223,6 @@ const popupData = [
 			"./images/EJ_003.webp",
 			"./images/EJ_004.webp",
 			"./images/EJ_005.webp",
-			"./images/EJ_BANG001.webp",
 			"./images/EJ_BANG001.webp",
 		],
 		oldPrice: "3500 руб.",
@@ -257,7 +254,6 @@ const popupData = [
 			"./images/S_004.webp",
 			"./images/S_005.webp",
 			"./images/S_BANG001.webp",
-			"./images/S_BANG002.webp",
 		],
 		oldPrice: "3500 руб.",
 		newPrice: "1650 руб.",
@@ -288,11 +284,10 @@ const popupData = [
 			"./images/MK_004.webp",
 			"./images/MK_005.webp",
 			"./images/MK_BANG001.webp",
-			"./images/MK_BANG002.webp",
 		],
 		oldPrice: "3500 руб.",
 		newPrice: "1650 руб.",
-		description: `Жесткие и динамичные бои 1 на 1, специальные приемы, комбо-комбинации. Конечно же это Мортал Комбат! Вспомните, когда пытались исполнить, смотря в книгу какой-то из приемов фаталити или бруталити, а может и знали пару приемов наизусть? Нервничали, когда проигрывали или наслаждались победой, когда жизнь персонажа оставалась на волоске. Открыть секретных персонажей и взойти на вершину башни. Это действительно тот самый ностальгический бит, который привлечет внимание.		
+		description: `Жесткие и динамичные бои 1 на 1, специальные приемы, комбо-комбинации. Конечно же это Мортал Комбат! Вспомните, когда пытались исполнить, смотря в книгу какой-то из приемов фаталити или бруталити, а может и знали пару приемов наизусть? Это действительно тот самый ностальгический бит, который привлечет внимание.		
 		<br />
 		<br />
 		Размер упаковки : 170х230х16 мм

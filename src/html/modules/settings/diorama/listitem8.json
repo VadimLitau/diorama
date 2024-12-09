@@ -2,26 +2,31 @@
 	{
 		"title": "Battle city",
 		"src": "../../images/T_001.webp",
-		"id": "battle"
+		"id": "battle",
+		"btnclass": "btn__item__button"
 	},
 	{
 		"title": "Darkwing Duck",
 		"src": "../../images/DD_001.webp",
-		"id": "darkwing"
+		"id": "darkwing",
+		"btnclass": "btn__item__button"
 	},
 	{
 		"title": "Duck Hunt",
 		"src": "../../images/DH_001.webp",
-		"id": "duck"
+		"id": "duck",
+		"btnclass": "btn__item__button"
 	},
 	{
 		"title": "Super Mario Bros",
 		"src": "../../images/M_001.webp",
-		"id": "mario"
+		"id": "mario",
+		"btnclass": "btn__item__button"
 	},
 	{
 		"title": "Teenage Mutant Ninja <br/> Turtles Tournament Fighters",
 		"src": "../../images/TNMT_001.webp",
-		"id": "teenage"
+		"id": "teenage",
+		"btnclass": "btn__item__button"
 	}
 ]

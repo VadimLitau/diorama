@@ -458,7 +458,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button">Купить</button>
+			<button type="button" class="btn__item__button16">Купить</button>
 		</div>
 	</div>
 </div>
@@ -472,7 +472,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button">Купить</button>
+			<button type="button" class="btn__item__button16">Купить</button>
 		</div>
 	</div>
 </div>
@@ -486,7 +486,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button">Купить</button>
+			<button type="button" class="btn__item__button16">Купить</button>
 		</div>
 	</div>
 </div>
@@ -500,7 +500,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button">Купить</button>
+			<button type="button" class="btn__item__button16">Купить</button>
 		</div>
 	</div>
 </div>
@@ -514,7 +514,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button">Купить</button>
+			<button type="button" class="btn__item__button16">Купить</button>
 		</div>
 	</div>
 </div>
@@ -610,7 +610,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button">Купить</button>
+				<button type="button" class="btn__item__button16">Купить</button>
 			</div>
 		</div>
 	</div>
@@ -626,7 +626,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button">Купить</button>
+				<button type="button" class="btn__item__button16">Купить</button>
 			</div>
 		</div>
 	</div>
@@ -642,7 +642,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button">Купить</button>
+				<button type="button" class="btn__item__button16">Купить</button>
 			</div>
 		</div>
 	</div>
@@ -658,7 +658,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button">Купить</button>
+				<button type="button" class="btn__item__button16">Купить</button>
 			</div>
 		</div>
 	</div>
@@ -674,7 +674,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button">Купить</button>
+				<button type="button" class="btn__item__button16">Купить</button>
 			</div>
 		</div>
 	</div>
@@ -877,6 +877,18 @@
 				</div>
 				<div class="swiper-slide">
 					<img src="./images/darkwing1.webp" alt="Darkwing" />
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/ej001.webp" alt="Earthworm Jim" />
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/cz001.webp" alt="Comix Zone" />
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/al001.webp" alt="Alladin" />
+				</div>
+				<div class="swiper-slide">
+					<img src="./images/mk001.webp" alt="Mortal Kombat" />
 				</div>
 			</div>
 		</div>
@@ -1645,6 +1657,11 @@
 		width: 34px;
 		height: 34px;
 	}
+	.swiper-button-sliderPrevPopup16 > img,
+	.swiper-button-sliderNextPopup16 > img {
+		width: 34px;
+		height: 34px;
+	}
 	.wrapPopup {
 		display: flex;
 		flex-direction: row;
@@ -1662,7 +1679,8 @@
 			object-fit: contain;
 			border-radius: 10px;
 		}
-		.slider__wrapPopup {
+		.slider__wrapPopup,
+		.slider__wrapPopup16 {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -1670,16 +1688,19 @@
 			width: 393px;
 			height: 299px;
 		}
-		.slider__wrapPopup .swiper {
+		.slider__wrapPopup .swiper,
+		.slider__wrapPopup16 .swiper {
 			margin-top: -15px;
 			height: 279px;
 		}
-		.swiper-button-sliderPrevPopup {
+		.swiper-button-sliderPrevPopup,
+		.swiper-button-sliderPrevPopup16 {
 			margin-top: -5px;
 			margin-right: -60px;
 			z-index: 11;
 		}
 
+		.swiper-button-sliderNextPopup,
 		.swiper-button-sliderNextPopup {
 			margin-top: -5px;
 			margin-left: -60px;
@@ -1690,12 +1711,30 @@
 			width: 60%;
 			height: 80%;
 		}
+		.swiper-button-sliderNextPopup16 {
+			margin-top: -5px;
+			margin-left: -60px;
+			z-index: 11;
+		}
+		.swiper-button-sliderPrevPopup16 > img,
+		.swiper-button-sliderNextPopup16 > img {
+			width: 60%;
+			height: 80%;
+		}
 		.mySwiper-paginationPopup > .swiper-pagination-bullet {
 			width: 10px;
 			height: 10px;
 			margin: 0 1px;
 		}
 		.swiper-paginationPopup > .mySwiper-paginationPopup > {
+			transform: translate3d(0, 25px, 0);
+		}
+		.mySwiper-paginationPopup16 > .swiper-pagination-bullet {
+			width: 10px;
+			height: 10px;
+			margin: 0 1px;
+		}
+		.swiper-paginationPopup16 > .mySwiper-paginationPopup > {
 			transform: translate3d(0, 25px, 0);
 		}
 	}
@@ -1734,7 +1773,7 @@
 								<div class="swiper-slide swiper-slidePopup">
 									<img	src=""	alt="sliderImage5"	class="swiper-slidePopup__img" />
 								</div>
-								<div class="swiper-slide swiper-slidePopup">
+								<div class="swiper-slide swiper-slidePopup slide6">
 									<img	src=""	alt="sliderImage6"	class="swiper-slidePopup__img" />
 								</div>
 							</div>
@@ -1744,6 +1783,68 @@
 						</div>
 					</div>
 					<div class="swiper-paginationPopup mySwiper-paginationPopup"></div>
+				</div>
+				<p class="popup__slider__oldPrice"></p>
+				<p class="popup__slider__newPrice"></p>
+			</div>
+			<div class="popup__content__wrap">
+				<div class="popup__content__logo">
+					<img src="" alt="" class="popup__content__logo__img" />
+				</div>
+				<p class="popup__content__text"></p>
+				<div class="btn__popup">
+					<div class="btn__popup__hoverImage"></div>
+
+					<div class="btn__popup__content">
+						<a class="btn__popup__button" id="btnPopup" href="" target="_blank"
+							>Купить</a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="popup-overlay16" id="popup-overlay16">
+	<div class="popup">
+		<button type="button" class="popup__button" id="close-popup-btn16">
+			<img	src="./images/closeButton.png"	alt="Close"	class="closeButtonDesc" />
+			<img	src="./images/mobileCloseBtn.png"	alt="Close"	class="closeButtonMobile" />
+		</button>
+		<div class="popup__content">
+			<div class="popup__slider">
+				<div class="slider__wrapPopup">
+					<div class="wrapPopup">
+						<div class="swiper-button-sliderPrevPopup16 sliderPrevPopup">
+							<img src="./images/sliderPrev.png" alt="sliderPrev" />
+						</div>
+						<div class="swiper mySwiperPopup16">
+							<div class="swiper-wrapper swiper-wrapperPopup">
+								<div class="swiper-slide swiper-slidePopup">
+									<img	src=""	alt="sliderImage0"	class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img	src=""	alt="sliderImage1"	class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img	src=""	alt="sliderImage2"	class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img	src=""	alt="sliderImage3"	class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img	src=""	alt="sliderImage4"	class="swiper-slidePopup__img" />
+								</div>
+								<div class="swiper-slide swiper-slidePopup">
+									<img	src=""	alt="sliderImage5"	class="swiper-slidePopup__img" />
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-sliderNextPopup16 sliderNextPopup">
+							<img src="./images/sliderNext.png" alt="sliderNext" />
+						</div>
+					</div>
+					<div class="swiper-paginationPopup16 mySwiper-paginationPopup"></div>
 				</div>
 				<p class="popup__slider__oldPrice"></p>
 				<p class="popup__slider__newPrice"></p>
@@ -1794,6 +1895,19 @@
 				navigation: {
 					nextEl: ".swiper-button-sliderNextPopup",
 					prevEl: ".swiper-button-sliderPrevPopup",
+				},
+			});
+			var swiper1 = new Swiper(".mySwiperPopup16", {
+				slidesPerView: 1,
+				spaceBetween: 30,
+				loop: true,
+				pagination: {
+					el: ".swiper-paginationPopup16",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: ".swiper-button-sliderNextPopup16",
+					prevEl: ".swiper-button-sliderPrevPopup16",
 				},
 			});
 			var swiper2 = new Swiper(".mySwiper8bit", {
