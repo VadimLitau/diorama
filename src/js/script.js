@@ -13,5 +13,4 @@ import popup from "./popup";
 
 $plugins.colorSchemes.auto();
 $plugins.mobileCheck();
-
 $plugins.isAvifWebp({mode: "webp"});

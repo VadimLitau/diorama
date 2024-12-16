@@ -19,16 +19,16 @@ $message = $_POST['user_message'];
 
 try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp.mail.ru';                        // Main SMTP server
+    $mail->Host = 'smtp.yandex.ru';                        // Main SMTP server
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'vadim.nefelov@mail.ru';       // Your email address
+    $mail->Username = 'pavelavtaev@yandex.ru';       // Your email address
     // $mail->Password = 'Bx4cz87.';                          // Your email address
-    $mail->Password = '1GD7K1NSxKckvhDhAueN';             // Your email password or application-specific password
+    $mail->Password = 'ajnqzkuamvvisaxf';             // Your email password or application-specific password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;  
 
-    $mail->setFrom('vadim.nefelov@mail.ru', 'diorama'); // From address
-    $mail->addAddress('fallenarh@gmail.com');               // Recipient address
+    $mail->setFrom('pavelavtaev@yandex.ru', 'diorama'); // From address
+    $mail->addAddress('pavelavtaev@gmail.com');               // Recipient address
 
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Заявка с тестового сайта';

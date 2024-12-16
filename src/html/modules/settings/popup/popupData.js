@@ -1,6 +1,7 @@
 const popupData = [
 	{
 		id: "mario",
+		metrikaBuyId: "supermario2",
 		name: "Super Mario Bros",
 		logo: "./images/marioLogo.webp",
 		photos: [
@@ -32,6 +33,7 @@ const popupData = [
 	},
 	{
 		id: "battle",
+		metrikaBuyId: "tanki2",
 		name: "Battle city",
 		logo: "./images/battleCityLogo.webp",
 		photos: [
@@ -62,6 +64,7 @@ const popupData = [
 	},
 	{
 		id: "darkwing",
+		metrikaBuyId: "darkwing2",
 		name: "Darkwing Duck",
 		logo: "./images/darkwingLogo.webp",
 		photos: [
@@ -93,6 +96,7 @@ const popupData = [
 	},
 	{
 		id: "duck",
+		metrikaBuyId: "duckhunt2",
 		name: "Duck Hunt",
 		logo: "./images/duckHuntLogo.webp",
 		photos: [
@@ -124,6 +128,7 @@ const popupData = [
 	},
 	{
 		id: "teenage",
+		metrikaBuyId: "teenagemutant2",
 		name: "Teenage Mutant Ninja <br/> Turtles Tournament Fighters",
 		logo: "./images/TMNTLogo.webp",
 		photos: [
@@ -155,6 +160,7 @@ const popupData = [
 	},
 	{
 		id: "aladdin",
+		metrikaBuyId: "aladdin2",
 		name: "Aladdin",
 		logo: "./images/aladinLogo.webp",
 		photos: [
@@ -185,6 +191,7 @@ const popupData = [
 	},
 	{
 		id: "comix",
+		metrikaBuyId: "comixzone2",
 		name: "Comix Zone",
 		logo: "./images/comixZoneLogo.webp",
 		photos: [
@@ -215,6 +222,7 @@ const popupData = [
 	},
 	{
 		id: "earthworm",
+		metrikaBuyId: "earthworm2",
 		name: "Earthworm Jim II",
 		logo: "./images/eartwormJim2.webp",
 		photos: [
@@ -245,6 +253,7 @@ const popupData = [
 	},
 	{
 		id: "sonic",
+		metrikaBuyId: "hedgehog1",
 		name: "Sonic the Hedgehog 2",
 		logo: "./images/sonicLogo.webp",
 		photos: [
@@ -275,6 +284,7 @@ const popupData = [
 	},
 	{
 		id: "mortal",
+		metrikaBuyId: "mortalkombat 2",
 		name: "Ultimate Mortal Kombat 3",
 		logo: "./images/mortalLogo.webp",
 		photos: [
