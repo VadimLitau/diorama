@@ -67,6 +67,9 @@
 			width: 343px;
 			height: 520px;
 		}
+		.swiper_column {
+			flex-direction: column;
+		}
 	}
 	@media (min-width: 1280px) {
 		.slider__wrapMobile {
@@ -74,7 +77,7 @@
 		}
 	}
 </style>
-<div class="slider__wrapMobile @@nameWrap">
+<!-- <div class="slider__wrapMobile @@nameWrap">
 	<div class="swiper @@mySwiper">
 		<div class="swiper-wrapper">
 			@@loop("../../elements/listItemSlider.html", "@@data")
@@ -89,4 +92,83 @@
 			<img src="../images/sliderMobileNextBtn.png" alt="sliderNext" />
 		</div>
 	</div>
+</div> -->
+<style>
+	.mobile_wrapper {
+		display: none;
+	}
+	@media (max-width: 1280px) {
+		.mobile_wrapper {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.mobile_cardItem div.item {
+			margin: 30px 0;
+		}
+
+		.mobile_cardItem img.item__imgWrap__image {
+			width: 247px;
+			height: 256px;
+		}
+		/* Скрытые блоки */
+		.hidden8 {
+			max-height: 0;
+			opacity: 0;
+			overflow: hidden;
+			pointer-events: none;
+			transition: all 0.3s ease;
+		}
+
+		/* Видимые блоки */
+		.visible8 {
+			max-height: 100%; /* Высота для видимого блока */
+			opacity: 1;
+			pointer-events: auto;
+		}
+		.hidden16 {
+			max-height: 0;
+			opacity: 0;
+			overflow: hidden;
+			pointer-events: none;
+			transition: all 0.3s ease;
+		}
+
+		/* Видимые блоки */
+		.visible16 {
+			max-height: 100%; /* Высота для видимого блока */
+			opacity: 1;
+			pointer-events: auto;
+		}
+	}
+</style>
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const toggleButton = document.getElementById("@@idMobileBtn");
+		const hiddenBlocks = document.querySelectorAll(".block.@@addClass");
+		let isExpanded = false;
+
+		toggleButton.addEventListener("click", () => {
+			if (isExpanded) {
+				// Свернуть блоки
+				hiddenBlocks.forEach((block) =>
+					block.classList.remove("@@removeClass")
+				);
+				toggleButton.textContent = "Показать все";
+			} else {
+				// Показать блоки
+				hiddenBlocks.forEach((block) => block.classList.add("@@removeClass"));
+				toggleButton.textContent = "Свернуть";
+			}
+			isExpanded = !isExpanded;
+		});
+	});
+</script>
+<div class="mobile_wrapper">
+	<div class="">
+		<div class="mobile_cardItem">
+			@@loop("../../elements/listItemSlider.html", "@@data")
+		</div>
+	</div>
+	<button id="@@idMobileBtn">Показать все</button>
 </div>

@@ -7,7 +7,8 @@
 		"id": "aladdin",
 		"btnclass": "btn__item__button16",
 		"metrikaId": "popupBtnAladdin1",
-		"metrikaIdMobile": "popupBtnAladdin1Mobile"
+		"metrikaIdMobile": "popupBtnAladdin1Mobile",
+		"addClass": ""
 	},
 	{
 		"title": "Comix Zone",
@@ -17,7 +18,8 @@
 		"id": "comix",
 		"btnclass": "btn__item__button16",
 		"metrikaId": "popupBtnComixzone1",
-		"metrikaIdMobile": "popupBtnComixzone1Mobile"
+		"metrikaIdMobile": "popupBtnComixzone1Mobile",
+		"addClass": ""
 	},
 	{
 		"title": "Earthworm Jim II",
@@ -27,7 +29,8 @@
 		"id": "earthworm",
 		"btnclass": "btn__item__button16",
 		"metrikaId": "popupBtnEarthworm1",
-		"metrikaIdMobile": "popupBtnEarthworm1Mobile"
+		"metrikaIdMobile": "popupBtnEarthworm1Mobile",
+		"addClass": ""
 	},
 	{
 		"title": "Sonic the Hedgehog 2",
@@ -37,7 +40,8 @@
 		"id": "sonic",
 		"btnclass": "btn__item__button16",
 		"metrikaId": "popupBtnHedgehog1",
-		"metrikaIdMobile": "popupBtnHedgehog1Mobile"
+		"metrikaIdMobile": "popupBtnHedgehog1Mobile",
+		"addClass": "hidden16"
 	},
 	{
 		"title": "Ultimate Mortal Kombat 3",
@@ -47,6 +51,7 @@
 		"id": "mortal",
 		"btnclass": "btn__item__button16",
 		"metrikaId": "popupBtnMortalkombat1",
-		"metrikaIdMobile": "popupBtnMortalkombat1Mobile"
+		"metrikaIdMobile": "popupBtnMortalkombat1Mobile",
+		"addClass": "hidden16"
 	}
 ]

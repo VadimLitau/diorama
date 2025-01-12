@@ -5,7 +5,8 @@
 		"id": "battle",
 		"btnclass": "btn__item__button",
 		"metrikaId": "popupBtnTanki1",
-		"metrikaIdMobile": "popupBtnTanki1Mobile"
+		"metrikaIdMobile": "popupBtnTanki1Mobile",
+		"addClass": ""
 	},
 	{
 		"title": "Darkwing Duck",
@@ -13,7 +14,8 @@
 		"id": "darkwing",
 		"btnclass": "btn__item__button",
 		"metrikaId": "popupBtnDarkwing1",
-		"metrikaIdMobile": "popupBtnDarkwing1Mobile"
+		"metrikaIdMobile": "popupBtnDarkwing1Mobile",
+		"addClass": ""
 	},
 	{
 		"title": "Duck Hunt",
@@ -21,7 +23,8 @@
 		"id": "duck",
 		"btnclass": "btn__item__button",
 		"metrikaId": "popupBtnDuckhunt1",
-		"metrikaIdMobile": "popupBtnDuckhunt1Mobile"
+		"metrikaIdMobile": "popupBtnDuckhunt1Mobile",
+		"addClass": ""
 	},
 	{
 		"title": "Super Mario Bros",
@@ -29,7 +32,8 @@
 		"id": "mario",
 		"btnclass": "btn__item__button",
 		"metrikaId": "popupBtnSupermario1",
-		"metrikaIdMobile": "popupBtnSupermario1Mobile"
+		"metrikaIdMobile": "popupBtnSupermario1Mobile",
+		"addClass": "hidden8"
 	},
 	{
 		"title": "Teenage Mutant Ninja <br/> Turtles Tournament Fighters",
@@ -37,6 +41,7 @@
 		"id": "teenage",
 		"btnclass": "btn__item__button",
 		"metrikaId": "popupBtnTeenagemutant1",
-		"metrikaIdMobile": "popupBtnTeenagemutant1Mobile"
+		"metrikaIdMobile": "popupBtnTeenagemutant1Mobile",
+		"addClass": "hidden8"
 	}
 ]
