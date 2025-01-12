@@ -22,8 +22,8 @@ try {
     $mail->Host = 'smtp.yandex.ru';                        // Main SMTP server
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'pavelavtaev@yandex.ru';       // Your email address
-    // $mail->Password = 'Bx4cz87.';                          // Your email address
-    $mail->Password = 'ajnqzkuamvvisaxf';             // Your email password or application-specific password
+    // $mail->Password = '';                          // Your email address
+    $mail->Password = '';             // Your email password or application-specific password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;  
 
