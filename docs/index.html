@@ -661,6 +661,51 @@
 			opacity: 1;
 			pointer-events: auto;
 		}
+
+		.mobileBtnGallery {
+			width: 194px;
+			height: 40px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			background-color: transparent;
+			border: transparent;
+			color: #cc5e45;
+			text-transform: uppercase;
+			font-family: "PIXY";
+			font-size: 22px;
+			-webkit-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.3s ease;
+			transition: -webkit-transform 0.3s ease;
+			transition: transform 0.3s ease;
+			transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+			position: relative;
+			z-index: 1;
+			cursor: pointer;
+			margin-bottom: 20px;
+		}
+		.mobileBtnGallery::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-image: url("./images/listitemBtnActive.svg");
+			background-size: cover;
+			background-position: center;
+			-webkit-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
+			/* opacity: 0; */
+			/* z-index: 0; */
+		}
 	}
 </style>
 <script>
@@ -781,7 +826,9 @@
 
 		</div>
 	</div>
-	<button id="8mobileBtnBit">Показать все</button>
+	<div class="btn__item__content">
+		<button id="8mobileBtnBit" class="mobileBtnGallery">Показать все</button>
+	</div>
 </div>
 
 	</div>
@@ -1095,6 +1142,51 @@
 			opacity: 1;
 			pointer-events: auto;
 		}
+
+		.mobileBtnGallery {
+			width: 194px;
+			height: 40px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			background-color: transparent;
+			border: transparent;
+			color: #cc5e45;
+			text-transform: uppercase;
+			font-family: "PIXY";
+			font-size: 22px;
+			-webkit-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.3s ease;
+			transition: -webkit-transform 0.3s ease;
+			transition: transform 0.3s ease;
+			transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+			position: relative;
+			z-index: 1;
+			cursor: pointer;
+			margin-bottom: 20px;
+		}
+		.mobileBtnGallery::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-image: url("./images/listitemBtnActive.svg");
+			background-size: cover;
+			background-position: center;
+			-webkit-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
+			/* opacity: 0; */
+			/* z-index: 0; */
+		}
 	}
 </style>
 <script>
@@ -1215,7 +1307,9 @@
 
 		</div>
 	</div>
-	<button id="16mobileBtnBit">Показать все</button>
+	<div class="btn__item__content">
+		<button id="16mobileBtnBit" class="mobileBtnGallery">Показать все</button>
+	</div>
 </div>
 
 	</div>

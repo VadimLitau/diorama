@@ -1896,6 +1896,8 @@ body {
     display: block;
     width: 25px;
     height: 25px;
+    position: relative;
+    z-index: 20;
   }
 }
 
