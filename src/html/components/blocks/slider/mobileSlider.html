@@ -1,4 +1,7 @@
 <style>
+	.mobile_wrapper {
+		display: none;
+	}
 	.slider__wrapMobile {
 		display: flex;
 		flex-direction: column;
@@ -70,34 +73,7 @@
 		.swiper_column {
 			flex-direction: column;
 		}
-	}
-	@media (min-width: 1280px) {
-		.slider__wrapMobile {
-			display: none;
-		}
-	}
-</style>
-<!-- <div class="slider__wrapMobile @@nameWrap">
-	<div class="swiper @@mySwiper">
-		<div class="swiper-wrapper">
-			@@loop("../../elements/listItemSlider.html", "@@data")
-		</div>
-	</div>
 
-	<div class="slider__controls__mobile">
-		<div class="@@swiper-button-sliderPrev">
-			<img src="../images/sliderMobilePrevBtn.png" alt="sliderPrev" />
-		</div>
-		<div class="@@swiper-button-sliderNext">
-			<img src="../images/sliderMobileNextBtn.png" alt="sliderNext" />
-		</div>
-	</div>
-</div> -->
-<style>
-	.mobile_wrapper {
-		display: none;
-	}
-	@media (max-width: 1280px) {
 		.mobile_wrapper {
 			display: flex;
 			flex-direction: column;
@@ -111,7 +87,6 @@
 			width: 247px;
 			height: 256px;
 		}
-		/* Скрытые блоки */
 		.hidden8 {
 			max-height: 0;
 			opacity: 0;
@@ -119,10 +94,8 @@
 			pointer-events: none;
 			transition: all 0.3s ease;
 		}
-
-		/* Видимые блоки */
 		.visible8 {
-			max-height: 100%; /* Высота для видимого блока */
+			max-height: 100%;
 			opacity: 1;
 			pointer-events: auto;
 		}
@@ -133,10 +106,8 @@
 			pointer-events: none;
 			transition: all 0.3s ease;
 		}
-
-		/* Видимые блоки */
 		.visible16 {
-			max-height: 100%; /* Высота для видимого блока */
+			max-height: 100%;
 			opacity: 1;
 			pointer-events: auto;
 		}
@@ -182,9 +153,30 @@
 			background-position: center;
 			-webkit-transition: opacity 0.5s ease;
 			transition: opacity 0.5s ease;
-			/* opacity: 0; */
-			/* z-index: 0; */
 		}
+		.slider__wrapMobile {
+			display: none;
+		}
+	}
+</style>
+<!-- <div class="slider__wrapMobile @@nameWrap">
+	<div class="swiper @@mySwiper">
+		<div class="swiper-wrapper">
+			@@loop("../../elements/listItemSlider.html", "@@data")
+		</div>
+	</div>
+
+	<div class="slider__controls__mobile">
+		<div class="@@swiper-button-sliderPrev">
+			<img src="../images/sliderMobilePrevBtn.png" alt="sliderPrev" />
+		</div>
+		<div class="@@swiper-button-sliderNext">
+			<img src="../images/sliderMobileNextBtn.png" alt="sliderNext" />
+		</div>
+	</div>
+</div> -->
+<style>
+	@media (max-width: 1280px) {
 	}
 </style>
 <script>

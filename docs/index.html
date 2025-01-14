@@ -430,6 +430,9 @@
 </div>
 	<div class="constructor__sliderWrap">
 		<style>
+	.mobile_wrapper {
+		display: none;
+	}
 	.slider__wrapMobile {
 		display: flex;
 		flex-direction: column;
@@ -501,8 +504,87 @@
 		.swiper_column {
 			flex-direction: column;
 		}
-	}
-	@media (min-width: 1280px) {
+
+		.mobile_wrapper {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.mobile_cardItem div.item {
+			margin: 30px 0;
+		}
+
+		.mobile_cardItem img.item__imgWrap__image {
+			width: 247px;
+			height: 256px;
+		}
+		.hidden8 {
+			max-height: 0;
+			opacity: 0;
+			overflow: hidden;
+			pointer-events: none;
+			transition: all 0.3s ease;
+		}
+		.visible8 {
+			max-height: 100%;
+			opacity: 1;
+			pointer-events: auto;
+		}
+		.hidden16 {
+			max-height: 0;
+			opacity: 0;
+			overflow: hidden;
+			pointer-events: none;
+			transition: all 0.3s ease;
+		}
+		.visible16 {
+			max-height: 100%;
+			opacity: 1;
+			pointer-events: auto;
+		}
+
+		.mobileBtnGallery {
+			width: 194px;
+			height: 40px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			background-color: transparent;
+			border: transparent;
+			color: #cc5e45;
+			text-transform: uppercase;
+			font-family: "PIXY";
+			font-size: 22px;
+			-webkit-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.3s ease;
+			transition: -webkit-transform 0.3s ease;
+			transition: transform 0.3s ease;
+			transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+			position: relative;
+			z-index: 1;
+			cursor: pointer;
+			margin-bottom: 20px;
+		}
+		.mobileBtnGallery::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-image: url("./images/listitemBtnActive.svg");
+			background-size: cover;
+			background-position: center;
+			-webkit-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
+		}
 		.slider__wrapMobile {
 			display: none;
 		}
@@ -615,97 +697,7 @@
 	</div>
 </div> -->
 <style>
-	.mobile_wrapper {
-		display: none;
-	}
 	@media (max-width: 1280px) {
-		.mobile_wrapper {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
-		.mobile_cardItem div.item {
-			margin: 30px 0;
-		}
-
-		.mobile_cardItem img.item__imgWrap__image {
-			width: 247px;
-			height: 256px;
-		}
-		/* Скрытые блоки */
-		.hidden8 {
-			max-height: 0;
-			opacity: 0;
-			overflow: hidden;
-			pointer-events: none;
-			transition: all 0.3s ease;
-		}
-
-		/* Видимые блоки */
-		.visible8 {
-			max-height: 100%; /* Высота для видимого блока */
-			opacity: 1;
-			pointer-events: auto;
-		}
-		.hidden16 {
-			max-height: 0;
-			opacity: 0;
-			overflow: hidden;
-			pointer-events: none;
-			transition: all 0.3s ease;
-		}
-
-		/* Видимые блоки */
-		.visible16 {
-			max-height: 100%; /* Высота для видимого блока */
-			opacity: 1;
-			pointer-events: auto;
-		}
-
-		.mobileBtnGallery {
-			width: 194px;
-			height: 40px;
-			display: -webkit-box;
-			display: -ms-flexbox;
-			display: flex;
-			-webkit-box-align: center;
-			-ms-flex-align: center;
-			align-items: center;
-			-webkit-box-pack: center;
-			-ms-flex-pack: center;
-			justify-content: center;
-			background-color: transparent;
-			border: transparent;
-			color: #cc5e45;
-			text-transform: uppercase;
-			font-family: "PIXY";
-			font-size: 22px;
-			-webkit-transition: opacity 0.5s ease;
-			transition: opacity 0.5s ease;
-			-webkit-transition: -webkit-transform 0.3s ease;
-			transition: -webkit-transform 0.3s ease;
-			transition: transform 0.3s ease;
-			transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-			position: relative;
-			z-index: 1;
-			cursor: pointer;
-			margin-bottom: 20px;
-		}
-		.mobileBtnGallery::after {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-image: url("./images/listitemBtnActive.svg");
-			background-size: cover;
-			background-position: center;
-			-webkit-transition: opacity 0.5s ease;
-			transition: opacity 0.5s ease;
-			/* opacity: 0; */
-			/* z-index: 0; */
-		}
 	}
 </style>
 <script>
@@ -911,6 +903,9 @@
 </div>
 	<div class="constructor__sliderWrap">
 		<style>
+	.mobile_wrapper {
+		display: none;
+	}
 	.slider__wrapMobile {
 		display: flex;
 		flex-direction: column;
@@ -982,8 +977,87 @@
 		.swiper_column {
 			flex-direction: column;
 		}
-	}
-	@media (min-width: 1280px) {
+
+		.mobile_wrapper {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.mobile_cardItem div.item {
+			margin: 30px 0;
+		}
+
+		.mobile_cardItem img.item__imgWrap__image {
+			width: 247px;
+			height: 256px;
+		}
+		.hidden8 {
+			max-height: 0;
+			opacity: 0;
+			overflow: hidden;
+			pointer-events: none;
+			transition: all 0.3s ease;
+		}
+		.visible8 {
+			max-height: 100%;
+			opacity: 1;
+			pointer-events: auto;
+		}
+		.hidden16 {
+			max-height: 0;
+			opacity: 0;
+			overflow: hidden;
+			pointer-events: none;
+			transition: all 0.3s ease;
+		}
+		.visible16 {
+			max-height: 100%;
+			opacity: 1;
+			pointer-events: auto;
+		}
+
+		.mobileBtnGallery {
+			width: 194px;
+			height: 40px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			background-color: transparent;
+			border: transparent;
+			color: #cc5e45;
+			text-transform: uppercase;
+			font-family: "PIXY";
+			font-size: 22px;
+			-webkit-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.3s ease;
+			transition: -webkit-transform 0.3s ease;
+			transition: transform 0.3s ease;
+			transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+			position: relative;
+			z-index: 1;
+			cursor: pointer;
+			margin-bottom: 20px;
+		}
+		.mobileBtnGallery::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-image: url("./images/listitemBtnActive.svg");
+			background-size: cover;
+			background-position: center;
+			-webkit-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
+		}
 		.slider__wrapMobile {
 			display: none;
 		}
@@ -1096,97 +1170,7 @@
 	</div>
 </div> -->
 <style>
-	.mobile_wrapper {
-		display: none;
-	}
 	@media (max-width: 1280px) {
-		.mobile_wrapper {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
-		.mobile_cardItem div.item {
-			margin: 30px 0;
-		}
-
-		.mobile_cardItem img.item__imgWrap__image {
-			width: 247px;
-			height: 256px;
-		}
-		/* Скрытые блоки */
-		.hidden8 {
-			max-height: 0;
-			opacity: 0;
-			overflow: hidden;
-			pointer-events: none;
-			transition: all 0.3s ease;
-		}
-
-		/* Видимые блоки */
-		.visible8 {
-			max-height: 100%; /* Высота для видимого блока */
-			opacity: 1;
-			pointer-events: auto;
-		}
-		.hidden16 {
-			max-height: 0;
-			opacity: 0;
-			overflow: hidden;
-			pointer-events: none;
-			transition: all 0.3s ease;
-		}
-
-		/* Видимые блоки */
-		.visible16 {
-			max-height: 100%; /* Высота для видимого блока */
-			opacity: 1;
-			pointer-events: auto;
-		}
-
-		.mobileBtnGallery {
-			width: 194px;
-			height: 40px;
-			display: -webkit-box;
-			display: -ms-flexbox;
-			display: flex;
-			-webkit-box-align: center;
-			-ms-flex-align: center;
-			align-items: center;
-			-webkit-box-pack: center;
-			-ms-flex-pack: center;
-			justify-content: center;
-			background-color: transparent;
-			border: transparent;
-			color: #cc5e45;
-			text-transform: uppercase;
-			font-family: "PIXY";
-			font-size: 22px;
-			-webkit-transition: opacity 0.5s ease;
-			transition: opacity 0.5s ease;
-			-webkit-transition: -webkit-transform 0.3s ease;
-			transition: -webkit-transform 0.3s ease;
-			transition: transform 0.3s ease;
-			transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-			position: relative;
-			z-index: 1;
-			cursor: pointer;
-			margin-bottom: 20px;
-		}
-		.mobileBtnGallery::after {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-image: url("./images/listitemBtnActive.svg");
-			background-size: cover;
-			background-position: center;
-			-webkit-transition: opacity 0.5s ease;
-			transition: opacity 0.5s ease;
-			/* opacity: 0; */
-			/* z-index: 0; */
-		}
 	}
 </style>
 <script>
