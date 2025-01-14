@@ -1927,8 +1927,8 @@ body {
 @media (max-width: 1279px) {
   .popup {
     padding: 6px 6px 0 0;
-    width: 361px;
-    height: 727px;
+    width: 95vw;
+    height: 90vh;
     border-radius: 13px;
   }
 }
