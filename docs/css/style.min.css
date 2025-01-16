@@ -1926,10 +1926,13 @@ body {
 }
 @media (max-width: 1279px) {
   .popup {
-    padding: 6px 6px 0 0;
+    padding: 6px 6px 16px 6px;
     width: 95vw;
-    height: 90vh;
+    height: auto;
+    max-height: 90vh;
     border-radius: 13px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }
 .popup__button {
@@ -1990,6 +1993,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 @media (max-width: 1279px) {
   .popup__content {
@@ -1997,6 +2003,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    min-height: 0;
   }
 }
 .popup__content__wrap {
@@ -2014,8 +2021,8 @@ body {
 }
 @media (max-width: 1279px) {
   .popup__content__wrap {
-    margin-top: 15px;
-    margin-left: 0px;
+    margin: 15px 0;
+    padding: 0 10px;
   }
 }
 .popup__content__text {
@@ -2051,9 +2058,11 @@ body {
 }
 @media (max-width: 1279px) {
   .btn__popup {
-    margin: 7px 0;
+    margin: 7px auto;
     width: 194px;
     height: 40px;
+    position: relative;
+    bottom: auto;
   }
 }
 .btn__popup__hoverImage {
@@ -2096,7 +2105,7 @@ body {
 .btn__popup__button {
   margin: 5px 0 0 5px;
   width: 262px;
-  height: 42px;
+  height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2112,12 +2121,10 @@ body {
   text-transform: uppercase;
   font-family: "PIXY";
   font-size: 35px;
-  -webkit-transition: opacity 0.5s ease;
-  transition: opacity 0.5s ease;
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
-  transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.5s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.5s ease, transform 0.3s ease;
+  transition: opacity 0.5s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
   position: relative;
   z-index: 9;
   cursor: pointer;
@@ -2126,8 +2133,11 @@ body {
   .btn__popup__button {
     margin: 5px 0 0 3px;
     width: 188px;
-    height: 30px;
+    height: 60px;
     font-size: 22px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
   }
 }
 .btn__popup__button:hover {

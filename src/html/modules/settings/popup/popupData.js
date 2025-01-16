@@ -14,7 +14,7 @@ const popupData = [
 			"./images/M_INTERIER.webp",
 		],
 		oldPrice: "3500 руб.",
-		newPrice: "1650 руб.",
+		newPrice: "1409 руб.",
 		description: `Яркий мир Super Mario отправит вас в путешествие захватывающих воспоминаний! Чтобы спасти принцессу Пич от злого Боузера, проходить уровни становилось сложнее и сложнее, прыгая по платформам, собирая монеты, уничтожая врагов и открывая секретные уровни. Соберите детали, чтобы воссоздать культовый сказочный мир пикселей и навсегда оставивший след в сердцах геймеров всех возрастов.
 		<br />
 		<br />
@@ -29,7 +29,7 @@ const popupData = [
 		Уровень сложности : средний
 `,
 
-		link: "https://www.ozon.ru/product/diorama-mario-1753280067",
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mario-mario-1753280067/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mario-mario-1753280067/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "battle",
@@ -46,7 +46,7 @@ const popupData = [
 			"./images/T_INTERIER.webp",
 		],
 		oldPrice: "3500 руб.",
-		newPrice: "1650 руб.",
+		newPrice: "1409 руб.",
 		description: `Погрузитесь в&nbsp;мир стратегических танковых сражений! Соберите захватывающую арену, где ваши навыки проверяются на&nbsp;прочность. Это те&nbsp;самые &laquo;Танчики&raquo;, которые не&nbsp;оставляли равнодушным ни&nbsp;одного любителя динамичных игр на&nbsp;Dendi или Sega из&nbsp;многомиллионной аудитории. Пазл идеально подойдет для любителей классических игр, напоминая о&nbsp;захватывающих битвах на&nbsp;экране.
 					<br />
 					<br />
@@ -60,7 +60,7 @@ const popupData = [
 		<br />
 		Уровень сложности : средний`,
 
-		link: "https://www.ozon.ru/product/diorama-battle-city-tanchiki-1753280164/",
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-tanchiki-battle-city-1753280164/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-tanchiki-battle-city-1753280164/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "darkwing",
@@ -77,7 +77,7 @@ const popupData = [
 			"./images/DD_INTERIER.webp",
 		],
 		oldPrice: "3500 руб.",
-		newPrice: "1650 руб.",
+		newPrice: "1409 руб.",
 		description: `Станьте частью приключений Черного Плаща! Этот набор позволит вам воссоздать мир, где смелость и юмор идут рука об руку, где ваша миссия – это остановить злодеев и спасти город от их коварных планов, где яркий графический стиль создают атмосферу незабываемого приключения. Собирая элементы из игры любимого мультфильма, вы добавите индивидуальный штрих в оформление своего рабочего места.
 					<br />
 					<br />
@@ -92,7 +92,7 @@ const popupData = [
 		Уровень сложности : начальный
 		`,
 
-		link: "https://www.ozon.ru/product/diorama-darkwingduck-chernyy-plashch-1753280083/",
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-chernyy-plashch-darkwingduck-1753280083/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-chernyy-plashch-darkwingduck-1753280083/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&from_sku=1753280164&oos_search=false&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "duck",
@@ -109,7 +109,7 @@ const popupData = [
 			"./images/DH_INTERIER.webp",
 		],
 		oldPrice: "3500 руб.",
-		newPrice: "1650 руб.",
+		newPrice: "1409 руб.",
 		description: `Возвращайтесь к классике с этим потрясающим набором, который перенесет вас в мир охоты на уток! Помните, как тренировали свою меткость, стреляя с помощью светового пистолета? Когда утки становились хитрее, а собака, собирая уже сбитых уток добавляла игре особый шарм? Соберите сцену, где точность и ловкость станут союзниками. Этот набор точно напомнит о забавных моментах с пистолетом в руках.
 		<br />
 		<br />
@@ -124,7 +124,7 @@ const popupData = [
 		Уровень сложности : начальный
 `,
 
-		link: "https://www.ozon.ru/product/diorama-duckhunt-ohota-na-utku-1753280068/",
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-ohota-na-utku-duckhunt-1753280068/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-ohota-na-utku-duckhunt-1753280068/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&from_sku=1753280164&oos_search=false&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "teenage",
@@ -141,7 +141,7 @@ const popupData = [
 			"./images/TNMT_INTERIER.webp",
 		],
 		oldPrice: "3500 руб.",
-		newPrice: "1650 руб.",
+		newPrice: "1409 руб.",
 		description: `Присоединяйтесь к Черепашкам-ниндзя в их борьбе за справедливость! Этот набор позволит вам создать свою собственную арену для сражений, где, каждый из любимых персонажей обладает уникальными навыками, что делает битву непредсказуемой. Яркая графика перенесет вас в мир комиксов и мультфильмов. А кто ваш любимчик из легендарных черепашек?
 		<br />
 		<br />
@@ -156,7 +156,7 @@ const popupData = [
 		Уровень сложности : средний
 `,
 
-		link: "https://www.ozon.ru/product/diorama-tmnt-cherepashki-nindzya-1753280071",
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-cherepashki-nindzya-tmnt-1753280071/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-cherepashki-nindzya-tmnt-1753280071/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "aladdin",
@@ -172,7 +172,7 @@ const popupData = [
 			"./images/A_BANG001.webp",
 		],
 		oldPrice: "3500 руб.",
-		newPrice: "1650 руб.",
+		newPrice: "1579 руб.",
 		description: `Сражения с врагами на загадочных улицах Аграбы, открывает двери в волшебный мир Аладдина! Сюжет игры разворачивается по событиям одноименного мультфильма! Собирая монеты и магические артефакты заставляют проявить ловкость и смекалку, чтобы преодолеть препятствия и спасти принцессу Жасмин. Соберите элементы, чтобы создать сцену с джином и магическим ковром.
 		<br />
 		<br />
@@ -187,7 +187,7 @@ const popupData = [
 		Уровень сложности : средний
 `,
 
-		link: "https://www.ozon.ru",
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-alladin-aladdin-1761785604/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-alladin-aladdin-1761785604/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "comix",
@@ -203,7 +203,7 @@ const popupData = [
 			"./images/CZ_BANG001.webp",
 		],
 		oldPrice: "3500 руб.",
-		newPrice: "1650 руб.",
+		newPrice: "1579 руб.",
 		description: `Видеоигра в виде аркадного экшена, погружает в красочный мир комиксов! Персонажи игры были перенесены с реальных людей методом оцифровки и технологией захвата движения motion capture, благодаря чему они двигались с великолепной для того времени реалистичностью. Воссоздайте стильный арт-объект, который вдохновит вас на новые креативные идеи и подчеркнет любовь к необычным играм.
 		<br />
 		<br />
@@ -218,7 +218,7 @@ const popupData = [
 		Уровень сложности : начальный
 `,
 
-		link: "https://www.ozon.ru",
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-komiks-zona-comix-zone-1761785608/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-komiks-zona-comix-zone-1761785608/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "earthworm",
@@ -234,7 +234,7 @@ const popupData = [
 			"./images/EJ_BANG001.webp",
 		],
 		oldPrice: "3500 руб.",
-		newPrice: "1650 руб.",
+		newPrice: "1579 руб.",
 		description: `Вернуться в мир абсурдного юмора и приключений поможет набор Earthworm Jim II! Наверняка помните червяка, обладающего суперспособностями, который сражается с забавными врагами и решает головоломки!? Оригинальный стиль и неожиданные поворота сюжета, оставляют теплые воспоминания о путешествиях. Элементы набора напомнят о смешных моментах и добавят веселья в ваш интерьер.
 		<br />
 		<br />
@@ -249,7 +249,7 @@ const popupData = [
 		Уровень сложности : начальный
 `,
 
-		link: "https://www.ozon.ru",
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-earthworm-jim-2-1761785545/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-earthworm-jim-2-1761785545/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&from_sku=1761785608&oos_search=false&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "sonic",
@@ -265,7 +265,7 @@ const popupData = [
 			"./images/S_BANG001.webp",
 		],
 		oldPrice: "3500 руб.",
-		newPrice: "1650 руб.",
+		newPrice: "1579 руб.",
 		description: `Скорость – это ваше второе имя! Встречайте антропоморфного ежа Соника! Самый быстрый борец за свободу, обладающий способностью бегать быстрее скорости звука. Соник пытается спасти животных, собирая кольца, избегая ловушек доктора Эггмана. Яркий акцент деталей, подчеркивает страсть к захватывающему сюжету и заставляет вспомнить тот самый саундтрек. Уже вспомнили?)
 		<br />
 		<br />
@@ -280,7 +280,7 @@ const popupData = [
 		Уровень сложности : начальный
 `,
 
-		link: "https://www.ozon.ru",
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-sonik-sonic-the-hedgehog-1761785554/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-sonik-sonic-the-hedgehog-1761785554/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "mortal",
@@ -296,7 +296,7 @@ const popupData = [
 			"./images/MK_BANG001.webp",
 		],
 		oldPrice: "3500 руб.",
-		newPrice: "1650 руб.",
+		newPrice: "1579 руб.",
 		description: `Жесткие и динамичные бои 1 на 1, специальные приемы, комбо-комбинации. Конечно же это Мортал Комбат! Вспомните, когда пытались исполнить, смотря в книгу какой-то из приемов фаталити или бруталити, а может и знали пару приемов наизусть? Это действительно тот самый ностальгический бит, который привлечет внимание.		
 		<br />
 		<br />
@@ -311,7 +311,7 @@ const popupData = [
 		Уровень сложности : начальный
 `,
 
-		link: "https://www.ozon.ru",
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-mortal-kombat-1761785503/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-mortal-kombat-1761785503/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 ];
 export {popupData};

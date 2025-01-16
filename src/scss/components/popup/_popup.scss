@@ -12,15 +12,16 @@
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-
 	opacity: 0;
 	visibility: hidden;
 	transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+
 #popup-overlay.show {
 	opacity: 1;
 	visibility: visible;
 }
+
 .popup-overlay16 {
 	position: fixed;
 	top: 0;
@@ -33,20 +34,22 @@
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-
 	opacity: 0;
 	visibility: hidden;
 	transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+
 #popup-overlay16.show {
 	opacity: 1;
 	visibility: visible;
 }
+
 .closeButtonDesc {
 	@media (max-width: 1279px) {
 		display: none;
 	}
 }
+
 .closeButtonMobile {
 	display: none;
 	@media (max-width: 1279px) {
@@ -61,6 +64,7 @@
 .active {
 	display: flex;
 }
+
 .popup {
 	width: 1089px;
 	height: 700px;
@@ -72,11 +76,15 @@
 	border-radius: 25px;
 	display: flex;
 	flex-direction: column;
+
 	@media (max-width: 1279px) {
-		padding: 6px 6px 0 0;
+		padding: 6px 6px 16px 6px; // Добавлен нижний padding
 		width: 95vw;
-		height: 90vh;
+		height: auto; // Изменено с фиксированной высоты
+		max-height: 90vh; // Ограничение максимальной высоты
 		border-radius: 13px;
+		overflow-y: auto; // Добавлен скролл при необходимости
+		-webkit-overflow-scrolling: touch; // Улучшение скролла на iOS
 	}
 
 	&__button {
@@ -90,13 +98,16 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+
 		@media (max-width: 1279px) {
 			margin-top: 0;
 		}
+
 		&__oldPrice {
 			margin-top: 60px;
 			font-size: 30px;
 			text-decoration: line-through;
+
 			@media (max-width: 1279px) {
 				font-size: 20px;
 				margin-top: 7px;
@@ -110,6 +121,7 @@
 			border-radius: 6px;
 			background: var.$projectOrange;
 			padding: 5px 40px;
+
 			@media (max-width: 1279px) {
 				font-size: 25px;
 				margin-left: 7px;
@@ -117,20 +129,26 @@
 			}
 		}
 	}
+
 	&__content {
 		display: flex;
 		flex-direction: row;
+		flex: 1;
+
 		@media (max-width: 1279px) {
 			flex-direction: column;
+			min-height: 0; // Для корректной работы flex в Safari
 		}
+
 		&__wrap {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			margin-left: 44px;
+
 			@media (max-width: 1279px) {
-				margin-top: 15px;
-				margin-left: 0px;
+				margin: 15px 0;
+				padding: 0 10px;
 			}
 		}
 
@@ -139,16 +157,19 @@
 			max-width: 519px;
 			font-size: 20px;
 			line-height: 1.1;
+
 			@media (max-width: 1279px) {
 				margin-top: 15px;
 				max-width: 320px;
 				font-size: 11px;
 			}
 		}
+
 		&__logo {
 			& img {
 				width: 263px;
 				height: 123px;
+
 				@media (max-width: 1279px) {
 					width: 142px;
 					height: 67px;
@@ -164,10 +185,13 @@
 	position: relative;
 	overflow: hidden;
 	margin-top: 60px;
+
 	@media (max-width: 1279px) {
-		margin: 7px 0;
+		margin: 7px auto; // Центрирование кнопки
 		width: 194px;
 		height: 40px;
+		position: relative; // Убеждаемся, что позиционирование корректное
+		bottom: auto; // Убираем возможное абсолютное позиционирование
 	}
 
 	&__hoverImage {
@@ -212,7 +236,8 @@
 	&__button {
 		margin: 5px 0 0 5px;
 		width: 262px;
-		height: 42px;
+		// height: 42px;
+		height: 80px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -222,18 +247,21 @@
 		text-transform: uppercase;
 		font-family: var.$pixy;
 		font-size: 35px;
-		transition: opacity 0.5s ease;
-		transition: transform 0.3s ease;
+		transition: opacity 0.5s ease, transform 0.3s ease;
 		position: relative;
 		z-index: 9;
 		cursor: pointer;
+
 		@media (max-width: 1279px) {
 			margin: 5px 0 0 3px;
 			width: 188px;
-			height: 30px;
+			// height: 30px;
+			height: 60px;
 			font-size: 22px;
+			transform: none; // Отключаем transform на мобильных
 		}
 	}
+
 	&__button:hover {
 		transform: scale(1.07);
 	}
