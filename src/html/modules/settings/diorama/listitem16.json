@@ -33,17 +33,6 @@
 		"addClass": ""
 	},
 	{
-		"title": "Sonic the Hedgehog 2",
-		"src": "../../images/S_001.webp",
-		"link": "#",
-		"href": "#",
-		"id": "sonic",
-		"btnclass": "btn__item__button16",
-		"metrikaId": "popupBtnHedgehog1",
-		"metrikaIdMobile": "popupBtnHedgehog1Mobile",
-		"addClass": "hidden16"
-	},
-	{
 		"title": "Ultimate Mortal Kombat 3",
 		"src": "../../images/MK_001.webp",
 		"link": "#",
@@ -52,6 +41,28 @@
 		"btnclass": "btn__item__button16",
 		"metrikaId": "popupBtnMortalkombat1",
 		"metrikaIdMobile": "popupBtnMortalkombat1Mobile",
+		"addClass": "hidden16"
+	},
+	{
+		"title": "The Lion King",
+		"src": "../../images/lk_001.webp",
+		"link": "#",
+		"href": "#",
+		"id": "lk",
+		"btnclass": "btn__item__button16",
+		"metrikaId": "lion1",
+		"metrikaIdMobile": "lion1",
+		"addClass": "hidden16"
+	},
+	{
+		"title": "Mortal Kombat II (Special)",
+		"src": "../../images/MK2_001.webp",
+		"link": "#",
+		"href": "#",
+		"id": "mk",
+		"btnclass": "btn__item__button16",
+		"metrikaId": "mk2",
+		"metrikaIdMobile": "mk2",
 		"addClass": "hidden16"
 	}
 ]

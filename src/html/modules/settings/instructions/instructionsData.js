@@ -29,6 +29,42 @@ const data8 = [
 		pdfLink: "./files/instructions8bit/TMNT_инструкция_print.pdf",
 		videoLink: "#",
 	},
+	{
+		id: "card13",
+		name: "Lode Runner",
+		pdfLink: "./files/instructions8bit/Lode_runner_инструкция.pdf",
+		videoLink: "#",
+	},
+	{
+		id: "card14",
+		name: "Battletoads",
+		pdfLink: "./files/instructions8bit/Battletoads_инструкция.pdf",
+		videoLink: "#",
+	},
+	{
+		id: "card15",
+		name: "Adventure Island",
+		pdfLink: "./files/instructions8bit/Adventure_island_инструкция.pdf",
+		videoLink: "#",
+	},
+	{
+		id: "card16",
+		name: "Felix the Cat",
+		pdfLink: "./files/instructions8bit/Felix_инструкция.pdf",
+		videoLink: "#",
+	},
+	{
+		id: "card17",
+		name: "Contra",
+		pdfLink: "./files/instructions8bit/Contra_инструкция_print.pdf",
+		videoLink: "#",
+	},
+	{
+		id: "card18",
+		name: "Chip’n Dale",
+		pdfLink: "./files/instructions8bit/Chip_n_Dale_инструкция.pdf",
+		videoLink: "#",
+	},
 ];
 
 const data16 = [
@@ -60,6 +96,18 @@ const data16 = [
 		id: "card10",
 		name: "Ultimate Mortal Kombat 3",
 		pdfLink: "./files/instructions16bit/MK_инструкция-печать.pdf",
+		videoLink: "#",
+	},
+	{
+		id: "card11",
+		name: "Mortal Kombat II",
+		pdfLink: "./files/instructions16bit/MK_инструкция.pdf",
+		videoLink: "#",
+	},
+	{
+		id: "card12",
+		name: "The Lion King",
+		pdfLink: "./files/instructions16bit/Lion_King_инструкция.pdf",
 		videoLink: "#",
 	},
 ];

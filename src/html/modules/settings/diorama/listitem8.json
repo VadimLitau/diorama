@@ -1,23 +1,5 @@
 [
 	{
-		"title": "Battle city",
-		"src": "../../images/T_001.webp",
-		"id": "battle",
-		"btnclass": "btn__item__button",
-		"metrikaId": "popupBtnTanki1",
-		"metrikaIdMobile": "popupBtnTanki1Mobile",
-		"addClass": ""
-	},
-	{
-		"title": "Darkwing Duck",
-		"src": "../../images/DD_001.webp",
-		"id": "darkwing",
-		"btnclass": "btn__item__button",
-		"metrikaId": "popupBtnDarkwing1",
-		"metrikaIdMobile": "popupBtnDarkwing1Mobile",
-		"addClass": ""
-	},
-	{
 		"title": "Duck Hunt",
 		"src": "../../images/DH_001.webp",
 		"id": "duck",
@@ -27,21 +9,66 @@
 		"addClass": ""
 	},
 	{
-		"title": "Super Mario Bros",
-		"src": "../../images/M_001.webp",
-		"id": "mario",
-		"btnclass": "btn__item__button",
-		"metrikaId": "popupBtnSupermario1",
-		"metrikaIdMobile": "popupBtnSupermario1Mobile",
-		"addClass": "hidden8"
-	},
-	{
 		"title": "Teenage Mutant Ninja <br/> Turtles Tournament Fighters",
 		"src": "../../images/TNMT_001.webp",
 		"id": "teenage",
 		"btnclass": "btn__item__button",
 		"metrikaId": "popupBtnTeenagemutant1",
 		"metrikaIdMobile": "popupBtnTeenagemutant1Mobile",
+		"addClass": ""
+	},
+	{
+		"title": "Chip’n Dale",
+		"src": "../../images/C&D_001.webp",
+		"id": "cd",
+		"btnclass": "btn__item__button",
+		"metrikaId": "chip1",
+		"metrikaIdMobile": "chip1",
+		"addClass": ""
+	},
+	{
+		"title": "Contra",
+		"src": "../../images/contra_001.webp",
+		"id": "contra",
+		"btnclass": "btn__item__button",
+		"metrikaId": "contra1",
+		"metrikaIdMobile": "contra1",
+		"addClass": "hidden8"
+	},
+	{
+		"title": "Battletoads",
+		"src": "../../images/BT_001.webp",
+		"id": "battletoads",
+		"btnclass": "btn__item__button",
+		"metrikaId": "battl1",
+		"metrikaIdMobile": "battl1",
+		"addClass": "hidden8"
+	},
+	{
+		"title": "Felix the Cat",
+		"src": "../../images/felix_001.webp",
+		"id": "felix",
+		"btnclass": "btn__item__button",
+		"metrikaId": "felix1",
+		"metrikaIdMobile": "felix1",
+		"addClass": "hidden8"
+	},
+	{
+		"title": "Lode Runner",
+		"src": "../../images/loderunner_001.webp",
+		"id": "lr",
+		"btnclass": "btn__item__button",
+		"metrikaId": "loderunner1",
+		"metrikaIdMobile": "loderunner1",
+		"addClass": "hidden8"
+	},
+	{
+		"title": "Adventure Island",
+		"src": "../../images/advent_001.webp",
+		"id": "advent",
+		"btnclass": "btn__item__button",
+		"metrikaId": "advent1",
+		"metrikaIdMobile": "advent1",
 		"addClass": "hidden8"
 	}
 ]

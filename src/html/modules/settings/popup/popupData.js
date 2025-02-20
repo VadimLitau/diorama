@@ -313,5 +313,259 @@ const popupData = [
 
 		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-mortal-kombat-1761785503/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-mortal-kombat-1761785503/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
+	{
+		id: "cd",
+		metrikaBuyId: "",
+		name: "Chip’n Dale",
+		logo: "./images/c&dLogo.webp",
+		photos: [
+			"./images/C&D_001.webp",
+			"./images/C&D_002.webp",
+			"./images/C&D_003.webp",
+			"./images/C&D_004.webp",
+			"./images/C&D_005.webp",
+			"./images/C&D_BANG001.webp",
+			"./images/C&D_BANG002.webp",
+		],
+		oldPrice: "3500 руб.",
+		newPrice: "1579 руб.",
+		description: `Погрузитесь в ностальгические воспоминания с нашей уникальной самосборной диорамой, вдохновленной классической игрой на приставке «Чип и Дейл». Эта яркая и детализированная модель станет отличным дополнением к интерьеру или замечательным подарком для фанатов приключений веселых бурундуков.
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 73 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-chip-n-dale-chip-i-deyl-1841813406&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-chip-n-dale-chip-i-deyl-1841813406&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+	},
+	{
+		id: "contra",
+		metrikaBuyId: "",
+		name: "Contra",
+		logo: "./images/contraLogo.webp",
+		photos: [
+			"./images/contra_001.webp",
+			"./images/contra_002.webp",
+			"./images/contra_003.webp",
+			"./images/contra_004.webp",
+			"./images/contra_005.webp",
+			"./images/contra_007.webp",
+			"./images/contra_BANG001.png",
+		],
+		oldPrice: "3500 руб.",
+		newPrice: "1579 руб.",
+		description: `Погрузитесь в мир классической аркадной игры с этой уникальной самосборной диорамой! Эта модель воссоздает яркие и динамичные сцены из Contra, одной из самых знаковых игр на приставке NES.
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 73 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-contra-kontra-1841813232&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-contra-kontra-1841813232&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+	},
+	{
+		id: "battletoads",
+		metrikaBuyId: "",
+		name: "Battletoads",
+		logo: "./images/BattletoadsLogo.webp",
+		photos: [
+			"./images/BT_001.webp",
+			"./images/BT_002.webp",
+			"./images/BT_003.webp",
+			"./images/BT_004.webp",
+			"./images/BT_005.webp",
+			"./images/BT_006.webp",
+			"./images/BT_007.webp",
+		],
+		oldPrice: "3500 руб.",
+		newPrice: "1579 руб.",
+		description: `Погрузитесь в мир классической видеоигры с нашей самосборной диорамой "Battletoads"! Эта уникальная модель станет отличным дополнением для ваших коллекций и обязательным элементом для любого фаната игры. Диорама выполнена в стиле культовой игры Battletoads, передавая атмосферу эпичных сражений и ярких персонажей.
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 73 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-battletoads-boevye-zhaby-1841812428&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-battletoads-boevye-zhaby-1841812428&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+	},
+	{
+		id: "felix",
+		metrikaBuyId: "",
+		name: "Felix the Cat",
+		logo: "./images/felixLogo.webp",
+		photos: [
+			"./images/felix_001.webp",
+			"./images/felix_002.webp",
+			"./images/felix_003.webp",
+			"./images/felix_004.webp",
+			"./images/felix_005.webp",
+			"./images/felix_006.webp",
+			"./images/felix_007.webp",
+		],
+		oldPrice: "3500 руб.",
+		newPrice: "1579 руб.",
+		description: `Погрузитесь в мир ностальгии с удивительной самосборной диорамой, вдохновленной классической игрой Felix the Cat для приставки NES! Эта уникальная модель позволит вам воспроизвести атмосферу яркого пиксельного мира, где живет знаменитый кот Феликс.
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 73 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-felix-the-cat-1850083561&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-felix-the-cat-1850083561&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+	},
+	{
+		id: "lr",
+		metrikaBuyId: "",
+		name: "Lode Runner",
+		logo: "./images/loderunnerLogo.webp",
+		photos: [
+			"./images/loderunner_001.webp",
+			"./images/loderunner_002.webp",
+			"./images/loderunner_003.webp",
+			"./images/loderunner_004.webp",
+			"./images/loderunner_005.webp",
+			"./images/loderunner_006.webp",
+			"./images/loderunner_007.webp",
+		],
+		oldPrice: "3500 руб.",
+		newPrice: "1579 руб.",
+		description: `Окунись в мир 8-битной классики с диорамой Lode Runner!
+Встречайте уникальный набор для создания собственной диорамы по мотивам легендарной игры Lode Runner для NES! Построй своими руками уровень из любимой игры детства и оживи ностальгические воспоминания.
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 73 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-lode-runner-1850083516&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-lode-runner-1850083516&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+	},
+	{
+		id: "advent",
+		metrikaBuyId: "",
+		name: "Adventure Island",
+		logo: "./images/adventLogo.webp",
+		photos: [
+			"./images/advent_001.webp",
+			"./images/advent_002.webp",
+			"./images/advent_003.webp",
+			"./images/advent_004.webp",
+			"./images/advent_005.webp",
+			"./images/advent_006.webp",
+			"./images/advent_007.webp",
+		],
+		oldPrice: "3500 руб.",
+		newPrice: "1579 руб.",
+		description: `Отправьтесь в тропическое приключение с диорамой Adventure Island!
+Погрузитесь в мир 8-битной классики с этой увлекательной самосборной диорамой по мотивам легендарной игры Adventure Island для NES! Воссоздайте своими руками яркий и красочный остров, полный опасностей и сокровищ, и переживите заново захватывающие моменты из детства.
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 73 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-adventure-island-1850083482&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-adventure-island-1850083482&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+	},
+	{
+		id: "lk",
+		metrikaBuyId: "",
+		name: "The Lion King",
+		logo: "./images/lkLogo.webp",
+		photos: [
+			"./images/lk_001.webp",
+			"./images/lk_002.webp",
+			"./images/lk_003.webp",
+			"./images/lk_004.webp",
+			"./images/lk_005.webp",
+			"./images/lk_006.webp",
+			"./images/lk_007.webp",
+		],
+		oldPrice: "3500 руб.",
+		newPrice: "1579 руб.",
+		description: `Оживите саванну с диорамой "Король Лев" для SEGA!
+Погрузитесь в мир любимого мультфильма Disney с этой потрясающей самосборной диорамой по мотивам классической игры "Король Лев" для SEGA! Воссоздайте культовые сцены и переживите захватывающие приключения Симбы своими руками.
+
+		<br />
+		<br />
+		Размер упаковки : 170х230х16 мм
+		<br />
+		Размер диорамы : 228х168х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : начальный
+`,
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-the-lion-king-korol-lev-1841812156&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-the-lion-king-korol-lev-1841812156&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+	},
+	{
+		id: "mk",
+		metrikaBuyId: "",
+		name: "Mortal Kombat II (Special)",
+		logo: "./images/MK2Logo.webp",
+		photos: [
+			"./images/MK2_001.webp",
+			"./images/MK2_002.webp",
+			"./images/MK2_003.webp",
+			"./images/MK2_004.webp",
+			"./images/MK2_005.webp",
+			"./images/MK2_006.webp",
+			"./images/MK2_007.webp",
+		],
+		oldPrice: "3500 руб.",
+		newPrice: "1579 руб.",
+		description: `Выпусти на волю свою внутреннюю ярость с диорамой Mortal Kombat II для SEGA!
+Перенесись в культовый мир файтингов с этой захватывающей самосборной диорамой по мотивам легендарной игры Mortal Kombat II для SEGA! Воссоздай эпические битвы и смертельные поединки на аутентичных аренах прямо у себя дома.
+		<br />
+		<br />
+		Размер упаковки : 170х230х16 мм
+		<br />
+		Размер диорамы : 228х168х19мм
+		<br />
+		Количество деталей : 30 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : начальный
+`,
+		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-2-1843420079&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-2-1843420079&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+	},
 ];
 export {popupData};
