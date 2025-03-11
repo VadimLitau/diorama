@@ -315,7 +315,7 @@ const popupData = [
 	},
 	{
 		id: "cd",
-		metrikaBuyId: "",
+		metrikaBuyId: "chip2",
 		name: "Chip’n Dale",
 		logo: "./images/c&dLogo.webp",
 		photos: [
@@ -347,7 +347,7 @@ const popupData = [
 	},
 	{
 		id: "contra",
-		metrikaBuyId: "",
+		metrikaBuyId: "contra2",
 		name: "Contra",
 		logo: "./images/contraLogo.webp",
 		photos: [
@@ -378,7 +378,7 @@ const popupData = [
 	},
 	{
 		id: "battletoads",
-		metrikaBuyId: "",
+		metrikaBuyId: "battl2",
 		name: "Battletoads",
 		logo: "./images/BattletoadsLogo.webp",
 		photos: [
@@ -409,7 +409,7 @@ const popupData = [
 	},
 	{
 		id: "felix",
-		metrikaBuyId: "",
+		metrikaBuyId: "felix2",
 		name: "Felix the Cat",
 		logo: "./images/felixLogo.webp",
 		photos: [
@@ -440,7 +440,7 @@ const popupData = [
 	},
 	{
 		id: "lr",
-		metrikaBuyId: "",
+		metrikaBuyId: "loderunner2",
 		name: "Lode Runner",
 		logo: "./images/loderunnerLogo.webp",
 		photos: [
@@ -472,7 +472,7 @@ const popupData = [
 	},
 	{
 		id: "advent",
-		metrikaBuyId: "",
+		metrikaBuyId: "advent2",
 		name: "Adventure Island",
 		logo: "./images/adventLogo.webp",
 		photos: [
@@ -504,7 +504,7 @@ const popupData = [
 	},
 	{
 		id: "lk",
-		metrikaBuyId: "",
+		metrikaBuyId: "lion2",
 		name: "The Lion King",
 		logo: "./images/lkLogo.webp",
 		photos: [
@@ -537,7 +537,7 @@ const popupData = [
 	},
 	{
 		id: "mk",
-		metrikaBuyId: "",
+		metrikaBuyId: "mk2",
 		name: "Mortal Kombat II (Special)",
 		logo: "./images/MK2Logo.webp",
 		photos: [

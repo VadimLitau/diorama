@@ -68,6 +68,11 @@
 		const popupTeenagemutantBtn = document.querySelector(
 			"#popupBtnTeenagemutant1"
 		);
+		const popupCNDBtn = document.querySelector("#popupBtnChip1");
+		const popupContraBtn = document.querySelector("#popupBtnContra1");
+		const popupBTDBtn = document.querySelector("#popupBtnbattl1");
+		const popupFelixBtn = document.querySelector("#popupBtnFelix1");
+
 		// 16bitPopup
 		const popupAladdinBtn = document.querySelector("#popupBtnAladdin1");
 		const popupComixzoneBtn = document.querySelector("#popupBtnComixzone1");
@@ -76,6 +81,10 @@
 		const popupMortalkombatBtn = document.querySelector(
 			"#popupBtnMortalkombat1"
 		);
+		const popupLionKing = document.querySelector("#popupBtnLion1");
+		const popupMK2 = document.querySelector("#popupBtnMk2");
+		const popupLodeBtn = document.querySelector("#popupBtnLoderunner1");
+		const popupAdventBtn = document.querySelector("#popupBtnadvent1");
 
 		// 8bitPopup
 		if (popupTankiBtn) {
@@ -103,6 +112,37 @@
 				ym(99092432, "reachGoal", "teenagemutant1");
 			});
 		}
+		if (popupCNDBtn) {
+			popupCNDBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "chip1");
+			});
+		}
+		if (popupContraBtn) {
+			popupContraBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "chip1");
+			});
+		}
+		if (popupBTDBtn) {
+			popupBTDBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "battl1");
+			});
+		}
+		if (popupFelixBtn) {
+			popupFelixBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "felix1");
+			});
+		}
+		if (popupLodeBtn) {
+			popupLodeBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "loderunner1");
+			});
+		}
+		if (popupAdventBtn) {
+			popupAdventBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "advent1");
+			});
+		}
+
 		// 16bitPopup
 		if (popupAladdinBtn) {
 			popupAladdinBtn.addEventListener("click", () => {
@@ -129,6 +169,16 @@
 				ym(99092432, "reachGoal", "mortalkombat 1");
 			});
 		}
+		if (popupLionKing) {
+			popupLionKing.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "lion1");
+			});
+		}
+		if (popupMK2) {
+			popupMK2.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "mk2");
+			});
+		}
 	});
 </script>
 <script type="text/javascript">
@@ -147,6 +197,17 @@
 		const popupTeenagemutantBtnMobile = document.querySelector(
 			"#popupBtnTeenagemutant1Mobile"
 		);
+		const popupCNDBtnMobile = document.querySelector("#popupBtnChip1Mobile");
+		const popupContraBtnMobile = document.querySelector(
+			"#popupBtnContra1Mobile"
+		);
+		const popupBTDBtnMobile = document.querySelector("#popupBtnbattl1Mobile");
+		const popupFelixBtnMobile = document.querySelector("#popupBtnFelix1Mobile");
+		console.log(popupFelixBtnMobile);
+		const popupLodeBtnMobile = document.querySelector(
+			"#popupBtnLoderunner1Mobile"
+		);
+		console.log(popupLodeBtnMobile);
 		// 16bitPopupMobile
 		const popupAladdinBtnMobile = document.querySelector(
 			"#popupBtnAladdin1Mobile"
@@ -162,6 +223,12 @@
 		);
 		const popupMortalkombatBtnMobile = document.querySelector(
 			"#popupBtnMortalkombat1Mobile"
+		);
+		const popupLionKingMobile = document.querySelector("#popupBtnLion1Mobile");
+		const popupMK2Mobile = document.querySelector("#popupBtnMk2Mobile");
+
+		const popupAdventBtnMobile = document.querySelector(
+			"#popupBtnadvent1Mobile"
 		);
 
 		// 8bitPopup
@@ -190,6 +257,37 @@
 				ym(99092432, "reachGoal", "teenagemutant1");
 			});
 		}
+		if (popupCNDBtnMobile) {
+			popupCNDBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "chip1");
+			});
+		}
+		if (popupContraBtnMobile) {
+			popupContraBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "contra1");
+			});
+		}
+		if (popupBTDBtnMobile) {
+			popupBTDBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "battl1");
+			});
+		}
+		if (popupFelixBtnMobile) {
+			popupFelixBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "felix1");
+			});
+		}
+		if (popupLodeBtnMobile) {
+			popupLodeBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "loderunner1");
+			});
+		}
+		if (popupAdventBtnMobile) {
+			popupAdventBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "advent1");
+			});
+		}
+
 		// 16bitPopup
 		if (popupAladdinBtnMobile) {
 			popupAladdinBtnMobile.addEventListener("click", () => {
@@ -214,6 +312,16 @@
 		if (popupMortalkombatBtnMobile) {
 			popupMortalkombatBtnMobile.addEventListener("click", () => {
 				ym(99092432, "reachGoal", "mortalkombat 1");
+			});
+		}
+		if (popupLionKingMobile) {
+			popupLionKingMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "lion1");
+			});
+		}
+		if (popupMK2Mobile) {
+			popupMK2Mobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "mk2");
 			});
 		}
 	});
@@ -395,7 +503,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button" id="chip1">Купить</button>
+			<button type="button" class="btn__item__button" id="popupBtnChip1">Купить</button>
 		</div>
 	</div>
 </div>
@@ -409,7 +517,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button" id="contra1">Купить</button>
+			<button type="button" class="btn__item__button" id="popupBtnContra1">Купить</button>
 		</div>
 	</div>
 </div>
@@ -423,7 +531,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button" id="battl1">Купить</button>
+			<button type="button" class="btn__item__button" id="popupBtnbattl1">Купить</button>
 		</div>
 	</div>
 </div>
@@ -437,7 +545,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button" id="felix1">Купить</button>
+			<button type="button" class="btn__item__button" id="popupBtnFelix1">Купить</button>
 		</div>
 	</div>
 </div>
@@ -451,7 +559,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button" id="loderunner1">Купить</button>
+			<button type="button" class="btn__item__button" id="popupBtnLoderunner1">Купить</button>
 		</div>
 	</div>
 </div>
@@ -465,7 +573,21 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button" id="advent1">Купить</button>
+			<button type="button" class="btn__item__button" id="popupBtnadvent1">Купить</button>
+		</div>
+	</div>
+</div>
+<div class="item" data-id="darkwing">
+	<div class="item__title">
+		<p class="item__title_text">Darkwing Duck</p>
+	</div>
+	<div class="item__imgWrap">
+		<img src="./images/DD_001.webp" alt="Darkwing Duck" class="item__imgWrap__image" />
+	</div>
+	<div class="btn__item">
+		<div class="btn__item__hoverImage"></div>
+		<div class="btn__item__content">
+			<button type="button" class="btn__item__button" id="popupBtnDarkwing1">Купить</button>
 		</div>
 	</div>
 </div>
@@ -682,7 +804,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="chip1">
+				<button type="button" class="btn__item__button" id="popupBtnChip1Mobile">
 					Купить
 				</button>
 			</div>
@@ -700,7 +822,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="contra1">
+				<button type="button" class="btn__item__button" id="popupBtnContra1Mobile">
 					Купить
 				</button>
 			</div>
@@ -718,7 +840,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="battl1">
+				<button type="button" class="btn__item__button" id="popupBtnbattl1Mobile">
 					Купить
 				</button>
 			</div>
@@ -736,7 +858,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="felix1">
+				<button type="button" class="btn__item__button" id="popupBtnFelix1Mobile">
 					Купить
 				</button>
 			</div>
@@ -754,7 +876,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="loderunner1">
+				<button type="button" class="btn__item__button" id="popupBtnLoderunner1Mobile">
 					Купить
 				</button>
 			</div>
@@ -772,7 +894,25 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="advent1">
+				<button type="button" class="btn__item__button" id="popupBtnadvent1Mobile">
+					Купить
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="swiper-slide block hidden8">
+	<div class="item" data-id="darkwing">
+		<div class="item__title">
+			<p class="item__title_text">Darkwing Duck</p>
+		</div>
+		<div class="item__imgWrap">
+			<img src="./images/DD_001.webp" alt="Darkwing Duck" class="item__imgWrap__image" />
+		</div>
+		<div class="btn__item">
+			<div class="btn__item__hoverImage"></div>
+			<div class="btn__item__content">
+				<button type="button" class="btn__item__button" id="popupBtnDarkwing1Mobile">
 					Купить
 				</button>
 			</div>
@@ -868,7 +1008,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="chip1">
+				<button type="button" class="btn__item__button" id="popupBtnChip1Mobile">
 					Купить
 				</button>
 			</div>
@@ -886,7 +1026,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="contra1">
+				<button type="button" class="btn__item__button" id="popupBtnContra1Mobile">
 					Купить
 				</button>
 			</div>
@@ -904,7 +1044,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="battl1">
+				<button type="button" class="btn__item__button" id="popupBtnbattl1Mobile">
 					Купить
 				</button>
 			</div>
@@ -922,7 +1062,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="felix1">
+				<button type="button" class="btn__item__button" id="popupBtnFelix1Mobile">
 					Купить
 				</button>
 			</div>
@@ -940,7 +1080,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="loderunner1">
+				<button type="button" class="btn__item__button" id="popupBtnLoderunner1Mobile">
 					Купить
 				</button>
 			</div>
@@ -958,7 +1098,25 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button" id="advent1">
+				<button type="button" class="btn__item__button" id="popupBtnadvent1Mobile">
+					Купить
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="swiper-slide block hidden8">
+	<div class="item" data-id="darkwing">
+		<div class="item__title">
+			<p class="item__title_text">Darkwing Duck</p>
+		</div>
+		<div class="item__imgWrap">
+			<img src="./images/DD_001.webp" alt="Darkwing Duck" class="item__imgWrap__image" />
+		</div>
+		<div class="btn__item">
+			<div class="btn__item__hoverImage"></div>
+			<div class="btn__item__content">
+				<button type="button" class="btn__item__button" id="popupBtnDarkwing1Mobile">
 					Купить
 				</button>
 			</div>
@@ -1046,7 +1204,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button16" id="lion1">Купить</button>
+			<button type="button" class="btn__item__button16" id="popupBtnLion1">Купить</button>
 		</div>
 	</div>
 </div>
@@ -1060,7 +1218,7 @@
 	<div class="btn__item">
 		<div class="btn__item__hoverImage"></div>
 		<div class="btn__item__content">
-			<button type="button" class="btn__item__button16" id="mk2">Купить</button>
+			<button type="button" class="btn__item__button16" id="popupBtnMk2">Купить</button>
 		</div>
 	</div>
 </div>
@@ -1313,7 +1471,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button16" id="lion1">
+				<button type="button" class="btn__item__button16" id="popupBtnLion1Mobile">
 					Купить
 				</button>
 			</div>
@@ -1331,7 +1489,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button16" id="mk2">
+				<button type="button" class="btn__item__button16" id="popupBtnMk2Mobile">
 					Купить
 				</button>
 			</div>
@@ -1463,7 +1621,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button16" id="lion1">
+				<button type="button" class="btn__item__button16" id="popupBtnLion1Mobile">
 					Купить
 				</button>
 			</div>
@@ -1481,7 +1639,7 @@
 		<div class="btn__item">
 			<div class="btn__item__hoverImage"></div>
 			<div class="btn__item__content">
-				<button type="button" class="btn__item__button16" id="mk2">
+				<button type="button" class="btn__item__button16" id="popupBtnMk2Mobile">
 					Купить
 				</button>
 			</div>

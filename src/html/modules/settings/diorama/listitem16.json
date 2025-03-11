@@ -50,8 +50,8 @@
 		"href": "#",
 		"id": "lk",
 		"btnclass": "btn__item__button16",
-		"metrikaId": "lion1",
-		"metrikaIdMobile": "lion1",
+		"metrikaId": "popupBtnLion1",
+		"metrikaIdMobile": "popupBtnLion1Mobile",
 		"addClass": "hidden16"
 	},
 	{
@@ -61,8 +61,8 @@
 		"href": "#",
 		"id": "mk",
 		"btnclass": "btn__item__button16",
-		"metrikaId": "mk2",
-		"metrikaIdMobile": "mk2",
+		"metrikaId": "popupBtnMk2",
+		"metrikaIdMobile": "popupBtnMk2Mobile",
 		"addClass": "hidden16"
 	}
 ]

@@ -8,15 +8,7 @@
 		"metrikaIdMobile": "popupBtnTanki1Mobile",
 		"addClass": ""
 	},
-	{
-		"title": "Darkwing Duck",
-		"src": "../../images/DD_001.webp",
-		"id": "darkwing",
-		"btnclass": "btn__item__button",
-		"metrikaId": "popupBtnDarkwing1",
-		"metrikaIdMobile": "popupBtnDarkwing1Mobile",
-		"addClass": ""
-	},
+
 	{
 		"title": "Super Mario Bros",
 		"src": "../../images/M_001.webp",

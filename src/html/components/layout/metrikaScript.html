@@ -8,6 +8,11 @@
 		const popupTeenagemutantBtn = document.querySelector(
 			"#popupBtnTeenagemutant1"
 		);
+		const popupCNDBtn = document.querySelector("#popupBtnChip1");
+		const popupContraBtn = document.querySelector("#popupBtnContra1");
+		const popupBTDBtn = document.querySelector("#popupBtnbattl1");
+		const popupFelixBtn = document.querySelector("#popupBtnFelix1");
+
 		// 16bitPopup
 		const popupAladdinBtn = document.querySelector("#popupBtnAladdin1");
 		const popupComixzoneBtn = document.querySelector("#popupBtnComixzone1");
@@ -16,6 +21,10 @@
 		const popupMortalkombatBtn = document.querySelector(
 			"#popupBtnMortalkombat1"
 		);
+		const popupLionKing = document.querySelector("#popupBtnLion1");
+		const popupMK2 = document.querySelector("#popupBtnMk2");
+		const popupLodeBtn = document.querySelector("#popupBtnLoderunner1");
+		const popupAdventBtn = document.querySelector("#popupBtnadvent1");
 
 		// 8bitPopup
 		if (popupTankiBtn) {
@@ -43,6 +52,37 @@
 				ym(99092432, "reachGoal", "teenagemutant1");
 			});
 		}
+		if (popupCNDBtn) {
+			popupCNDBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "chip1");
+			});
+		}
+		if (popupContraBtn) {
+			popupContraBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "chip1");
+			});
+		}
+		if (popupBTDBtn) {
+			popupBTDBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "battl1");
+			});
+		}
+		if (popupFelixBtn) {
+			popupFelixBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "felix1");
+			});
+		}
+		if (popupLodeBtn) {
+			popupLodeBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "loderunner1");
+			});
+		}
+		if (popupAdventBtn) {
+			popupAdventBtn.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "advent1");
+			});
+		}
+
 		// 16bitPopup
 		if (popupAladdinBtn) {
 			popupAladdinBtn.addEventListener("click", () => {
@@ -69,6 +109,16 @@
 				ym(99092432, "reachGoal", "mortalkombat 1");
 			});
 		}
+		if (popupLionKing) {
+			popupLionKing.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "lion1");
+			});
+		}
+		if (popupMK2) {
+			popupMK2.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "mk2");
+			});
+		}
 	});
 </script>
 <script type="text/javascript">
@@ -87,6 +137,17 @@
 		const popupTeenagemutantBtnMobile = document.querySelector(
 			"#popupBtnTeenagemutant1Mobile"
 		);
+		const popupCNDBtnMobile = document.querySelector("#popupBtnChip1Mobile");
+		const popupContraBtnMobile = document.querySelector(
+			"#popupBtnContra1Mobile"
+		);
+		const popupBTDBtnMobile = document.querySelector("#popupBtnbattl1Mobile");
+		const popupFelixBtnMobile = document.querySelector("#popupBtnFelix1Mobile");
+		console.log(popupFelixBtnMobile);
+		const popupLodeBtnMobile = document.querySelector(
+			"#popupBtnLoderunner1Mobile"
+		);
+		console.log(popupLodeBtnMobile);
 		// 16bitPopupMobile
 		const popupAladdinBtnMobile = document.querySelector(
 			"#popupBtnAladdin1Mobile"
@@ -102,6 +163,12 @@
 		);
 		const popupMortalkombatBtnMobile = document.querySelector(
 			"#popupBtnMortalkombat1Mobile"
+		);
+		const popupLionKingMobile = document.querySelector("#popupBtnLion1Mobile");
+		const popupMK2Mobile = document.querySelector("#popupBtnMk2Mobile");
+
+		const popupAdventBtnMobile = document.querySelector(
+			"#popupBtnadvent1Mobile"
 		);
 
 		// 8bitPopup
@@ -130,6 +197,37 @@
 				ym(99092432, "reachGoal", "teenagemutant1");
 			});
 		}
+		if (popupCNDBtnMobile) {
+			popupCNDBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "chip1");
+			});
+		}
+		if (popupContraBtnMobile) {
+			popupContraBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "contra1");
+			});
+		}
+		if (popupBTDBtnMobile) {
+			popupBTDBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "battl1");
+			});
+		}
+		if (popupFelixBtnMobile) {
+			popupFelixBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "felix1");
+			});
+		}
+		if (popupLodeBtnMobile) {
+			popupLodeBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "loderunner1");
+			});
+		}
+		if (popupAdventBtnMobile) {
+			popupAdventBtnMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "advent1");
+			});
+		}
+
 		// 16bitPopup
 		if (popupAladdinBtnMobile) {
 			popupAladdinBtnMobile.addEventListener("click", () => {
@@ -154,6 +252,16 @@
 		if (popupMortalkombatBtnMobile) {
 			popupMortalkombatBtnMobile.addEventListener("click", () => {
 				ym(99092432, "reachGoal", "mortalkombat 1");
+			});
+		}
+		if (popupLionKingMobile) {
+			popupLionKingMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "lion1");
+			});
+		}
+		if (popupMK2Mobile) {
+			popupMK2Mobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "mk2");
 			});
 		}
 	});

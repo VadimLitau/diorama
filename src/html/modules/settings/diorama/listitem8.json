@@ -22,8 +22,8 @@
 		"src": "../../images/C&D_001.webp",
 		"id": "cd",
 		"btnclass": "btn__item__button",
-		"metrikaId": "chip1",
-		"metrikaIdMobile": "chip1",
+		"metrikaId": "popupBtnChip1",
+		"metrikaIdMobile": "popupBtnChip1Mobile",
 		"addClass": ""
 	},
 	{
@@ -31,8 +31,8 @@
 		"src": "../../images/contra_001.webp",
 		"id": "contra",
 		"btnclass": "btn__item__button",
-		"metrikaId": "contra1",
-		"metrikaIdMobile": "contra1",
+		"metrikaId": "popupBtnContra1",
+		"metrikaIdMobile": "popupBtnContra1Mobile",
 		"addClass": "hidden8"
 	},
 	{
@@ -40,8 +40,8 @@
 		"src": "../../images/BT_001.webp",
 		"id": "battletoads",
 		"btnclass": "btn__item__button",
-		"metrikaId": "battl1",
-		"metrikaIdMobile": "battl1",
+		"metrikaId": "popupBtnbattl1",
+		"metrikaIdMobile": "popupBtnbattl1Mobile",
 		"addClass": "hidden8"
 	},
 	{
@@ -49,8 +49,8 @@
 		"src": "../../images/felix_001.webp",
 		"id": "felix",
 		"btnclass": "btn__item__button",
-		"metrikaId": "felix1",
-		"metrikaIdMobile": "felix1",
+		"metrikaId": "popupBtnFelix1",
+		"metrikaIdMobile": "popupBtnFelix1Mobile",
 		"addClass": "hidden8"
 	},
 	{
@@ -58,8 +58,8 @@
 		"src": "../../images/loderunner_001.webp",
 		"id": "lr",
 		"btnclass": "btn__item__button",
-		"metrikaId": "loderunner1",
-		"metrikaIdMobile": "loderunner1",
+		"metrikaId": "popupBtnLoderunner1",
+		"metrikaIdMobile": "popupBtnLoderunner1Mobile",
 		"addClass": "hidden8"
 	},
 	{
@@ -67,8 +67,17 @@
 		"src": "../../images/advent_001.webp",
 		"id": "advent",
 		"btnclass": "btn__item__button",
-		"metrikaId": "advent1",
-		"metrikaIdMobile": "advent1",
+		"metrikaId": "popupBtnadvent1",
+		"metrikaIdMobile": "popupBtnadvent1Mobile",
+		"addClass": "hidden8"
+	},
+	{
+		"title": "Darkwing Duck",
+		"src": "../../images/DD_001.webp",
+		"id": "darkwing",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnDarkwing1",
+		"metrikaIdMobile": "popupBtnDarkwing1Mobile",
 		"addClass": "hidden8"
 	}
 ]
