@@ -29,7 +29,7 @@ const popupData = [
 		Уровень сложности : средний
 `,
 
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mario-mario-1753280067/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mario-mario-1753280067/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mario-mario-1753280067/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "battle",
@@ -60,7 +60,7 @@ const popupData = [
 		<br />
 		Уровень сложности : средний`,
 
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-tanchiki-battle-city-1753280164/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-tanchiki-battle-city-1753280164/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-tanchiki-battle-city-1753280164/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "darkwing",
@@ -92,7 +92,7 @@ const popupData = [
 		Уровень сложности : начальный
 		`,
 
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-chernyy-plashch-darkwingduck-1753280083/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-chernyy-plashch-darkwingduck-1753280083/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&from_sku=1753280164&oos_search=false&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-chernyy-plashch-darkwingduck-1753280083/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&from_sku=1753280164&oos_search=false&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "duck",
@@ -124,7 +124,7 @@ const popupData = [
 		Уровень сложности : начальный
 `,
 
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-ohota-na-utku-duckhunt-1753280068/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-ohota-na-utku-duckhunt-1753280068/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&from_sku=1753280164&oos_search=false&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-ohota-na-utku-duckhunt-1753280068/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&from_sku=1753280164&oos_search=false&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "teenage",
@@ -156,7 +156,7 @@ const popupData = [
 		Уровень сложности : средний
 `,
 
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-cherepashki-nindzya-tmnt-1753280071/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-cherepashki-nindzya-tmnt-1753280071/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-cherepashki-nindzya-tmnt-1753280071/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "aladdin",
@@ -187,7 +187,7 @@ const popupData = [
 		Уровень сложности : средний
 `,
 
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-alladin-aladdin-1761785604/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-alladin-aladdin-1761785604/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-alladin-aladdin-1761785604/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "comix",
@@ -218,7 +218,7 @@ const popupData = [
 		Уровень сложности : начальный
 `,
 
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-komiks-zona-comix-zone-1761785608/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-komiks-zona-comix-zone-1761785608/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-komiks-zona-comix-zone-1761785608/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "earthworm",
@@ -249,7 +249,7 @@ const popupData = [
 		Уровень сложности : начальный
 `,
 
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-earthworm-jim-2-1761785545/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-earthworm-jim-2-1761785545/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&from_sku=1761785608&oos_search=false&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-earthworm-jim-2-1761785545/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&from_sku=1761785608&oos_search=false&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "sonic",
@@ -280,7 +280,7 @@ const popupData = [
 		Уровень сложности : начальный
 `,
 
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-sonik-sonic-the-hedgehog-1761785554/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-sonik-sonic-the-hedgehog-1761785554/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-sonik-sonic-the-hedgehog-1761785554/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "mortal",
@@ -311,7 +311,7 @@ const popupData = [
 		Уровень сложности : начальный
 `,
 
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-mortal-kombat-1761785503/&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-mortal-kombat-1761785503/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-mortal-kombat-1761785503/&is_retargeting=true&c=vendor_org_819073_{ad_id}&pid=yandex_direct|cpc&utm_source=yandex_direct&utm_medium=cpc&utm_campaign=vendor_org_819073_{ad_id}",
 	},
 	{
 		id: "cd",
@@ -343,7 +343,7 @@ const popupData = [
 		Уровень сложности : средний
 `,
 
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-chip-n-dale-chip-i-deyl-1841813406&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-chip-n-dale-chip-i-deyl-1841813406&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-chip-n-dale-chip-i-deyl-1841813406/&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
 	},
 	{
 		id: "contra",
@@ -374,7 +374,7 @@ const popupData = [
 		<br />
 		Уровень сложности : средний
 `,
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-contra-kontra-1841813232&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-contra-kontra-1841813232&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-contra-kontra-1841813232/&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
 	},
 	{
 		id: "battletoads",
@@ -405,7 +405,7 @@ const popupData = [
 		<br />
 		Уровень сложности : средний
 `,
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-battletoads-boevye-zhaby-1841812428&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-battletoads-boevye-zhaby-1841812428&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-battletoads-boevye-zhaby-1841812428/&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
 	},
 	{
 		id: "felix",
@@ -436,7 +436,7 @@ const popupData = [
 		<br />
 		Уровень сложности : средний
 `,
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-felix-the-cat-1850083561&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-felix-the-cat-1850083561&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-felix-the-cat-1850083561/&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
 	},
 	{
 		id: "lr",
@@ -468,7 +468,7 @@ const popupData = [
 		<br />
 		Уровень сложности : средний
 `,
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-lode-runner-1850083516&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-lode-runner-1850083516&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-lode-runner-1850083516/&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
 	},
 	{
 		id: "advent",
@@ -500,7 +500,7 @@ const popupData = [
 		<br />
 		Уровень сложности : средний
 `,
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-adventure-island-1850083482&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-adventure-island-1850083482&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-adventure-island-1850083482/&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
 	},
 	{
 		id: "lk",
@@ -533,7 +533,7 @@ const popupData = [
 		<br />
 		Уровень сложности : начальный
 `,
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-the-lion-king-korol-lev-1841812156&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-the-lion-king-korol-lev-1841812156&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-the-lion-king-korol-lev-1841812156/&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
 	},
 	{
 		id: "mk",
@@ -565,7 +565,7 @@ const popupData = [
 		<br />
 		Уровень сложности : начальный
 `,
-		link: "https://ozon.onelink.me/SNMZ?af_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-2-1843420079&af_web_dp=https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-2-1843420079&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
+		link: "https://www.ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-retro-igr-mortal-kombat-2-1843420079/&is_retargeting=true&c=vendor_org_819073&pid=yandex_direct&utm_source=yandex_direct&utm_campaign=vendor_org_819073",
 	},
 ];
 export {popupData};
