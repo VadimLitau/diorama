@@ -12,6 +12,9 @@
 		const popupContraBtn = document.querySelector("#popupBtnContra1");
 		const popupBTDBtn = document.querySelector("#popupBtnbattl1");
 		const popupFelixBtn = document.querySelector("#popupBtnFelix1");
+		const popupFlinstones = document.querySelector("#popupBtnFlinestones");
+		const popupPrince = document.querySelector("#popupBtnPrince");
+		const popupDuckTales = document.querySelector("#popupBtnDuckTales");
 
 		// 16bitPopup
 		const popupAladdinBtn = document.querySelector("#popupBtnAladdin1");
@@ -81,7 +84,22 @@
 			popupAdventBtn.addEventListener("click", () => {
 				ym(99092432, "reachGoal", "advent1");
 			});
-		}
+		};
+    if (popupFlinstones) {
+			popupFlinstones.addEventListener("click", () => {
+				ym(99092432,'reachGoal','flin1')
+			});
+		};
+    if (popupPrince) {
+			popupPrince.addEventListener("click", () => {
+				ym(99092432,'reachGoal','persia1')
+			});
+		};
+    if (popupDuckTales) {
+			popupDuckTales.addEventListener("click", () => {
+				ym(99092432,'reachGoal','ducktales1')
+			});
+		};
 
 		// 16bitPopup
 		if (popupAladdinBtn) {
@@ -119,7 +137,7 @@
 				ym(99092432, "reachGoal", "mk2");
 			});
 		}
-	});
+	  });
 </script>
 <script type="text/javascript">
 	document.addEventListener("DOMContentLoaded", function () {
@@ -143,12 +161,20 @@
 		);
 		const popupBTDBtnMobile = document.querySelector("#popupBtnbattl1Mobile");
 		const popupFelixBtnMobile = document.querySelector("#popupBtnFelix1Mobile");
-		console.log(popupFelixBtnMobile);
 		const popupLodeBtnMobile = document.querySelector(
 			"#popupBtnLoderunner1Mobile"
 		);
-		console.log(popupLodeBtnMobile);
-		// 16bitPopupMobile
+    const popupFlinstonesBtnMobile = document.querySelector(
+			"#popupBtnFlinestonesMobile"
+		);
+    const popupPrinceMobile = document.querySelector(
+			"#popupBtnPrinceMobile"
+		);
+     const popupDuckTalesMobile = document.querySelector(
+			"#popupBtnDuckTalesMobile"
+		);
+		
+    // 16bitPopupMobile
 		const popupAladdinBtnMobile = document.querySelector(
 			"#popupBtnAladdin1Mobile"
 		);
@@ -166,10 +192,10 @@
 		);
 		const popupLionKingMobile = document.querySelector("#popupBtnLion1Mobile");
 		const popupMK2Mobile = document.querySelector("#popupBtnMk2Mobile");
-
 		const popupAdventBtnMobile = document.querySelector(
 			"#popupBtnadvent1Mobile"
 		);
+    
 
 		// 8bitPopup
 		if (popupTankiBtnMobile) {
@@ -227,6 +253,21 @@
 				ym(99092432, "reachGoal", "advent1");
 			});
 		}
+    if (popupFlinstonesBtnMobile) {
+			popupFlinstonesBtnMobile.addEventListener("click", () => {
+				ym(99092432,'reachGoal','flin1')
+			});
+		}
+    if (popupPrinceMobile) {
+			popupPrinceMobile.addEventListener("click", () => {
+				ym(99092432,'reachGoal','persia1')
+			});
+		};
+    if (popupDuckTalesMobile) {
+			popupDuckTalesMobile.addEventListener("click", () => {
+				ym(99092432,'reachGoal','ducktales1')
+			});
+		};
 
 		// 16bitPopup
 		if (popupAladdinBtnMobile) {

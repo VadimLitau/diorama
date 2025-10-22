@@ -64,5 +64,16 @@
 		"metrikaId": "popupBtnMk2",
 		"metrikaIdMobile": "popupBtnMk2Mobile",
 		"addClass": "hidden16"
+	},
+	{
+		"title": "Sonic the Hedgehog 2",
+		"src": "../../images/S_001.webp",
+		"link": "#",
+		"href": "#",
+		"id": "sonic",
+		"btnclass": "btn__item__button16",
+		"metrikaId": "popupBtnHedgehog1",
+		"metrikaIdMobile": "popupBtnHedgehog1Mobile",
+		"addClass": "hidden16"
 	}
 ]

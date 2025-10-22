@@ -2,7 +2,6 @@ const politicsBtn = document.getElementById("politics");
 const popupPolitics = document.getElementById("cooperationPopup");
 politicsBtn.addEventListener("click", () => {
 	document.body.style.overflow = "hidden";
-	console.log(popupPolitics);
 	popupPolitics.classList.add("show");
 });
 

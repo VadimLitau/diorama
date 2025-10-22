@@ -7,7 +7,6 @@ document.querySelectorAll(".btn__item__button").forEach((button) => {
 	button.addEventListener("click", function () {
 		document.body.style.overflow = "hidden";
 		const cardId = this.closest(".item").dataset.id;
-		console.log(cardId);
 		const cardInfo = popupData.find((item) => item.id == cardId);
 
 		if (cardInfo) {
@@ -82,38 +81,6 @@ document.querySelectorAll(".btn__item__button").forEach((button) => {
 	});
 });
 
-// 	button.addEventListener("click", function () {
-// 		console.log(this);
-// 		document.body.style.overflow = "hidden";
-// 		const cardId = this.closest(".item").dataset.id;
-// 		const cardInfo = popupData.find((item) => item.id == cardId);
-
-// 		if (cardInfo) {
-// 			const popup = document.getElementById("popup-overlay16");
-// 			popup.querySelector(".popup__content__logo__img").src = cardInfo.logo;
-// 			const popupImg = popup.querySelectorAll(".swiper-slide");
-
-// 			popupImg.forEach((img, index) => {
-// 				img.src = cardInfo.photos[index] || "";
-// 			});
-// 			popup
-// 				.querySelectorAll(".swiper-slidePopup__img")
-// 				.forEach((img, index) => {
-// 					img.src = cardInfo.photos[index] || "";
-// 				});
-// 			popup.querySelector(".popup__slider__oldPrice").textContent =
-// 				cardInfo.oldPrice;
-// 			popup.querySelector(".popup__slider__newPrice").textContent =
-// 				cardInfo.newPrice;
-// 			popup.querySelector(".popup__content__text").innerHTML =
-// 				cardInfo.description;
-// 			popup.querySelector(".btn__popup__button").href = cardInfo.link;
-
-// 			// Открытие попапа после заполнения данных
-// 			popup.classList.add("show");
-// 		}
-// 	});
-// });
 document.querySelectorAll(".btn__item__button16").forEach((button) => {
 	button.addEventListener("click", function () {
 		document.body.style.overflow = "hidden";

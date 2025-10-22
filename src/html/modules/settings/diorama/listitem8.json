@@ -79,5 +79,59 @@
 		"metrikaId": "popupBtnDarkwing1",
 		"metrikaIdMobile": "popupBtnDarkwing1Mobile",
 		"addClass": "hidden8"
+	},
+	{
+		"title": "Battle city",
+		"src": "../../images/T_001.webp",
+		"id": "battle",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnTanki1",
+		"metrikaIdMobile": "popupBtnTanki1Mobile",
+		"addClass": "hidden8"
+	},
+	{
+		"title": "Super Mario Bros",
+		"src": "../../images/M_001.webp",
+		"id": "mario",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnSupermario1",
+		"metrikaIdMobile": "popupBtnSupermario1Mobile",
+		"addClass": "hidden8"
+	},
+	{
+		"title": "The Flinestones",
+		"src": "../../images/pixels/update2110/FS_001.webp",
+		"id": "flinstones",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnFlinestones",
+		"metrikaIdMobile": "popupBtnFlinestonesMobile",
+		"addClass": "hidden8"
+	},
+	{
+		"title": "Prince of Persia",
+		"src": "../../images/pixels/update2110/pp_001.webp",
+		"id": "prince",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnPrince",
+		"metrikaIdMobile": "popupBtnPrinceMobile",
+		"addClass": "hidden8"
+	},
+	{
+		"title": "Duck Tales",
+		"src": "../../images/pixels/update2110/DT_001.webp",
+		"id": "duckTales",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnDuckTales",
+		"metrikaIdMobile": "popupBtnDuckTalesMobile",
+		"addClass": "hidden8"
+	},
+	{
+		"title": "Donkey Kong",
+		"src": "../../images/pixels/update2110/DK_001.webp",
+		"id": "donkeyKong",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnDonkey",
+		"metrikaIdMobile": "popupBtnDonkeyMobile",
+		"addClass": "hidden8"
 	}
 ]
