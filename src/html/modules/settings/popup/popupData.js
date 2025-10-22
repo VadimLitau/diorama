@@ -694,7 +694,7 @@ const popupData = [
 	},
   {
 		id: "donkeyKong",
-		metrikaBuyId: "donky1",
+		metrikaBuyId: "donky2",
 		name: "Donkey Kong",
 		logo: "./images/logo_reserve/DonkeyLogo.png",
 		photos: [
@@ -722,6 +722,254 @@ const popupData = [
 		Уровень сложности : средний
 `,
 		link: "https://ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-igry-donkeykong-2722972807/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "flashback",
+		metrikaBuyId: "flash2",
+		name: "Flashback",
+		logo: "./images/logo_reserve/FlashbackLogo.png",
+		photos: [
+			"./images/update2110/FB_001.webp",
+			"./images/update2110/FB_002.webp",
+			"./images/update2110/FB_003.webp",
+			"./images/update2110/FB_004.webp",
+			"./images/update2110/FB_005.webp",
+			"./images/update2110/FB_006.webp",
+			"./images/update2110/FB_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Собери диораму-пазл "Flashback"! 🕹️ Воссоздай киберпанковый мир игры с Dendy из дерева. Стильный ретро-декор для ценителей научной фантастики и олдскульных приключений. 👽 Отличный подарок для геймеров! ✨
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-igry-flashback-2729580031/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "megaman",
+		metrikaBuyId: "mega2",
+		name: "Megaman",
+		logo: "./images/logo_reserve/MegamanLogo.png",
+		photos: [
+			"./images/update2110/MG_001.webp",
+			"./images/update2110/MG_002.webp",
+			"./images/update2110/MG_003.webp",
+			"./images/update2110/MG_004.webp",
+			"./images/update2110/MG_005.webp",
+			"./images/update2110/MG_006.webp",
+			"./images/update2110/MG_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Собери диораму-пазл "Mega Man"! 🤖 Воссоздай мир роботов-мастеров из классической игры Dendy, собрав его из дерева. Яркий ретро-декор для фанатов Mega Man и любителей пазлов. 💥 Победи Доктора Вайли! 👨‍🔬
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-igry-megaman-2760210757/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "rick1",
+		metrikaBuyId: "rick11",
+		name: "Rick and Morty 1",
+		logo: "./images/logo_reserve/RickLogo.png",
+		photos: [
+			"./images/update2110/RM1_001.webp",
+			"./images/update2110/RM1_002.webp",
+			"./images/update2110/RM1_003.webp",
+			"./images/update2110/RM1_004.webp",
+			"./images/update2110/RM1_005.webp",
+			"./images/update2110/RM1_006.webp",
+			"./images/update2110/RM1_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Собери свою реальность с диорамой-пазлом "Рик и Морти"! 🧪 Из дерева - любимые локации из мультсериала. Стильный и безумный декор для фанатов межпространственных приключений. 🛸 Wubba Lubba Dub-Dub! 🎉
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-multseriala-rik-i-morti-2133407477/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "rick2",
+		metrikaBuyId: "rick21",
+		name: "Rick and Morty 2",
+		logo: "./images/logo_reserve/RickLogo.png",
+		photos: [
+			"./images/update2110/RM2_001.webp",
+			"./images/update2110/RM2_002.webp",
+			"./images/update2110/RM2_003.webp",
+			"./images/update2110/RM2_004.webp",
+			"./images/update2110/RM2_005.webp",
+			"./images/update2110/RM2_006.webp",
+			"./images/update2110/RM2_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Собери безумный мир "Рика и Морти" с диорамой-пазлом! 🧪 Создай любимые локации из дерева! Стильный декор для фанатов межгалактических приключений и кислотных шуток. 🚀 Get Schwifty! 🎉
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-multseriala-rik-i-morti-2133440499/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "rick3",
+		metrikaBuyId: "rick31",
+		name: "Rick and Morty 3",
+		logo: "./images/logo_reserve/RickLogo.png",
+		photos: [
+			"./images/update2110/RM3_001.webp",
+			"./images/update2110/RM3_002.webp",
+			"./images/update2110/RM3_003.webp",
+			"./images/update2110/RM3_004.webp",
+			"./images/update2110/RM3_005.webp",
+			"./images/update2110/RM3_006.webp",
+			"./images/update2110/RM3_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Портал открыт! Собери диораму-пазл "Рик и Морти"! 🚪 Создай свой мир из любимого мультсериала из дерева. Крутой декор для ценителей инопланетного юмора и приключений. 👽 Время шотить! 🍹
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-multseriala-rik-i-morti-2133452732/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "futurama",
+		metrikaBuyId: "futur11",
+		name: "Futurama",
+		logo: "./images/logo_reserve/FuturamaLogo.png",
+		photos: [
+			"./images/update2110/FT_001.webp",
+			"./images/update2110/FT_002.webp",
+			"./images/update2110/FT_003.webp",
+			"./images/update2110/FT_004.webp",
+			"./images/update2110/FT_005.webp",
+			"./images/update2110/FT_006.webp",
+			"./images/update2110/FT_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Отправься в 3000-й год с диорамой-пазлом "Футурама"! 🚀 Воссоздай любимые места из мультсериала из дерева. Ретрофутуристичный декор для фанатов Planet Express и Фрая! 🍕 Shut up and take my money! 💰
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-multseriala-futurama-2133469855/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "futurama2",
+		metrikaBuyId: "futur21",
+		name: "Futurama 2",
+		logo: "./images/logo_reserve/FuturamaLogo.png",
+		photos: [
+			"./images/update2110/FT2_001.webp",
+			"./images/update2110/FT2_002.webp",
+			"./images/update2110/FT2_003.webp",
+			"./images/update2110/FT2_004.webp",
+			"./images/update2110/FT2_005.webp",
+			"./images/update2110/FT2_006.webp",
+			"./images/update2110/FT2_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Футурама" у тебя дома! Собери диораму-пазл из дерева! 🚀 Почувствуй себя в Нью-Нью-Йорке, создав любимые локации. Стильный декор для фанатов Planet Express и Бендера. 🤖Bite my shiny metal ass! ✨
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-multseriala-futurama-2133486088/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "futurama3",
+		metrikaBuyId: "futur31",
+		name: "Futurama 3",
+		logo: "./images/logo_reserve/FuturamaLogo.png",
+		photos: [
+			"./images/update2110/FT3_001.webp",
+			"./images/update2110/FT3_002.webp",
+			"./images/update2110/FT3_003.webp",
+			"./images/update2110/FT3_004.webp",
+			"./images/update2110/FT3_005.webp",
+			"./images/update2110/FT3_006.webp",
+			"./images/update2110/FT3_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Построй будущее с диорамой-пазлом "Футурама"! 🚀 Собери из дерева знакомые места Нью-Нью-Йорка. Стильный и ностальгический декор для фанатов Planet Express. 📦 Вжух и ты в 3000-м! 🎉
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-multseriala-futurama-2133501613/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
 	},
 ];
 export {popupData};

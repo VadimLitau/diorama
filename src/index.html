@@ -11,13 +11,26 @@
 				@@include("html/components/blocks/wrapper/list.html",
 				{"removeClass":"visible8","addClass":
 				"hidden8","idMobileBtn":"8mobileBtnBit","mySwiper":"mySwiper8bit","swiper-button-sliderNext":"swiper-button-sliderNext8bit","swiper-button-sliderPrev":"swiper-button-sliderPrev8bit",
-				"idList":"catalog8","footer":"8",
+				"idList":"catalog8","footer":"8 битные диорамы",
 				"align":"right","data":"@@webRoot/html/modules/settings/diorama/listitem8.json"})
-				@@include("html/components/blocks/wrapper/list.html",
-				{"removeClass":"visible16","addClass":
-				"hidden16","idMobileBtn":"16mobileBtnBit","mySwiper":"mySwiper16bit","swiper-button-sliderNext":"swiper-button-sliderNext16bit","swiper-button-sliderPrev":"swiper-button-sliderPrev16bit","idList":"catalog16","footer":"16",
-				"align":"left",
-				"data":"@@webRoot/html/modules/settings/diorama/listitem16.json"})
+				@@include("html/components/blocks/wrapper/list.html",{"removeClass":"visible16","addClass":"hidden16","idMobileBtn":"16mobileBtnBit","mySwiper":"mySwiper16bit",
+          "swiper-button-sliderNext":"swiper-button-sliderNext16bit",
+          "swiper-button-sliderPrev":"swiper-button-sliderPrev16bit",
+          "idList":"catalog16",
+          "footer":"16 битные диорамы",
+          "align":"left",
+          "data":"@@webRoot/html/modules/settings/diorama/listitem16.json"})
+        @@include("html/components/blocks/wrapper/list.html",{
+          "removeClass":"visibleMS",
+          "addClass":"hiddenMS",
+          "idMobileBtn":"MSmobileBtnBit",
+          "mySwiper":"mySwiperMS",
+          "swiper-button-sliderNext":"swiper-button-sliderNextMS",
+          "swiper-button-sliderPrev":"swiper-button-sliderPrevMS",
+          "idList":"catalogMS",
+          "footer":"Мультсериалы",
+          "align":"left",
+          "data":"@@webRoot/html/modules/settings/diorama/listitemMS.json"})
 				@@include("html/components/blocks/wrapper/about.html",{})
 				@@include("html/components/blocks/wrapper/constructor.html",{})
 				@@include("html/components/blocks/wrapper/comments.html",{})
@@ -104,6 +117,19 @@
 				navigation: {
 					nextEl: ".swiper-button-sliderNextConstructor",
 					prevEl: ".swiper-button-sliderPrevConstructor",
+				},
+			});
+      var mySwiperMS = new Swiper(".mySwiperMS", {
+				slidesPerView: 1,
+				spaceBetween: 30,
+				loop: true,
+				pagination: {
+					el: ".swiper-paginationMS",
+					clickable: true,
+				},
+				navigation: {
+					nextEl: ".swiper-button-sliderNextMS",
+					prevEl: ".swiper-button-sliderPrevMS",
 				},
 			});
 		</script>

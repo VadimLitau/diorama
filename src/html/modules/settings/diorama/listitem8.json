@@ -133,5 +133,23 @@
 		"metrikaId": "popupBtnDonkey",
 		"metrikaIdMobile": "popupBtnDonkeyMobile",
 		"addClass": "hidden8"
+	},
+	{
+		"title": "Flashback",
+		"src": "../../images/pixels/update2110/FB_001.webp",
+		"id": "flashback",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupFlashback",
+		"metrikaIdMobile": "popupFlashbackMobile",
+		"addClass": "hidden8"
+	},
+	{
+		"title": "Megaman",
+		"src": "../../images/pixels/update2110/MG_001.webp",
+		"id": "megaman",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupMegaman",
+		"metrikaIdMobile": "popupMegamanMobile",
+		"addClass": "hidden8"
 	}
 ]

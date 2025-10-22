@@ -1,0 +1,56 @@
+[
+  {
+		"title": "Rick and Morty 1",
+		"src": "../../images/pixels/update2110/RM1_001.webp",
+		"id": "rick1",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnRick1",
+		"metrikaIdMobile": "popupBtnRickt1Mobile",
+		"addClass": ""
+	},
+	{
+		"title": "Rick and Morty 2",
+		"src": "../../images/pixels/update2110/RM2_001.webp",
+		"id": "rick2",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnRick2",
+		"metrikaIdMobile": "popupBtnRickt2Mobile",
+		"addClass": ""
+	},
+	{
+		"title": "Rick and Morty 3",
+		"src": "../../images/pixels/update2110/RM3_001.webp",
+		"id": "rick3",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnRick3",
+		"metrikaIdMobile": "popupBtnRickt3Mobile",
+		"addClass": ""
+	},
+	{
+		"title": "Futurama",
+		"src": "../../images/pixels/update2110/FT_001.webp",
+		"id": "futurama",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnFuturama",
+		"metrikaIdMobile": "popupBtnFuturamaMobile",
+		"addClass": "hiddenMS"
+	},
+	{
+		"title": "Futurama 2",
+		"src": "../../images/pixels/update2110/FT2_001.webp",
+		"id": "futurama2",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnFuturama2",
+		"metrikaIdMobile": "popupBtnFuturama2Mobile",
+		"addClass": "hiddenMS"
+	},
+	{
+		"title": "Futurama 3",
+		"src": "../../images/pixels/update2110/FT3_001.webp",
+		"id": "futurama3",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnFuturama3",
+		"metrikaIdMobile": "popupBtnFuturama3Mobile",
+		"addClass": "hiddenMS"
+	}
+]

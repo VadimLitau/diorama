@@ -7,7 +7,7 @@ document.querySelectorAll(".btn__item__button").forEach((button) => {
 	button.addEventListener("click", function () {
 		document.body.style.overflow = "hidden";
 		const cardId = this.closest(".item").dataset.id;
-		const cardInfo = popupData.find((item) => item.id == cardId);
+		const cardInfo = popupData.find((item) => item.id == cardId);    
 
 		if (cardInfo) {
 			const popup = document.getElementById("popup-overlay");
