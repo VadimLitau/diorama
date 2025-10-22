@@ -1,5 +1,4 @@
 # Игнорировать файлы и каталоги сборки и зависимостей
-dist/
 build/
 node_modules/
 bower_components/
