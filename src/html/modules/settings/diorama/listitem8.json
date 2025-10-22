@@ -109,7 +109,7 @@
 	},
 	{
 		"title": "Prince of Persia",
-		"src": "../../images/pixels/update2110/pp_001.webp",
+		"src": "../../images/pixels/update2110/PP_001.webp",
 		"id": "prince",
 		"btnclass": "btn__item__button",
 		"metrikaId": "popupBtnPrince",
