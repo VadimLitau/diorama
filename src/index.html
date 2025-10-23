@@ -31,6 +31,28 @@
           "footer":"Мультсериалы",
           "align":"left",
           "data":"@@webRoot/html/modules/settings/diorama/listitemMS.json"})
+        @@include("html/components/blocks/wrapper/list.html",{
+          "removeClass":"visibleAnime",
+          "addClass":"hiddenAnime",
+          "idMobileBtn":"AnimemobileBtnBit",
+          "mySwiper":"mySwiperAnime",
+          "swiper-button-sliderNext":"swiper-button-sliderNextAnime",
+          "swiper-button-sliderPrev":"swiper-button-sliderPrevAnime",
+          "idList":"catalogAnime",
+          "footer":"Аниме",
+          "align":"left",
+          "data":"@@webRoot/html/modules/settings/diorama/listitemAnime.json"})  
+        @@include("html/components/blocks/wrapper/list.html",{
+          "removeClass":"visibleGames",
+          "addClass":"hiddenGames",
+          "idMobileBtn":"GamesmobileBtnBit",
+          "mySwiper":"mySwiperGames",
+          "swiper-button-sliderNext":"swiper-button-sliderNextGames",
+          "swiper-button-sliderPrev":"swiper-button-sliderPrevGames",
+          "idList":"catalogGames",
+          "footer":"Современные игры",
+          "align":"left",
+          "data":"@@webRoot/html/modules/settings/diorama/listitemGames.json"})  
 				@@include("html/components/blocks/wrapper/about.html",{})
 				@@include("html/components/blocks/wrapper/constructor.html",{})
 				@@include("html/components/blocks/wrapper/comments.html",{})

@@ -1,202 +1,327 @@
 <script type="text/javascript">
-	document.addEventListener("DOMContentLoaded", function () {
-		// 8bitPopup
-		const popupTankiBtn = document.querySelector("#popupBtnTanki1");
-		const popupDarkwingBtn = document.querySelector("#popupBtnDarkwing1");
-		const popupDuckhuntBtn = document.querySelector("#popupBtnDuckhunt1");
-		const popupSupermarioBtn = document.querySelector("#popupBtnSupermario1");
-		const popupTeenagemutantBtn = document.querySelector(
-			"#popupBtnTeenagemutant1"
-		);
-		const popupCNDBtn = document.querySelector("#popupBtnChip1");
-		const popupContraBtn = document.querySelector("#popupBtnContra1");
-		const popupBTDBtn = document.querySelector("#popupBtnbattl1");
-		const popupFelixBtn = document.querySelector("#popupBtnFelix1");
-		const popupFlinstones = document.querySelector("#popupBtnFlinestones");
-		const popupPrince = document.querySelector("#popupBtnPrince");
-		const popupDuckTales = document.querySelector("#popupBtnDuckTales");
-    const popupDonkeyKong = document.querySelector("#popupBtnDonkey");
-    const popupFlashback = document.querySelector("#popupFlashback");
-    const popupMegaman = document.querySelector("#popupMegaman");
+		document.addEventListener("DOMContentLoaded", function () {
+			// 8bitPopup
+			const popupTankiBtn = document.querySelector("#popupBtnTanki1");
+			const popupDarkwingBtn = document.querySelector("#popupBtnDarkwing1");
+			const popupDuckhuntBtn = document.querySelector("#popupBtnDuckhunt1");
+			const popupSupermarioBtn = document.querySelector("#popupBtnSupermario1");
+			const popupTeenagemutantBtn = document.querySelector(
+				"#popupBtnTeenagemutant1"
+			);
+			const popupCNDBtn = document.querySelector("#popupBtnChip1");
+			const popupContraBtn = document.querySelector("#popupBtnContra1");
+			const popupBTDBtn = document.querySelector("#popupBtnbattl1");
+			const popupFelixBtn = document.querySelector("#popupBtnFelix1");
+			const popupFlinstones = document.querySelector("#popupBtnFlinestones");
+			const popupPrince = document.querySelector("#popupBtnPrince");
+			const popupDuckTales = document.querySelector("#popupBtnDuckTales");
+	    const popupDonkeyKong = document.querySelector("#popupBtnDonkey");
+	    const popupFlashback = document.querySelector("#popupFlashback");
+	    const popupMegaman = document.querySelector("#popupMegaman");
 
-		// 16bitPopup
-		const popupAladdinBtn = document.querySelector("#popupBtnAladdin1");
-		const popupComixzoneBtn = document.querySelector("#popupBtnComixzone1");
-		const popupEarthwormBtn = document.querySelector("#popupBtnEarthworm1");
-		const popupHedgehogBtn = document.querySelector("#popupBtnHedgehog1");
-		const popupMortalkombatBtn = document.querySelector(
-			"#popupBtnMortalkombat1"
-		);
-		const popupLionKing = document.querySelector("#popupBtnLion1");
-		const popupMK2 = document.querySelector("#popupBtnMk2");
-		const popupLodeBtn = document.querySelector("#popupBtnLoderunner1");
-		const popupAdventBtn = document.querySelector("#popupBtnadvent1");
+			// 16bitPopup
+			const popupAladdinBtn = document.querySelector("#popupBtnAladdin1");
+			const popupComixzoneBtn = document.querySelector("#popupBtnComixzone1");
+			const popupEarthwormBtn = document.querySelector("#popupBtnEarthworm1");
+			const popupHedgehogBtn = document.querySelector("#popupBtnHedgehog1");
+			const popupMortalkombatBtn = document.querySelector(
+				"#popupBtnMortalkombat1"
+			);
+			const popupLionKing = document.querySelector("#popupBtnLion1");
+			const popupMK2 = document.querySelector("#popupBtnMk2");
+			const popupLodeBtn = document.querySelector("#popupBtnLoderunner1");
+			const popupAdventBtn = document.querySelector("#popupBtnadvent1");
 
-		// 8bitPopup
-		if (popupTankiBtn) {
-			popupTankiBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "tanki1");
-			});
-		}
-		if (popupDarkwingBtn) {
-			popupDarkwingBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "darkwing1");
-			});
-		}
-		if (popupDuckhuntBtn) {
-			popupDuckhuntBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "duckhunt1");
-			});
-		}
-		if (popupSupermarioBtn) {
-			popupSupermarioBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "supermario1");
-			});
-		}
-		if (popupTeenagemutantBtn) {
-			popupTeenagemutantBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "teenagemutant1");
-			});
-		}
-		if (popupCNDBtn) {
-			popupCNDBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "chip1");
-			});
-		}
-		if (popupContraBtn) {
-			popupContraBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "chip1");
-			});
-		}
-		if (popupBTDBtn) {
-			popupBTDBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "battl1");
-			});
-		}
-		if (popupFelixBtn) {
-			popupFelixBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "felix1");
-			});
-		}
-		if (popupLodeBtn) {
-			popupLodeBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "loderunner1");
-			});
-		}
-		if (popupAdventBtn) {
-			popupAdventBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "advent1");
-			});
-		};
-    if (popupFlinstones) {
-			popupFlinstones.addEventListener("click", () => {
-				ym(99092432,'reachGoal','flin1')
-			});
-		};
-    if (popupPrince) {
-			popupPrince.addEventListener("click", () => {
-				ym(99092432,'reachGoal','persia1')
-			});
-		};
-    if (popupDuckTales) {
-			popupDuckTales.addEventListener("click", () => {
-				ym(99092432,'reachGoal','ducktales1')
-			});
-		};
-    if (popupDonkeyKong) {
-			popupDonkeyKong.addEventListener("click", () => {
-				ym(99092432,'reachGoal','donky1')
-			});
-		};
-    if (popupFlashback) {
-			popupFlashback.addEventListener("click", () => {
-				ym(99092432,'reachGoal','flash1')
-			});
-		};
-    if (popupMegaman) {
-			popupMegaman.addEventListener("click", () => {
-				ym(99092432,'reachGoal','mega1')
-			});
-		};
+			// 8bitPopup
+			if (popupTankiBtn) {
+				popupTankiBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "tanki1");
+				});
+			}
+			if (popupDarkwingBtn) {
+				popupDarkwingBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "darkwing1");
+				});
+			}
+			if (popupDuckhuntBtn) {
+				popupDuckhuntBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "duckhunt1");
+				});
+			}
+			if (popupSupermarioBtn) {
+				popupSupermarioBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "supermario1");
+				});
+			}
+			if (popupTeenagemutantBtn) {
+				popupTeenagemutantBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "teenagemutant1");
+				});
+			}
+			if (popupCNDBtn) {
+				popupCNDBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "chip1");
+				});
+			}
+			if (popupContraBtn) {
+				popupContraBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "chip1");
+				});
+			}
+			if (popupBTDBtn) {
+				popupBTDBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "battl1");
+				});
+			}
+			if (popupFelixBtn) {
+				popupFelixBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "felix1");
+				});
+			}
+			if (popupLodeBtn) {
+				popupLodeBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "loderunner1");
+				});
+			}
+			if (popupAdventBtn) {
+				popupAdventBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "advent1");
+				});
+			};
+	    if (popupFlinstones) {
+				popupFlinstones.addEventListener("click", () => {
+					ym(99092432,'reachGoal','flin1')
+				});
+			};
+	    if (popupPrince) {
+				popupPrince.addEventListener("click", () => {
+					ym(99092432,'reachGoal','persia1')
+				});
+			};
+	    if (popupDuckTales) {
+				popupDuckTales.addEventListener("click", () => {
+					ym(99092432,'reachGoal','ducktales1')
+				});
+			};
+	    if (popupDonkeyKong) {
+				popupDonkeyKong.addEventListener("click", () => {
+					ym(99092432,'reachGoal','donky1')
+				});
+			};
+	    if (popupFlashback) {
+				popupFlashback.addEventListener("click", () => {
+					ym(99092432,'reachGoal','flash1')
+				});
+			};
+	    if (popupMegaman) {
+				popupMegaman.addEventListener("click", () => {
+					ym(99092432,'reachGoal','mega1')
+				});
+			};
 
-		// 16bitPopup
-		if (popupAladdinBtn) {
-			popupAladdinBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "aladdin1");
-			});
-		}
-		if (popupComixzoneBtn) {
-			popupComixzoneBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "comixzone1");
-			});
-		}
-		if (popupEarthwormBtn) {
-			popupEarthwormBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "earthworm1");
-			});
-		}
-		if (popupHedgehogBtn) {
-			popupHedgehogBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "hedgehog1");
-			});
-		}
-		if (popupMortalkombatBtn) {
-			popupMortalkombatBtn.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "mortalkombat 1");
-			});
-		}
-		if (popupLionKing) {
-			popupLionKing.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "lion1");
-			});
-		}
-		if (popupMK2) {
-			popupMK2.addEventListener("click", () => {
-				ym(99092432, "reachGoal", "mk2");
-			});
-		}
-	  });
+			// 16bitPopup
+			if (popupAladdinBtn) {
+				popupAladdinBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "aladdin1");
+				});
+			}
+			if (popupComixzoneBtn) {
+				popupComixzoneBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "comixzone1");
+				});
+			}
+			if (popupEarthwormBtn) {
+				popupEarthwormBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "earthworm1");
+				});
+			}
+			if (popupHedgehogBtn) {
+				popupHedgehogBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "hedgehog1");
+				});
+			}
+			if (popupMortalkombatBtn) {
+				popupMortalkombatBtn.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "mortalkombat 1");
+				});
+			}
+			if (popupLionKing) {
+				popupLionKing.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "lion1");
+				});
+			}
+			if (popupMK2) {
+				popupMK2.addEventListener("click", () => {
+					ym(99092432, "reachGoal", "mk2");
+				});
+			}
+		  });
 
-    // MS    
-    const popupBtnRick1 = document.querySelector("#popupBtnRick1");
-    const popupBtnRick2 = document.querySelector("#popupBtnRick2");
-    const popupBtnRick3 = document.querySelector("#popupBtnRick3");
-    const popupBtnFuturama = document.querySelector("#popupBtnFuturama");
-    const popupBtnFuturama2 = document.querySelector("#popupBtnFuturama2");
-    const popupBtnFuturama3 = document.querySelector("#popupBtnFuturama3");
+	    // MS
+	    const popupBtnRick1 = document.querySelector("#popupBtnRick1");
+	    const popupBtnRick2 = document.querySelector("#popupBtnRick2");
+	    const popupBtnRick3 = document.querySelector("#popupBtnRick3");
+	    const popupBtnFuturama = document.querySelector("#popupBtnFuturama");
+	    const popupBtnFuturama2 = document.querySelector("#popupBtnFuturama2");
+	    const popupBtnFuturama3 = document.querySelector("#popupBtnFuturama3");
+	    const popupBtnSimpsons = document.querySelector("#popupBtnSimpsons");
+	    const popupBtnSimpsons2 = document.querySelector("#popupBtnSimpsons2");
+	    const popupBtnSimpsons3 = document.querySelector("#popupBtnSimpsons3");
+	    const popupBtnBeavis = document.querySelector("#popupBtnBeavis");
+	    const popupBtnAdventure = document.querySelector("#popupBtnAdventure");
+	    const popupBtnAdventure2 = document.querySelector("#popupBtnAdventure2");
+	    const popupBtnAdventure3 = document.querySelector("#popupBtnAdventure3");
+	    const popupBtnGravity = document.querySelector("#popupBtnGravity");
+	    const popupBtnSouth = document.querySelector("#popupBtnSouth");
+	    const popupBtnSouth2 = document.querySelector("#popupBtnSouth2");
+      
+      if (popupBtnSouth) {
+				popupBtnSouth.addEventListener("click", () => {
+					ym(99092432,'reachGoal','sp1')
+				});
+			};
+      if (popupBtnSouth2) {
+				popupBtnSouth2.addEventListener("click", () => {
+					ym(99092432,'reachGoal','sp2')
+				});
+			};
+      if (popupBtnGravity) {
+				popupBtnGravity.addEventListener("click", () => {
+					ym(99092432,'reachGoal','gravity1')
+				});
+			};
+      if (popupBtnAdventure) {
+				popupBtnAdventure.addEventListener("click", () => {
+					ym(99092432,'reachGoal','adv1')
+				});
+			};
+      if (popupBtnAdventure2) {
+				popupBtnAdventure2.addEventListener("click", () => {
+					ym(99092432,'reachGoal','adv2')
+				});
+			};
+      if (popupBtnAdventure3) {
+				popupBtnAdventure3.addEventListener("click", () => {
+					ym(99092432,'reachGoal','adv3')
+				});
+			};
+      if (popupBtnBeavis) {
+				popupBtnBeavis.addEventListener("click", () => {
+					ym(99092432,'reachGoal','beavis1')
+				});
+			};
+	    if (popupBtnRick1) {
+				popupBtnRick1.addEventListener("click", () => {
+					ym(99092432,'reachGoal','rick1')
+				});
+			};
+	    if (popupBtnRick2) {
+				popupBtnRick2.addEventListener("click", () => {
+					ym(99092432,'reachGoal','rick2')
+				});
+			};
+	    if (popupBtnRick3) {
+				popupBtnRick3.addEventListener("click", () => {
+					ym(99092432,'reachGoal','rick3')
+				});
+			};
+	    if (popupBtnFuturama) {
+				popupBtnFuturama.addEventListener("click", () => {
+					ym(99092432,'reachGoal','futur1')
+				});
+			};
+	    if (popupBtnFuturama2) {
+				popupBtnFuturama2.addEventListener("click", () => {
+					ym(99092432,'reachGoal','futur2')
+				});
+			};
+	    if (popupBtnFuturama3) {
+				popupBtnFuturama3.addEventListener("click", () => {
+					ym(99092432,'reachGoal','futur3')
+				});
+			};
+	    if (popupBtnSimpsons) {
+				popupBtnSimpsons.addEventListener("click", () => {
+					ym(99092432,'reachGoal','simp1')
+				});
+			};
+	    if (popupBtnSimpsons2) {
+				popupBtnSimpsons2.addEventListener("click", () => {
+					ym(99092432,'reachGoal','simp2')
+				});
+			};
+	    if (popupBtnSimpsons3) {
+				popupBtnSimpsons3.addEventListener("click", () => {
+					ym(99092432,'reachGoal','simp3')
+				});
+			};
 
-    
-    if (popupBtnRick1) {
-			popupBtnRick1.addEventListener("click", () => {
-				ym(99092432,'reachGoal','rick1')
-			});
-		};
-    if (popupBtnRick2) {
-			popupBtnRick2.addEventListener("click", () => {
-				ym(99092432,'reachGoal','rick2')
-			});
-		};
-    if (popupBtnRick3) {
-			popupBtnRick3.addEventListener("click", () => {
-				ym(99092432,'reachGoal','rick3')
-			});
-		};
-    if (popupBtnFuturama) {
-			popupBtnFuturama.addEventListener("click", () => {
-				ym(99092432,'reachGoal','futur1')
-			});
-		};
-    if (popupBtnFuturama2) {
-			popupBtnFuturama2.addEventListener("click", () => {
-				ym(99092432,'reachGoal','futur2')
-			});
-		};
-    if (popupBtnFuturama3) {
-			popupBtnFuturama3.addEventListener("click", () => {
-				ym(99092432,'reachGoal','futur3')
-			});
-		};
+      // Anime
+      const popupBtnOnePiece = document.querySelector("#popupBtnOnePiece");
+      const popupBtnOnePiece2 = document.querySelector("#popupBtnOnePiece2");
+      const popupBtnOnePiece3 = document.querySelector("#popupBtnOnePiece3");
+      const popupBtnNaruto = document.querySelector("#popupBtnNaruto");
+      
+      if (popupBtnOnePiece) {
+        popupBtnOnePiece.addEventListener("click", () => {
+          ym(99092432, "reachGoal", "one1");
+        });
+      }
+      if (popupBtnOnePiece2) {
+        popupBtnOnePiece2.addEventListener("click", () => {
+          ym(99092432, "reachGoal", "one2");
+        });
+      }
+      if (popupBtnOnePiece3) {
+        popupBtnOnePiece3.addEventListener("click", () => {
+          ym(99092432, "reachGoal", "one3");
+        });
+      }
+       if (popupBtnNaruto) {
+        popupBtnNaruto.addEventListener("click", () => {
+          ym(99092432, "reachGoal", "narut1");
+        });
+      }
 
+      // Games      
+      const popupBtnMinecraftMovie = document.querySelector("#popupBtnMinecraftMovie");
+      const popupBtnBrookhaven = document.querySelector("#popupBtnBrookhaven");
+      const popupBtnBuildABoat = document.querySelector("#popupBtnBuildABoat");
+      const popupBtnRobloxDoors = document.querySelector("#popupBtnBuildABoat");
+      const popupBtnMinecraft = document.querySelector("#popupBtnMinecraft");
+      const popupBtnMinecraft2 = document.querySelector("#popupBtnMinecraft2");
+
+      if (popupBtnMinecraft) {
+        popupBtnMinecraft.addEventListener("click", () => {
+          ym(99092432, "reachGoal", "mine2");
+        });
+      }
+      if (popupBtnMinecraft2) {
+        popupBtnMinecraft2.addEventListener("click", () => {
+          ym(99092432, "reachGoal", "mine3");
+        });
+      }
+
+      if (popupBtnRobloxDoors) {
+        popupBtnRobloxDoors.addEventListener("click", () => {
+          ym(99092432, "reachGoal", "roblox3");
+        });
+      }
+      if (popupBtnBuildABoat) {
+        popupBtnBuildABoat.addEventListener("click", () => {
+          ym(99092432, "reachGoal", "roblox2");
+        });
+      }
+      if (popupBtnMinecraftMovie) {
+        popupBtnMinecraftMovie.addEventListener("click", () => {
+          ym(99092432, "reachGoal", "mine1");
+        });
+      }
+      if (popupBtnBrookhaven) {
+        popupBtnBrookhaven.addEventListener("click", () => {
+          ym(99092432, "reachGoal", "roblox1");
+        });
+      }
 </script>
 <script type="text/javascript">
 	document.addEventListener("DOMContentLoaded", function () {
@@ -223,26 +348,20 @@
 		const popupLodeBtnMobile = document.querySelector(
 			"#popupBtnLoderunner1Mobile"
 		);
-    const popupFlinstonesBtnMobile = document.querySelector(
+		const popupFlinstonesBtnMobile = document.querySelector(
 			"#popupBtnFlinestonesMobile"
 		);
-    const popupPrinceMobile = document.querySelector(
-			"#popupBtnPrinceMobile"
-		);
-    const popupDuckTalesMobile = document.querySelector(
+		const popupPrinceMobile = document.querySelector("#popupBtnPrinceMobile");
+		const popupDuckTalesMobile = document.querySelector(
 			"#popupBtnDuckTalesMobile"
 		);
-    const popupDonkeyMobile = document.querySelector(
-			"#popupBtnDonkeyMobile"
-		);
-    const popupFlashbackMobile = document.querySelector(
+		const popupDonkeyMobile = document.querySelector("#popupBtnDonkeyMobile");
+		const popupFlashbackMobile = document.querySelector(
 			"#popupFlashbackMobile"
 		);
-    const popupMegamanMobile = document.querySelector(
-			"#popupMegamanMobile"
-		);
-		
-    // 16bitPopupMobile
+		const popupMegamanMobile = document.querySelector("#popupMegamanMobile");
+
+		// 16bitPopupMobile
 		const popupAladdinBtnMobile = document.querySelector(
 			"#popupBtnAladdin1Mobile"
 		);
@@ -263,7 +382,6 @@
 		const popupAdventBtnMobile = document.querySelector(
 			"#popupBtnadvent1Mobile"
 		);
-    
 
 		// 8bitPopup
 		if (popupTankiBtnMobile) {
@@ -321,36 +439,36 @@
 				ym(99092432, "reachGoal", "advent1");
 			});
 		}
-    if (popupFlinstonesBtnMobile) {
+		if (popupFlinstonesBtnMobile) {
 			popupFlinstonesBtnMobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','flin1')
+				ym(99092432, "reachGoal", "flin1");
 			});
 		}
-    if (popupPrinceMobile) {
+		if (popupPrinceMobile) {
 			popupPrinceMobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','persia1')
+				ym(99092432, "reachGoal", "persia1");
 			});
-		};
-    if (popupDuckTalesMobile) {
+		}
+		if (popupDuckTalesMobile) {
 			popupDuckTalesMobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','ducktales1')
+				ym(99092432, "reachGoal", "ducktales1");
 			});
-		};
-    if (popupDonkeyMobile) {
+		}
+		if (popupDonkeyMobile) {
 			popupDonkeyMobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','donky1')
+				ym(99092432, "reachGoal", "donky1");
 			});
-		};
-    if (popupFlashbackMobile) {
+		}
+		if (popupFlashbackMobile) {
 			popupFlashbackMobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','flash1')
+				ym(99092432, "reachGoal", "flash1");
 			});
-		};
-     if (popupMegamanMobile) {
+		}
+		if (popupMegamanMobile) {
 			popupMegamanMobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','mega1')
+				ym(99092432, "reachGoal", "mega1");
 			});
-		};
+		}
 
 		// 16bitPopup
 		if (popupAladdinBtnMobile) {
@@ -389,56 +507,221 @@
 			});
 		}
 
-    // MS    
-    const popupBtnRickt1Mobile = document.querySelector(
+		// MS
+		const popupBtnRickt1Mobile = document.querySelector(
 			"#popupBtnRickt1Mobile"
 		);
-    const popupBtnRickt2Mobile = document.querySelector(
+		const popupBtnRickt2Mobile = document.querySelector(
 			"#popupBtnRickt2Mobile"
 		);
-    const popupBtnRickt3Mobile = document.querySelector(
+		const popupBtnRickt3Mobile = document.querySelector(
 			"#popupBtnRickt3Mobile"
 		);
-    const popupBtnFuturamaMobile = document.querySelector(
+		const popupBtnFuturamaMobile = document.querySelector(
 			"#popupBtnFuturamaMobile"
 		);
-    const popupBtnFuturama2Mobile = document.querySelector(
+		const popupBtnFuturama2Mobile = document.querySelector(
 			"#popupBtnFuturama2Mobile"
 		);
-    const popupBtnFuturama3Mobile = document.querySelector(
+		const popupBtnFuturama3Mobile = document.querySelector(
 			"#popupBtnFuturama3Mobile"
 		);
-
+		const popupBtnSimpsonsMobile = document.querySelector(
+			"#popupBtnSimpsonsMobile"
+		);
+    const popupBtnSimpsons2Mobile = document.querySelector(
+			"#popupBtnSimpsons2Mobile"
+		);
+    const popupBtnSimpsons3Mobile = document.querySelector(
+			"#popupBtnSimpsons3Mobile"
+		);
+    const popupBtnBeavisMobile = document.querySelector(
+			"#popupBtnBeavisMobile"
+		);
+    const popupBtnAdventureMobile = document.querySelector(
+			"#popupBtnAdventureMobile"
+		);
+    const popupBtnAdventure2Mobile = document.querySelector(
+			"#popupBtnAdventure2Mobile"
+		);
+    const popupBtnAdventure3Mobile = document.querySelector(
+			"#popupBtnAdventure3Mobile"
+		);
+    const popupBtnGravityMobile = document.querySelector(
+			"#popupBtnGravityMobile"
+		);
+    const popupBtnSouthMobile = document.querySelector(
+			"#popupBtnSouthMobile"
+		);
+    const popupBtnSouth2Mobile = document.querySelector(
+			"#popupBtnSouth2Mobile"
+		);
     
-    if (popupBtnRickt1Mobile) {
+		if (popupBtnSouthMobile) {
+			popupBtnSouthMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "sp11");
+			});
+		}
+		if (popupBtnSouth2Mobile) {
+			popupBtnSouth2Mobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "sp21");
+			});
+		}
+		if (popupBtnGravityMobile) {
+			popupBtnGravityMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "gravity1");
+			});
+		}
+		if (popupBtnAdventureMobile) {
+			popupBtnAdventureMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "adv1");
+			});
+		}
+		if (popupBtnAdventure2Mobile) {
+			popupBtnAdventure2Mobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "adv2");
+			});
+		}
+		if (popupBtnAdventure3Mobile) {
+			popupBtnAdventure3Mobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "adv3");
+			});
+		}
+		if (popupBtnRickt1Mobile) {
 			popupBtnRickt1Mobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','rick1')
+				ym(99092432, "reachGoal", "rick1");
 			});
-		};
-    if (popupBtnRickt2Mobile) {
+		}
+		if (popupBtnRickt2Mobile) {
 			popupBtnRickt2Mobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','rick2')
+				ym(99092432, "reachGoal", "rick2");
 			});
-		};
-    if (popupBtnRickt3Mobile) {
+		}
+		if (popupBtnRickt3Mobile) {
 			popupBtnRickt3Mobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','rick3')
+				ym(99092432, "reachGoal", "rick3");
 			});
-		};
-    if (popupBtnFuturamaMobile) {
+		}
+		if (popupBtnFuturamaMobile) {
 			popupBtnFuturamaMobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','futur1')
+				ym(99092432, "reachGoal", "futur1");
 			});
-		};
-    if (popupBtnFuturama2Mobile) {
+		}
+		if (popupBtnFuturama2Mobile) {
 			popupBtnFuturama2Mobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','futur2')
+				ym(99092432, "reachGoal", "futur2");
 			});
-		};
-    if (popupBtnFuturama3Mobile) {
+		}
+		if (popupBtnFuturama3Mobile) {
 			popupBtnFuturama3Mobile.addEventListener("click", () => {
-				ym(99092432,'reachGoal','futur3')
+				ym(99092432, "reachGoal", "futur3");
 			});
-		};
+		}
+		if (popupBtnSimpsonsMobile) {
+			popupBtnSimpsonsMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "simp1");
+			});
+		}
+		if (popupBtnSimpsons2Mobile) {
+			popupBtnSimpsons2Mobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "simp2");
+			});
+		}
+		if (popupBtnSimpsons3Mobile) {
+			popupBtnSimpsons3Mobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "simp3");
+			});
+		}    
+		if (popupBtnBeavisMobile) {
+			popupBtnBeavisMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "beavis1");
+			});
+		}
+
+    // Anime
+    const popupBtnOnePieceMobile = document.querySelector(
+			"#popupBtnOnePieceMobile"
+		);
+    const popupBtnOnePiece2Mobile = document.querySelector(
+			"#popupBtnOnePiece2Mobile"
+		);
+    const popupBtnOnePiece3Mobile = document.querySelector(
+			"#popupBtnOnePiece3Mobile"
+		);
+    const popupBtnNarutoMobile = document.querySelector(
+			"#popupBtnNarutoMobile"
+		);
+
+    if (popupBtnNarutoMobile) {
+			popupBtnNarutoMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "narut1");
+			});
+		}
+    if (popupBtnOnePieceMobile) {
+			popupBtnOnePieceMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "one1");
+			});
+		}
+    if (popupBtnOnePiece2Mobile) {
+			popupBtnOnePiece2Mobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "one2");
+			});
+		}
+    if (popupBtnOnePiece3Mobile) {
+			popupBtnOnePiece3Mobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "one3");
+			});
+		}
+
+    // Games    
+    const popupBtnSouthMinecraftMovieMobile = document.querySelector(
+			"#popupBtnSouthMinecraftMovieMobile"
+		);
+    const popupBtnBrookhavenMobile = document.querySelector(
+			"#popupBtnBrookhavenMobile"
+		);
+    const popupBtnBuildABoatMobile = document.querySelector(
+			"#popupBtnBuildABoatMobile"
+		);
+    const popupBtnRobloxDoorsMobile = document.querySelector(
+			"#popupBtnBuildABoatMobile"
+		);
+    const popupBtnSouthMinecraftMobile = document.querySelector(
+			"#popupBtnSouthMinecraftMobile"
+		);
+    const popupBtnSouthMinecraft2Mobile = document.querySelector(
+			"#popupBtnSouthMinecraft2Mobile"
+		);
+
+    if (popupBtnSouthMinecraftMobile) {
+			popupBtnSouthMinecraftMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "mine2");
+			});
+		}
+    if (popupBtnSouthMinecraf2tMobile) {
+			popupBtnSouthMinecraft2Mobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "mine3");
+			});
+		}
+    if (popupBtnRobloxDoorsMobile) {
+			popupBtnRobloxDoorsMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "roblox3");
+			});
+		}
+    if (popupBtnBuildABoatMobile) {
+			popupBtnBuildABoatMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "roblox2");
+			});
+		}
+    if (popupBtnSouthMinecraftMovieMobile) {
+			popupBtnSouthMinecraftMovieMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "mine1");
+			});
+		}
+    if (popupBtnBrookhavenMobile) {
+			popupBtnBrookhavenMobile.addEventListener("click", () => {
+				ym(99092432, "reachGoal", "roblox1");
+			});
+		}
 	});
 </script>

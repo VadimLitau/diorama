@@ -1,0 +1,56 @@
+[
+  {
+		"title": "Minecraft Movie",
+		"src": "../../images/pixels/update2110/MNM_001.webp",
+		"id": "minecraftMovie",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnMinecraftMovie",
+		"metrikaIdMobile": "popupBtnSouthMinecraftMovieMobile",
+		"addClass": ""
+	},
+  {
+		"title": "Roblox Brookhaven",
+		"src": "../../images/pixels/update2110/BR_001.webp",
+		"id": "brookhaven",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnBrookhaven",
+		"metrikaIdMobile": "popupBtnBrookhavenMobile",
+		"addClass": ""
+	},
+  {
+		"title": "Roblox Build a Boat",
+		"src": "../../images/pixels/update2110/RBB_001.webp",
+		"id": "BuildABoat",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnBuildABoat",
+		"metrikaIdMobile": "popupBtnBuildABoatMobile",
+		"addClass": ""
+	},
+  {
+		"title": "Roblox Doors",
+		"src": "../../images/pixels/update2110/RD_001.webp",
+		"id": "RobloxDoors",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnRobloxDoors",
+		"metrikaIdMobile": "popupBtnRobloxDoorsMobile",
+		"addClass": "hiddenGames"
+	},
+  {
+		"title": "Minecraft 1",
+		"src": "../../images/pixels/update2110/MC_001.webp",
+		"id": "minecraft",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnMinecraft",
+		"metrikaIdMobile": "popupBtnSouthMinecraftMobile",
+		"addClass": "hiddenGames"
+	},
+  {
+		"title": "Minecraft 2",
+		"src": "../../images/pixels/update2110/MC2_001.webp",
+		"id": "minecraft2",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnMinecraft2",
+		"metrikaIdMobile": "popupBtnSouthMinecraf2tMobile",
+		"addClass": "hiddenGames"
+	}
+]

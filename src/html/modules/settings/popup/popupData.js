@@ -971,5 +971,625 @@ const popupData = [
 `,
 		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-multseriala-futurama-2133501613/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
 	},
+  {
+		id: "simpsons",
+		metrikaBuyId: "simp11",
+		name: "The Simpsons 1",
+		logo: "./images/logo_reserve/SimpsonsLogo.png",
+		photos: [
+			"./images/update2110/TS_001.webp",
+			"./images/update2110/TS_002.webp",
+			"./images/update2110/TS_003.webp",
+			"./images/update2110/TS_004.webp",
+			"./images/update2110/TS_005.webp",
+			"./images/update2110/TS_006.webp",
+			"./images/update2110/TS_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Добро пожаловать в Спрингфилд! Собери диораму-пазл "Симпсоны" из дерева! 🏡 Воссоздай любимые места из мультсериала. Яркий и ностальгический декор для фанатов Гомера и его семьи. 🍩 D'oh!
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-multfilma-the-simpsons-2409375087/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "simpsons2",
+		metrikaBuyId: "simp21",
+		name: "The Simpsons 2",
+		logo: "./images/logo_reserve/SimpsonsLogo.png",
+		photos: [
+			"./images/update2110/TS2_001.webp",
+			"./images/update2110/TS2_002.webp",
+			"./images/update2110/TS2_003.webp",
+			"./images/update2110/TS2_004.webp",
+			"./images/update2110/TS2_005.webp",
+			"./images/update2110/TS2_006.webp",
+			"./images/update2110/TS2_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `"Симпсоны" у тебя дома! Диорама-пазл из дерева. 🏡 Собери Спрингфилд, воссоздай любимые локации. Ностальгический декор для фанатов пончиков, пива Duff и желтой семейки! 💛 Eat my shorts! 🩳
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-multfilma-the-simpsons-2-2537673107/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "simpsons3",
+		metrikaBuyId: "simp31",
+		name: "The Simpsons 3",
+		logo: "./images/logo_reserve/SimpsonsLogo.png",
+		photos: [
+			"./images/update2110/TS3_001.webp",
+			"./images/update2110/TS3_002.webp",
+			"./images/update2110/TS3_003.webp",
+			"./images/update2110/TS3_004.webp",
+			"./images/update2110/TS3_005.webp",
+			"./images/update2110/TS3_006.webp",
+			"./images/update2110/TS3_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Собери кусочек Спрингфилда! Диорама-пазл "Симпсоны" из дерева. 🍩 Воссоздай любимые места из мультсериала. Яркий и узнаваемый декор для настоящих фанатов! 💛 Отличный подарок для друзей и близких! 🎁 D'oh!
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-multfilma-the-simpsons-3-2560988777/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "beavis",
+		metrikaBuyId: "beavis2",
+		name: "Beavis and Butt-Head",
+		logo: "./images/logo_reserve/BBLogo.png",
+		photos: [
+			"./images/update2110/BB_001.webp",
+			"./images/update2110/BB_002.webp",
+			"./images/update2110/BB_003.webp",
+			"./images/update2110/BB_004.webp",
+			"./images/update2110/BB_005.webp",
+			"./images/update2110/BB_006.webp",
+			"./images/update2110/BB_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Heh heh, круто! Собери диораму-пазл "Бивис и Баттхед" из дерева! 🤘 Воссоздай любимые локации из мультсериала. Декор для настоящих ценителей тупого юмора и MTV! 📺 Fire! 🔥 This is cool!
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-bivis-i-batthed-2498070604/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "adventure",
+		metrikaBuyId: "adv11",
+		name: "Adventure Time 1",
+		logo: "./images/logo_reserve/AdventureTimeLogo.png",
+		photos: [
+			"./images/update2110/AT_001.webp",
+			"./images/update2110/AT_002.webp",
+			"./images/update2110/AT_003.webp",
+			"./images/update2110/AT_004.webp",
+			"./images/update2110/AT_005.webp",
+			"./images/update2110/AT_006.webp",
+			"./images/update2110/AT_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Приключения начинаются! Собери диораму-пазл "Время приключений" из дерева! 🌳 Воссоздай Земли Ooo с любимыми персонажами. Яркий и волшебный декор для фанатов Финна и Джейка! ⚔️ Algebraic!
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-multfilma-adventure-time1-2832157097/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},  
+  {
+		id: "adventure2",
+		metrikaBuyId: "adv21",
+		name: "Adventure Time 2",
+		logo: "./images/logo_reserve/AdventureTimeLogo.png",
+		photos: [
+			"./images/update2110/AT2_001.webp",
+			"./images/update2110/AT2_002.webp",
+			"./images/update2110/AT2_003.webp",
+			"./images/update2110/AT2_004.webp",
+			"./images/update2110/AT2_005.webp",
+			"./images/update2110/AT2_006.webp",
+			"./images/update2110/AT2_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Начните приключение! Диорама-пазл "Время приключений" из дерева. 🌳 Собери Земли Ууу с Финном, Джейком и другими героями. Крутой и яркий декор для фанатов мультсериала! ⚔️ Математично!
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-multfilma-adventure-time-2-2832173533/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},  
+  {
+		id: "adventure3",
+		metrikaBuyId: "adv31",
+		name: "Adventure Time 3",
+		logo: "./images/logo_reserve/AdventureTimeLogo.png",
+		photos: [
+			"./images/update2110/AT3_001.webp",
+			"./images/update2110/AT3_002.webp",
+			"./images/update2110/AT3_003.webp",
+			"./images/update2110/AT3_004.webp",
+			"./images/update2110/AT3_005.webp",
+			"./images/update2110/AT3_006.webp",
+			"./images/update2110/AT3_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Время строить приключения! 🌲 Диорама-пазл "Время приключений" из дерева. Собери Земли Ooo с Финном и Джейком! Яркий декор для фанатов мультсериала и любителей головоломок. ⚔️ Математически! ✨
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-multfilma-adventure-time-3-2889036220/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},  
+  {
+		id: "gravity",
+		metrikaBuyId: "gravity2",
+		name: "Gravity Falls",
+		logo: "./images/logo_reserve/GravityFallsLogo.png",
+		photos: [
+			"./images/update2110/GF_001.webp",
+			"./images/update2110/GF_002.webp",
+			"./images/update2110/GF_003.webp",
+			"./images/update2110/GF_004.webp",
+			"./images/update2110/GF_005.webp",
+			"./images/update2110/GF_006.webp",
+			"./images/update2110/GF_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Добро пожаловать в Gravity Falls! 🌲 Собери диораму-пазл из дерева! Разгадай тайны городка вместе с Диппером и Мэйбл! ✨ Атмосферный декор для фанатов мультсериала. Правда где-то рядом! 🔎
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-multfilma-gravity-falls-2897168720/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},  
+  {
+		id: "south1",
+		metrikaBuyId: "sp11",
+		name: "South Park 1",
+		logo: "./images/logo_reserve/SouthParkLogo.png",
+		photos: [
+			"./images/update2110/SP_001.webp",
+			"./images/update2110/SP_002.webp",
+			"./images/update2110/SP_003.webp",
+			"./images/update2110/SP_004.webp",
+			"./images/update2110/SP_005.webp",
+			"./images/update2110/SP_006.webp",
+			"./images/update2110/SP_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Приезжай в South Park! 🏔️ Собери диораму-пазл из дерева! Воссоздай любимый городок с Картманом, Стэном, Кайлом и Кенни! 🤪 Декор для тех, кто не боится жесткого юмора! Respect my authority! 👮
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-multfilma-south-park-1-2919426542/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},  
+  {
+		id: "south2",
+		metrikaBuyId: "sp21",
+		name: "South Park 2",
+		logo: "./images/logo_reserve/SouthParkLogo.png",
+		photos: [
+			"./images/update2110/SP2_001.webp",
+			"./images/update2110/SP2_002.webp",
+			"./images/update2110/SP2_003.webp",
+			"./images/update2110/SP2_004.webp",
+			"./images/update2110/SP2_005.webp",
+			"./images/update2110/SP2_006.webp",
+			"./images/update2110/SP2_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Собери South Park из дерева! 🏔️ Диорама-пазл с любимыми героями. Картман, Кайл, Стэн и Кенни ждут! Декор для фанатов черного юмора и недетских шуток. 🤣 Oh my God, they killed Kenny!
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-multfilma-south-park-2-2919575490/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},    
+  {
+		id: "onePiece",
+		metrikaBuyId: "one11",
+		name: "One Piece 1",
+		logo: "./images/logo_reserve/OnePieceLogo.png",
+		photos: [
+			"./images/update2110/OP_001.webp",
+			"./images/update2110/OP_002.webp",
+			"./images/update2110/OP_003.webp",
+			"./images/update2110/OP_004.webp",
+			"./images/update2110/OP_005.webp",
+			"./images/update2110/OP_006.webp",
+			"./images/update2110/OP_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Вперед, к Большому Кушу! Собери диораму-пазл "One Piece" из дерева! 🏴‍☠️ Воссоздай мир Луффи и его команды! Декор для настоящих пиратов и фанатов аниме. ⚓ Я стану Королем Пиратов! 👑
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-one-piece-1-van-pis-2608052160/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},      
+  {
+		id: "onePiece2",
+		metrikaBuyId: "one21",
+		name: "One Piece 2",
+		logo: "./images/logo_reserve/OnePieceLogo.png",
+		photos: [
+			"./images/update2110/OP2_001.webp",
+			"./images/update2110/OP2_002.webp",
+			"./images/update2110/OP2_003.webp",
+			"./images/update2110/OP2_004.webp",
+			"./images/update2110/OP2_005.webp",
+			"./images/update2110/OP2_006.webp",
+			"./images/update2110/OP2_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Вперед, к Большому Кушу! Собери диораму-пазл "One Piece" из дерева! 🏴‍☠️ Воссоздай мир Луффи и его команды! Декор для настоящих пиратов и фанатов аниме. ⚓ Я стану Королем Пиратов! 👑
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-one-piece-2-van-pis-2615722805/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},        
+  {
+		id: "onePiece3",
+		metrikaBuyId: "one31",
+		name: "One Piece 3",
+		logo: "./images/logo_reserve/OnePieceLogo.png",
+		photos: [
+			"./images/update2110/OP3_001.webp",
+			"./images/update2110/OP3_002.webp",
+			"./images/update2110/OP3_003.webp",
+			"./images/update2110/OP3_004.webp",
+			"./images/update2110/OP3_005.webp",
+			"./images/update2110/OP3_006.webp",
+			"./images/update2110/OP3_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Стань частью команды Луффи! Собери диораму-пазл "One Piece" из дерева! ⛵ Воссоздай мир пиратов и морских приключений. Крутой декор для настоящих фанатов аниме! ☠️ На поиски Ван Писа! 🗺️
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-one-piece-van-pis-2624352238/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "naruto",
+		metrikaBuyId: "narut2",
+		name: "Naruto",
+		logo: "./images/logo_reserve/NarutoLogo.png",
+		photos: [
+			"./images/update2110/NT_001.webp",
+			"./images/update2110/NT_002.webp",
+			"./images/update2110/NT_003.webp",
+			"./images/update2110/NT_004.webp",
+			"./images/update2110/NT_005.webp",
+			"./images/update2110/NT_006.webp",
+			"./images/update2110/NT_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Стань Хокаге! Собери диораму-пазл "Naruto" из дерева! 🍥 Воссоздай мир ниндзя и Конохи. Крутой декор для фанатов аниме и Наруто Узумаки! 🍜 Dattebayo!
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/interernaya-igra-diorama-dlya-modelizma-i-interera-po-motivam-naruto-2637992656/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "minecraftMovie",
+		metrikaBuyId: "mine11",
+		name: "Minecraft Movie",
+		logo: "./images/logo_reserve/MineCraftLogo.png",
+		photos: [
+			"./images/update2110/MNM_001.webp",
+			"./images/update2110/MNM_002.webp",
+			"./images/update2110/MNM_003.webp",
+			"./images/update2110/MNM_004.webp",
+			"./images/update2110/MNM_005.webp",
+			"./images/update2110/MNM_006.webp",
+			"./images/update2110/MNM_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Построй свой Minecraft в реальной жизни! Диорама-пазл из дерева. ⛏️ Воссоздай любимые биомы и постройки. Отличный декор для фанатов игры. 🧱 Добывай, строй, исследуй! 🌍
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-filma-minecraft-2133703500/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "brookhaven",
+		metrikaBuyId: "roblox11",
+		name: "Roblox Brookhaven",
+		logo: "./images/logo_reserve/BrookhavenLogo.png",
+		photos: [
+			"./images/update2110/BR_001.webp",
+			"./images/update2110/BR_002.webp",
+			"./images/update2110/BR_003.webp",
+			"./images/update2110/BR_004.webp",
+			"./images/update2110/BR_005.webp",
+			"./images/update2110/BR_006.webp",
+			"./images/update2110/BR_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Построй свой Brookhaven! 🏠 Диорама-пазл из дерева, чтобы воссоздать любимый город из Roblox. 🌳 Идеальный декор для фанатов игры и любителей строить свой мир! 🏘️ Живи, работай, играй!
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-igry-roblox-brookhaven-2239094059/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "BuildABoat",
+		metrikaBuyId: "roblox21",
+		name: "Roblox Build a Boat",
+		logo: "./images/logo_reserve/RobloxLogo.png",
+		photos: [
+			"./images/update2110/RBB_001.webp",
+			"./images/update2110/RBB_002.webp",
+			"./images/update2110/RBB_003.webp",
+			"./images/update2110/RBB_004.webp",
+			"./images/update2110/RBB_005.webp",
+			"./images/update2110/RBB_006.webp",
+			"./images/update2110/RBB_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Отправляйся в плавание! Собери диораму-пазл "Roblox: Build a Boat for Treasure" из дерева! ⛵️ Создай свой уникальный корабль и отправляйся на поиски сокровищ! 💎 Отличный декор для фанатов Roblox и любителей приключений! 🌊 Строй, плавай, побеждай!
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-igry-roblox-build-a-boat-2239542546/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "RobloxDoors",
+		metrikaBuyId: "roblox31",
+		name: "Roblox Doors",
+		logo: "./images/logo_reserve/RobloxLogo.png",
+		photos: [
+			"./images/update2110/RD_001.webp",
+			"./images/update2110/RD_002.webp",
+			"./images/update2110/RD_003.webp",
+			"./images/update2110/RD_004.webp",
+			"./images/update2110/RD_005.webp",
+			"./images/update2110/RD_006.webp",
+			"./images/update2110/RD_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Осторожно, двери! 🚪 Собери диораму-пазл "Roblox: Doors" из дерева! Сможешь ли ты пережить ночь? 😱 Атмосферный декор для любителей хорроров и фанатов Roblox. Готов к испытанию? 🔦
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-igry-roblox-doors-2239566061/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "minecraft",
+		metrikaBuyId: "mine21'",
+		name: "Minecraft 1",
+		logo: "./images/logo_reserve/MineCraftLogo.png",
+		photos: [
+			"./images/update2110/MC_001.webp",
+			"./images/update2110/MC_002.webp",
+			"./images/update2110/MC_003.webp",
+			"./images/update2110/MC_004.webp",
+			"./images/update2110/MC_005.webp",
+			"./images/update2110/MC_006.webp",
+			"./images/update2110/MC_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Создай свой мир Minecraft! Диорама-пазл из дерева. ⛏️ Воссоздай любимые локации и постройки. Крутой декор для фанатов игры. 🧱 Добывай ресурсы и строй свою вселенную! 🌍
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-igry-minecraft-2322534755/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	},
+  {
+		id: "minecraft2",
+		metrikaBuyId: "mine31'",
+		name: "Minecraft 2",
+		logo: "./images/logo_reserve/MineCraftLogo.png",
+		photos: [
+			"./images/update2110/MC2_001.webp",
+			"./images/update2110/MC2_002.webp",
+			"./images/update2110/MC2_003.webp",
+			"./images/update2110/MC2_004.webp",
+			"./images/update2110/MC2_005.webp",
+			"./images/update2110/MC2_006.webp",
+			"./images/update2110/MC2_007.webp",
+		],
+		oldPrice: "6500 руб.",
+		newPrice: "2045 руб.",
+		description: `Собери свой Minecraft! Диорама-пазл из дерева. 🧱 Создай знакомые блоки и постройки прямо у себя дома! Отличный подарок для фанатов игры и любителей конструировать. ⛏️ Вперед, к приключениям!
+		<br />
+		<br />
+		Размер упаковки : 182х202х16 мм 
+		<br />
+		Размер диорамы : 200х180х19мм
+		<br />
+		Количество деталей : 27 шт.
+		<br />
+		Время сборки : 30 мин.
+		<br />
+		Уровень сложности : средний
+`,
+		link: "https://ozon.ru/product/rumboks-dlya-modelizma-i-interera-po-motivam-igry-minecraft-2322561561/?hs=1&utm_source=retroframes&utm_medium=banner&utm_campaign=vendor_org_819073",
+	}
 ];
 export {popupData};

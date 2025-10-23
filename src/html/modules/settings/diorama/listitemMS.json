@@ -52,5 +52,95 @@
 		"metrikaId": "popupBtnFuturama3",
 		"metrikaIdMobile": "popupBtnFuturama3Mobile",
 		"addClass": "hiddenMS"
+	},
+	{
+		"title": "The Simpsons 1",
+		"src": "../../images/pixels/update2110/TS_001.webp",
+		"id": "simpsons",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnSimpsons",
+		"metrikaIdMobile": "popupBtnSimpsonsMobile",
+		"addClass": "hiddenMS"
+	},
+	{
+		"title": "The Simpsons 2",
+		"src": "../../images/pixels/update2110/TS2_001.webp",
+		"id": "simpsons2",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnSimpson2s",
+		"metrikaIdMobile": "popupBtnSimpsons2Mobile",
+		"addClass": "hiddenMS"
+	},
+	{
+		"title": "The Simpsons 3",
+		"src": "../../images/pixels/update2110/TS3_001.webp",
+		"id": "simpsons3",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnSimpsons3",
+		"metrikaIdMobile": "popupBtnSimpsons3Mobile",
+		"addClass": "hiddenMS"
+	},
+	{
+		"title": "Beavis and Butt-Head",
+		"src": "../../images/pixels/update2110/BB_001.webp",
+		"id": "beavis",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnBeavis",
+		"metrikaIdMobile": "popupBtnBeavisMobile",
+		"addClass": "hiddenMS"
+	},
+	{
+		"title": "Adventure Time 1",
+		"src": "../../images/pixels/update2110/AT_001.webp",
+		"id": "adventure",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnAdventure",
+		"metrikaIdMobile": "popupBtnAdventureMobile",
+		"addClass": "hiddenMS"
+	},
+	{
+		"title": "Adventure Time 2",
+		"src": "../../images/pixels/update2110/AT2_001.webp",
+		"id": "adventure2",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnAdventure2",
+		"metrikaIdMobile": "popupBtnAdventure2Mobile",
+		"addClass": "hiddenMS"
+	},
+	{
+		"title": "Adventure Time 3",
+		"src": "../../images/pixels/update2110/AT3_001.webp",
+		"id": "adventure3",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnAdventure3",
+		"metrikaIdMobile": "popupBtnAdventure3Mobile",
+		"addClass": "hiddenMS"
+	},
+	{
+		"title": "Gravity Falls",
+		"src": "../../images/pixels/update2110/GF_001.webp",
+		"id": "gravity",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnGravity",
+		"metrikaIdMobile": "popupBtnGravityMobile",
+		"addClass": "hiddenMS"
+	},
+	{
+		"title": "South Park 1",
+		"src": "../../images/pixels/update2110/SP_001.webp",
+		"id": "south1",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnSouth",
+		"metrikaIdMobile": "popupBtnSouthMobile",
+		"addClass": "hiddenMS"
+	},
+	{
+		"title": "South Park 2",
+		"src": "../../images/pixels/update2110/SP2_001.webp",
+		"id": "south2",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnSouth2",
+		"metrikaIdMobile": "popupBtnSouth2Mobile",
+		"addClass": "hiddenMS"
 	}
 ]

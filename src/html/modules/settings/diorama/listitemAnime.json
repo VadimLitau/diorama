@@ -1,0 +1,38 @@
+[
+  {
+		"title": "One Piece 1",
+		"src": "../../images/pixels/update2110/OP_001.webp",
+		"id": "onePiece",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnOnePiece",
+		"metrikaIdMobile": "popupBtnOnePieceMobile",
+		"addClass": ""
+	},
+  {
+		"title": "One Piece 2",
+		"src": "../../images/pixels/update2110/OP2_001.webp",
+		"id": "onePiece2",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnOnePiece2",
+		"metrikaIdMobile": "popupBtnOnePiece2Mobile",
+		"addClass": ""
+	},
+  {
+		"title": "One Piece 3",
+		"src": "../../images/pixels/update2110/OP3_001.webp",
+		"id": "onePiece3",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnOnePiece3",
+		"metrikaIdMobile": "popupBtnOnePiece3Mobile",
+		"addClass": ""
+	},
+  {
+		"title": "Naruto",
+		"src": "../../images/pixels/update2110/NT_001.webp",
+		"id": "naruto",
+		"btnclass": "btn__item__button",
+		"metrikaId": "popupBtnNaruto",
+		"metrikaIdMobile": "popupBtnNarutoMobile",
+		"addClass": "hiddenAnime"
+	}
+]
